@@ -1,0 +1,15 @@
+__crc_print_data = 0xfe33f869;
+__crc_register_common_panel = 0xcf210122;
+__crc_deregister_common_panel = 0xef24b931;
+__crc_find_panel_maptbl_by_index = 0xf74fa42a;
+__crc_find_panel_maptbl_by_name = 0xf5b43157;
+__crc_panel_do_seqtbl_by_index_nolock = 0x297d07e5;
+__crc_panel_do_seqtbl_by_index = 0xfdc6031b;
+__crc_find_panel_resource = 0x5fd76c57;
+__crc_panel_resource_initialized = 0x83ff8159;
+__crc_rescpy = 0x7224a09c;
+__crc_resource_copy = 0xa8d79fa1;
+__crc_resource_copy_by_name = 0x1f19dab4;
+__crc_resource_copy_n_clear_by_name = 0xc21b3635;
+__crc_get_resource_size_by_name = 0xde6c624b;
+__crc_panel_resource_update_by_name = 0x4c6c59b0;

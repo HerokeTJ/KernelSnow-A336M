@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-ppmpu.mod := { echo  drivers/soc/samsung/exynos-ppmpu.o; llvm-nm drivers/soc/samsung/exynos-ppmpu.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-ppmpu.mod

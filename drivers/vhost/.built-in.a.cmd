@@ -1,0 +1,1 @@
+cmd_drivers/vhost/built-in.a := rm -f drivers/vhost/built-in.a.symversions      ; rm -f drivers/vhost/built-in.a; llvm-ar cDPrST drivers/vhost/built-in.a drivers/vhost/vsock.o drivers/vhost/vhost.o drivers/vhost/iotlb.o

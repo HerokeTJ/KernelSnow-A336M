@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/modules.order := {   cat drivers/media/platform/exynos/mfc/modules.order;   cat drivers/media/platform/exynos/camera/modules.order;   cat drivers/media/platform/exynos/camera-pp/modules.order;   cat drivers/media/platform/exynos/mcfrc/modules.order; :; } | awk '!x[$$0]++' - > drivers/media/platform/exynos/modules.order

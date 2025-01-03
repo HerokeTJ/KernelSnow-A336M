@@ -1,0 +1,7 @@
+__crc_s2mpu13_read_reg = 0xb7c565ba;
+__crc_s2mpu13_bulk_read = 0xd4ff9483;
+__crc_s2mpu13_write_reg = 0x0545ee6a;
+__crc_s2mpu13_bulk_write = 0x239a718f;
+__crc_s2mpu13_update_reg = 0x6df45d68;
+__crc_s2mpu13_irq_init = 0x51a258e2;
+__crc_s2mpu13_irq_exit = 0x0aea70a9;

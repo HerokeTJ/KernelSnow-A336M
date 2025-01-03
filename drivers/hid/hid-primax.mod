@@ -1,0 +1,2 @@
+drivers/hid/hid-primax.o
+__hid_register_driver __this_module _dev_info hid_report_raw_event hid_unregister_driver

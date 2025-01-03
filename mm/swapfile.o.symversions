@@ -1,0 +1,10 @@
+__crc_nr_swap_pages = 0xa0d3456d;
+__crc_swap_type_to_swap_info = 0x878fb19a;
+__crc_scan_swap_map_slots = 0xad66b3f5;
+__crc_swap_alloc_cluster = 0xecfaf563;
+__crc_swapcache_free_entries = 0x5dffd38f;
+__crc_add_swap_extent = 0xf6dd2fc5;
+__crc_si_swapinfo = 0xec13c83c;
+__crc_swp_swap_info = 0xfe7411ac;
+__crc___page_file_mapping = 0x39b41957;
+__crc___page_file_index = 0x13b9896b;

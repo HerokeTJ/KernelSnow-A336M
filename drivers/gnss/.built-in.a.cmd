@@ -1,0 +1,1 @@
+cmd_drivers/gnss/built-in.a := rm -f drivers/gnss/built-in.a.symversions   ; cat drivers/gnss/core.o.symversions >> drivers/gnss/built-in.a.symversions; rm -f drivers/gnss/built-in.a; llvm-ar cDPrST drivers/gnss/built-in.a drivers/gnss/core.o

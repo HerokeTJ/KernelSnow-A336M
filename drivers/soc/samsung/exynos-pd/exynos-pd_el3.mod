@@ -1,0 +1,2 @@
+drivers/soc/samsung/exynos-pd/exynos-pd_el3.o
+__arm_smccc_smc exynos_pd_backup_s2mpu exynos_pd_restore_s2mpu exynos_pd_tz_restore exynos_pd_tz_save

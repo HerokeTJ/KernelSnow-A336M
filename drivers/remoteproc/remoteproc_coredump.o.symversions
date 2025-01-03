@@ -1,0 +1,6 @@
+__crc_rproc_coredump_cleanup = 0x264475a2;
+__crc_rproc_coredump_add_segment = 0xd5073684;
+__crc_rproc_coredump_add_custom_segment = 0xb066316f;
+__crc_rproc_coredump_set_elf_info = 0x13c2c987;
+__crc_rproc_coredump = 0x351fbbbf;
+__crc_rproc_coredump_using_sections = 0x3f2ae25f;

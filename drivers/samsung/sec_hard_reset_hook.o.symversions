@@ -1,0 +1,2 @@
+__crc_pmic_key_is_pwron = 0xeff5879f;
+__crc_hard_reset_delay = 0x9af913b8;

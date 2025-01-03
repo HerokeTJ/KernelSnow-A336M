@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-bcm.mod := { echo  drivers/soc/samsung/exynos-bcm_dbg.o drivers/soc/samsung/exynos-bcm_dbg-dt.o drivers/soc/samsung/exynos-bcm_dbg-8825.o; llvm-nm drivers/soc/samsung/exynos-bcm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-bcm.mod

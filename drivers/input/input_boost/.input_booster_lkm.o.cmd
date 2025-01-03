@@ -1,0 +1,1 @@
+cmd_drivers/input/input_boost/input_booster_lkm.o := rm -f drivers/input/input_boost/input_booster_lkm.o.symversions      ; rm -f drivers/input/input_boost/input_booster_lkm.o; llvm-ar cDPrsT drivers/input/input_boost/input_booster_lkm.o drivers/input/input_boost/input_booster_lsi.o drivers/input/input_boost/evdev_booster.o drivers/input/input_boost/input_booster.o

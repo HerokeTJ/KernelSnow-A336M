@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/ect_parser/ect_parser.mod := { echo  drivers/soc/samsung/ect_parser/ect_parser.o; llvm-nm drivers/soc/samsung/ect_parser/ect_parser.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/ect_parser/ect_parser.mod

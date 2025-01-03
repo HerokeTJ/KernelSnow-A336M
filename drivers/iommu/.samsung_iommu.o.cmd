@@ -1,0 +1,1 @@
+cmd_drivers/iommu/samsung_iommu.o := rm -f drivers/iommu/samsung_iommu.o.symversions    ; rm -f drivers/iommu/samsung_iommu.o; llvm-ar cDPrsT drivers/iommu/samsung_iommu.o drivers/iommu/samsung-iommu.o drivers/iommu/samsung-iommu-fault.o

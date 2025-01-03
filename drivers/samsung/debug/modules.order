@@ -1,0 +1,17 @@
+drivers/samsung/debug/sec_debug.ko
+drivers/samsung/debug/sec_debug_base_early.ko
+drivers/samsung/debug/sec_debug_test.ko
+drivers/samsung/debug/sec_debug_dprm.ko
+drivers/samsung/debug/sec_debug_dprt.ko
+drivers/samsung/debug/sec_debug_mode.ko
+drivers/samsung/debug/sec_debug_extra_info.ko
+drivers/samsung/debug/sec_debug_hw_param.ko
+drivers/samsung/debug/sec_debug_reset_reason.ko
+drivers/samsung/debug/sec_debug_wdd_info.ko
+drivers/samsung/debug/sec_debug_dtask.ko
+drivers/samsung/debug/sec_debug_softdog.ko
+drivers/samsung/debug/sec_debug_sched_info.ko
+drivers/samsung/debug/sec_debug_stacktrace.ko
+drivers/samsung/debug/sec_debug_hardlockup_info.ko
+drivers/samsung/debug/sec_debug_coredump.ko
+drivers/samsung/debug/sec_debug_sched_report.ko

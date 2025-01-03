@@ -1,0 +1,3 @@
+__crc_blk_mq_sched_mark_restart_hctx = 0x3711f485;
+__crc_blk_mq_sched_try_insert_merge = 0x17afa218;
+__crc_blk_mq_sched_request_inserted = 0x019af450;

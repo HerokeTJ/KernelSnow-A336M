@@ -1,0 +1,1 @@
+cmd_drivers/muic/common/muic_manager.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/muic/common/muic_manager.lto.o -T drivers/muic/common/muic_manager.o.symversions --whole-archive drivers/muic/common/muic_manager.o

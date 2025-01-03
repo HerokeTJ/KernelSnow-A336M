@@ -1,0 +1,1 @@
+cmd_drivers/samsung/sec_reboot.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/samsung/sec_reboot.lto.o -T drivers/samsung/sec_reboot.o.symversions --whole-archive drivers/samsung/sec_reboot.o

@@ -1,0 +1,1 @@
+cmd_drivers/spi/spi-s3c64xx.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/spi/spi-s3c64xx.lto.o -T drivers/spi/spi-s3c64xx.o.symversions --whole-archive drivers/spi/spi-s3c64xx.o

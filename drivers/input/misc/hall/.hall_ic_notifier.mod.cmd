@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/hall/hall_ic_notifier.mod := { echo  drivers/input/misc/hall/hall_ic_notifier.o; llvm-nm drivers/input/misc/hall/hall_ic_notifier.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/misc/hall/hall_ic_notifier.mod

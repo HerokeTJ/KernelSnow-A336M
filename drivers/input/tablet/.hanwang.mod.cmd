@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/hanwang.mod := { echo  drivers/input/tablet/hanwang.o; llvm-nm drivers/input/tablet/hanwang.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/tablet/hanwang.mod

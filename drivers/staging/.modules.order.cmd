@@ -1,0 +1,1 @@
+cmd_drivers/staging/modules.order := {   cat drivers/staging/media/modules.order;   cat drivers/staging/iio/modules.order;   cat drivers/staging/android/modules.order;   cat drivers/staging/hikey9xx/modules.order;   cat drivers/staging/nanohub/modules.order; :; } | awk '!x[$$0]++' - > drivers/staging/modules.order

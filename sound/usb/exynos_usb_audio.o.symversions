@@ -1,0 +1,5 @@
+__crc_g_hwinfo = 0x5ec25df8;
+__crc_otg_connection = 0x6fab687a;
+__crc_usb_audio_connection = 0x1dcec843;
+__crc_exynos_usb_audio_init = 0x175eff63;
+__crc_exynos_usb_audio_exit = 0x95d3b9ac;

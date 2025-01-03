@@ -1,0 +1,4 @@
+__crc_cec_allocate_adapter = 0xa9951d12;
+__crc_cec_register_adapter = 0xded0a2d5;
+__crc_cec_unregister_adapter = 0x9c8d8606;
+__crc_cec_delete_adapter = 0x3232dc56;

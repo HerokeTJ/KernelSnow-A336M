@@ -1,0 +1,7 @@
+__crc_drm_of_crtc_port_mask = 0x4799d583;
+__crc_drm_of_find_possible_crtcs = 0xdbab7e95;
+__crc_drm_of_component_match_add = 0x5d1bbe5f;
+__crc_drm_of_component_probe = 0x101b186f;
+__crc_drm_of_encoder_active_endpoint = 0x63cb209f;
+__crc_drm_of_find_panel_or_bridge = 0xfd90325f;
+__crc_drm_of_lvds_get_dual_link_pixel_order = 0x8cb259b7;

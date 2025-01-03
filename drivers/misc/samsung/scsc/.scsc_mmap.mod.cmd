@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/scsc_mmap.mod := { echo  drivers/misc/samsung/scsc/mx_mmap.o; llvm-nm drivers/misc/samsung/scsc/scsc_mmap.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/samsung/scsc/scsc_mmap.mod

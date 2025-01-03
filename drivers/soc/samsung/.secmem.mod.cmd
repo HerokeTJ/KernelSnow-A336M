@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/secmem.mod := { echo  drivers/soc/samsung/secmem.o; llvm-nm drivers/soc/samsung/secmem.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/secmem.mod

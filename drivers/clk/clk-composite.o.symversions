@@ -1,0 +1,3 @@
+__crc_clk_hw_register_composite = 0x4a83a008;
+__crc_clk_register_composite = 0xf591b225;
+__crc_clk_hw_unregister_composite = 0x194db04a;

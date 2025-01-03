@@ -1,0 +1,8 @@
+__crc_v4l2_device_register = 0x6cd98629;
+__crc_v4l2_device_put = 0x64ceee94;
+__crc_v4l2_device_set_name = 0xf0e5bdf9;
+__crc_v4l2_device_disconnect = 0xe8839de3;
+__crc_v4l2_device_unregister = 0xe690bb6b;
+__crc_v4l2_device_register_subdev = 0x385661da;
+__crc___v4l2_device_register_subdev_nodes = 0xa8408d5e;
+__crc_v4l2_device_unregister_subdev = 0x1ddcdfef;

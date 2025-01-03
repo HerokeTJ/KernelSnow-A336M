@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/hall/hall_ic.mod := { echo  drivers/input/misc/hall/hall_ic.o; llvm-nm drivers/input/misc/hall/hall_ic.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/misc/hall/hall_ic.mod

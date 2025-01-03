@@ -1,0 +1,1 @@
+cmd_drivers/misc/tzdev/tzdev.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/misc/tzdev/tzdev.lto.o -T drivers/misc/tzdev/tzdev.o.symversions --whole-archive drivers/misc/tzdev/tzdev.o

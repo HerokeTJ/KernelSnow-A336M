@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/scsc_mmap.o := rm -f drivers/misc/samsung/scsc/scsc_mmap.o.symversions  ; rm -f drivers/misc/samsung/scsc/scsc_mmap.o; llvm-ar cDPrsT drivers/misc/samsung/scsc/scsc_mmap.o drivers/misc/samsung/scsc/mx_mmap.o

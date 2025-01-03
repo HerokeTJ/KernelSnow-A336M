@@ -1,0 +1,2 @@
+arch/arm64/boot/dts/sprd/.sc9836-openphone.dtb.dts.tmp: \
+  arch/arm64/boot/dts/sprd/sc9836-openphone.dts

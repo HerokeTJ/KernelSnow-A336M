@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-samsung-s2mpu14.mod := { echo  drivers/pinctrl/pinctrl-samsung-s2mpu14.o; llvm-nm drivers/pinctrl/pinctrl-samsung-s2mpu14.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/pinctrl/pinctrl-samsung-s2mpu14.mod

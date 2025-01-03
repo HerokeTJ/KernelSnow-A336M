@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/s3c2410_wdt.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/watchdog/s3c2410_wdt.lto.o -T drivers/watchdog/s3c2410_wdt.o.symversions --whole-archive drivers/watchdog/s3c2410_wdt.o

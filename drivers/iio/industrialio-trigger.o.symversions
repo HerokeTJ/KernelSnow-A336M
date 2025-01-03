@@ -1,0 +1,16 @@
+__crc___iio_trigger_register = 0x1b174e36;
+__crc_iio_trigger_unregister = 0xc327a9e0;
+__crc_iio_trigger_set_immutable = 0xfd5695d0;
+__crc_iio_trigger_poll = 0xeaeb2163;
+__crc_iio_trigger_generic_data_rdy_poll = 0x2d6bcdcb;
+__crc_iio_trigger_poll_chained = 0x0290bb68;
+__crc_iio_trigger_notify_done = 0x32c17b35;
+__crc_iio_pollfunc_store_time = 0xdf76bbeb;
+__crc_iio_alloc_pollfunc = 0x5a6afe15;
+__crc_iio_dealloc_pollfunc = 0x2c27d423;
+__crc_iio_trigger_alloc = 0x9f710efb;
+__crc_iio_trigger_free = 0x165fa02e;
+__crc_devm_iio_trigger_alloc = 0x38094349;
+__crc___devm_iio_trigger_register = 0x3429707d;
+__crc_iio_trigger_using_own = 0xbe1786ec;
+__crc_iio_trigger_validate_own_device = 0x219e65a8;

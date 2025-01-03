@@ -1,0 +1,3 @@
+__crc_snd_vendor_set_ops = 0x752bed10;
+__crc_find_snd_usb_substream = 0x948eede7;
+__crc_snd_usb_enable_audio_stream = 0x8b134ba0;

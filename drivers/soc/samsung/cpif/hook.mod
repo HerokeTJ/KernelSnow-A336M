@@ -1,0 +1,2 @@
+drivers/soc/samsung/cpif/hook.o
+__tracepoint_android_vh_do_wake_up_sync __tracepoint_android_vh_set_wake_flags __wake_up_sync_key hook_init tracepoint_probe_register

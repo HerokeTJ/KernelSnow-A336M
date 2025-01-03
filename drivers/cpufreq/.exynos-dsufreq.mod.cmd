@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/exynos-dsufreq.mod := { echo  drivers/cpufreq/exynos-dsufreq.o; llvm-nm drivers/cpufreq/exynos-dsufreq.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/cpufreq/exynos-dsufreq.mod

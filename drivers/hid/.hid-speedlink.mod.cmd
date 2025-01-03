@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-speedlink.mod := { echo  drivers/hid/hid-speedlink.o; llvm-nm drivers/hid/hid-speedlink.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-speedlink.mod

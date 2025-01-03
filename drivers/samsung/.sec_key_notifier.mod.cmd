@@ -1,0 +1,1 @@
+cmd_drivers/samsung/sec_key_notifier.mod := { echo  drivers/samsung/sec_key_notifier.o; llvm-nm drivers/samsung/sec_key_notifier.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/sec_key_notifier.mod

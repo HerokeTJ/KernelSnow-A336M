@@ -1,0 +1,1 @@
+cmd_drivers/gpu/trace/built-in.a := rm -f drivers/gpu/trace/built-in.a.symversions   ; cat drivers/gpu/trace/trace_gpu_mem.o.symversions >> drivers/gpu/trace/built-in.a.symversions; rm -f drivers/gpu/trace/built-in.a; llvm-ar cDPrST drivers/gpu/trace/built-in.a drivers/gpu/trace/trace_gpu_mem.o

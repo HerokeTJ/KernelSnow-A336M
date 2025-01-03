@@ -1,0 +1,9 @@
+__crc_noop_backing_dev_info = 0x5eae9506;
+__crc_bdi_alloc = 0xfe636f64;
+__crc_bdi_register = 0x01291635;
+__crc_bdi_put = 0x39089dbd;
+__crc_bdi_dev_name = 0xeee4da30;
+__crc_clear_bdi_congested = 0xce50d352;
+__crc_set_bdi_congested = 0x8ee5d25f;
+__crc_congestion_wait = 0x64999478;
+__crc_wait_iff_congested = 0x1d2d6d15;

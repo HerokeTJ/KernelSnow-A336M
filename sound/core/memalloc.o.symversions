@@ -1,0 +1,3 @@
+__crc_snd_dma_alloc_pages = 0x8f43109c;
+__crc_snd_dma_alloc_pages_fallback = 0x2d6886cc;
+__crc_snd_dma_free_pages = 0x6590e4e8;

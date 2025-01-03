@@ -1,0 +1,1 @@
+cmd_sound/usb/exynos-usb-audio-offloading.mod := { echo  sound/usb/exynos_usb_audio.o; llvm-nm sound/usb/exynos-usb-audio-offloading.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/usb/exynos-usb-audio-offloading.mod

@@ -1,0 +1,8 @@
+__crc_s2mpu13_set_reboot_option = 0xe7a65615;
+__crc_s2mpu13_write_gpio = 0x5f9824c9;
+__crc_s2mpu13_read_gpio = 0xab62194a;
+__crc_pmic_read_pwrkey_status = 0xf6560645;
+__crc_main_pmic_update_reg = 0x4b7baddf;
+__crc_main_pmic_get_i2c = 0x88631627;
+__crc_s2mpu13_set_instacok = 0x6298e776;
+__crc_main_pmic_init_debug_sysfs = 0x8aaa54b8;

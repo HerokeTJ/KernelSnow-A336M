@@ -1,0 +1,1 @@
+cmd_drivers/sensors_lego/isg5320a.mod := { echo  drivers/sensors_lego/isg5320a.o; llvm-nm drivers/sensors_lego/isg5320a.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/sensors_lego/isg5320a.mod

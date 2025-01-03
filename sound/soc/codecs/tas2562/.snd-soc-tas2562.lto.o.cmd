@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tas2562/snd-soc-tas2562.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/soc/codecs/tas2562/snd-soc-tas2562.lto.o  --whole-archive sound/soc/codecs/tas2562/snd-soc-tas2562.o

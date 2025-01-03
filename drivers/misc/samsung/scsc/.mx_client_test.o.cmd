@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/mx_client_test.o := rm -f drivers/misc/samsung/scsc/mx_client_test.o.symversions  ; rm -f drivers/misc/samsung/scsc/mx_client_test.o; llvm-ar cDPrsT drivers/misc/samsung/scsc/mx_client_test.o drivers/misc/samsung/scsc/client_test.o

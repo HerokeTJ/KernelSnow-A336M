@@ -1,0 +1,6 @@
+__crc_usbnet_cdc_update_filter = 0x570a6118;
+__crc_usbnet_generic_cdc_bind = 0x5b3d46dd;
+__crc_usbnet_ether_cdc_bind = 0xa6af7be5;
+__crc_usbnet_cdc_unbind = 0xd8edf3d6;
+__crc_usbnet_cdc_status = 0x7b0dd8d1;
+__crc_usbnet_cdc_bind = 0xf7053382;

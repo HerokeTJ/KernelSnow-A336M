@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/acpm/plugin_dbg.mod := { echo  drivers/soc/samsung/acpm/plugin_dbg.o; llvm-nm drivers/soc/samsung/acpm/plugin_dbg.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/acpm/plugin_dbg.mod

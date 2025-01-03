@@ -1,0 +1,104 @@
+!<thin>
+//                                              862       `
+hid-core.o/
+hid-input.o/
+hid-quirks.o/
+hid-debug.o/
+hidraw.o/
+uhid.o/
+hid-generic.o/
+hid-apple.o/
+hid-betopff.o/
+hid-elecom.o/
+hid-lg.o/
+hid-lgff.o/
+hid-lg2ff.o/
+hid-lg4ff.o/
+hid-lg-g15.o/
+hid-logitech-dj.o/
+hid-logitech-hidpp.o/
+hid-magicmouse.o/
+hid-microsoft.o/
+hid-multitouch.o/
+hid-nintendo.o/
+hid-prodikeys.o/
+hid-picolcd_core.o/
+hid-picolcd_debugfs.o/
+hid-plantronics.o/
+hid-playstation.o/
+hid-roccat.o/
+hid-roccat-common.o/
+hid-roccat-arvo.o/
+hid-roccat-isku.o/
+hid-roccat-kone.o/
+hid-roccat-koneplus.o/
+hid-roccat-konepure.o/
+hid-roccat-kovaplus.o/
+hid-roccat-lua.o/
+hid-roccat-pyra.o/
+hid-roccat-ryos.o/
+hid-roccat-savu.o/
+hid-samsung.o/
+hid-sony.o/
+hid-steam.o/
+hid-uclogic-core.o/
+hid-uclogic-rdesc.o/
+hid-uclogic-params.o/
+wacom_wac.o/
+wacom_sys.o/
+hid-wiimote-core.o/
+hid-wiimote-modules.o/
+hid-wiimote-debug.o/
+usbhid/hid-core.o/
+usbhid/hiddev.o/
+/0              0           0     0     644     365028    `
+/12             0           0     0     644     772124    `
+/25             0           0     0     644     162388    `
+/39             0           0     0     644     274772    `
+/52             0           0     0     644     247988    `
+/62             0           0     0     644     257040    `
+/70             0           0     0     644     153200    `
+/85             0           0     0     644     189252    `
+/98             0           0     0     644     163784    `
+/113            0           0     0     644     153232    `
+/127            0           0     0     644     305580    `
+/137            0           0     0     644     149832    `
+/149            0           0     0     644     145952    `
+/162            0           0     0     644     234420    `
+/175            0           0     0     644     215128    `
+/189            0           0     0     644     270368    `
+/208            0           0     0     644     436440    `
+/230            0           0     0     644     196280    `
+/248            0           0     0     644     212456    `
+/265            0           0     0     644     312840    `
+/283            0           0     0     644     194228    `
+/299            0           0     0     644     219904    `
+/316            0           0     0     644     222276    `
+/336            0           0     0     644     249164    `
+/359            0           0     0     644     164628    `
+/378            0           0     0     644     250552    `
+/397            0           0     0     644     211600    `
+/411            0           0     0     644     177064    `
+/432            0           0     0     644     194436    `
+/451            0           0     0     644     238312    `
+/470            0           0     0     644     235268    `
+/489            0           0     0     644     226960    `
+/512            0           0     0     644     184988    `
+/535            0           0     0     644     220756    `
+/558            0           0     0     644     175028    `
+/576            0           0     0     644     219556    `
+/595            0           0     0     644     194640    `
+/614            0           0     0     644     183488    `
+/633            0           0     0     644     327156    `
+/648            0           0     0     644     327288    `
+/660            0           0     0     644     222624    `
+/673            0           0     0     644     171756    `
+/693            0           0     0     644     13004     `
+/714            0           0     0     644     204196    `
+/736            0           0     0     644     497420    `
+/749            0           0     0     644     427556    `
+/762            0           0     0     644     293220    `
+/782            0           0     0     644     385752    `
+/805            0           0     0     644     199916    `
+/826            0           0     0     644     352528    `
+/845            0           0     0     644     306332    `

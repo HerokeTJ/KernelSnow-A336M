@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/samsung/panel/s6e8fc3/modules.order := {   echo drivers/gpu/drm/samsung/panel/s6e8fc3/mcd-panel-s6e8fc3_a33x.ko; :; } | awk '!x[$$0]++' - > drivers/gpu/drm/samsung/panel/s6e8fc3/modules.order

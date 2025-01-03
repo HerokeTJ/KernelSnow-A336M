@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.lto.o  --whole-archive sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o

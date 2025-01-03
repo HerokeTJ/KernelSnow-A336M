@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/cdc-wdm.mod := { echo  drivers/usb/class/cdc-wdm.o; llvm-nm drivers/usb/class/cdc-wdm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/class/cdc-wdm.mod

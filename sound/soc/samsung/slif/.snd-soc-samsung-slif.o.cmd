@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/slif/snd-soc-samsung-slif.o := rm -f sound/soc/samsung/slif/snd-soc-samsung-slif.o.symversions        ; rm -f sound/soc/samsung/slif/snd-soc-samsung-slif.o; llvm-ar cDPrsT sound/soc/samsung/slif/snd-soc-samsung-slif.o sound/soc/samsung/slif/slif_clk_table.o sound/soc/samsung/slif/slif_soc.o sound/soc/samsung/slif/slif.o sound/soc/samsung/slif/slif_util.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/input_boost/input_booster_lkm.mod := { echo  drivers/input/input_boost/input_booster_lsi.o drivers/input/input_boost/evdev_booster.o drivers/input/input_boost/input_booster.o; llvm-nm drivers/input/input_boost/input_booster_lkm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/input_boost/input_booster_lkm.mod

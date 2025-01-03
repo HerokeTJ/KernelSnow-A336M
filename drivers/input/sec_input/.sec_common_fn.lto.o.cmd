@@ -1,0 +1,1 @@
+cmd_drivers/input/sec_input/sec_common_fn.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/input/sec_input/sec_common_fn.lto.o -T drivers/input/sec_input/sec_common_fn.o.symversions --whole-archive drivers/input/sec_input/sec_common_fn.o

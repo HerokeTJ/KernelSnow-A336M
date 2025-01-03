@@ -1,0 +1,2 @@
+drivers/samsung/debug/sec_debug_coredump.o
+dbg_snapshot_get_item_enable dbg_snapshot_get_item_vaddr dbg_snapshot_is_minized_kevents dump_align dump_emit register_coredump_hook_notes_size register_coredump_hook_notes_write

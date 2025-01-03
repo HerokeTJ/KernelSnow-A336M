@@ -1,0 +1,1 @@
+cmd_drivers/thermal/samsung/modules.order := {   echo drivers/thermal/samsung/exynos_thermal.ko;   echo drivers/thermal/samsung/gpu_cooling.ko; :; } | awk '!x[$$0]++' - > drivers/thermal/samsung/modules.order

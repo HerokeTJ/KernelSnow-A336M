@@ -1,0 +1,1 @@
+cmd_drivers/mfd/s2mpu13_mfd.mod := { echo  drivers/mfd/s2mpu13_core.o drivers/mfd/s2mpu13_irq.o; llvm-nm drivers/mfd/s2mpu13_mfd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/mfd/s2mpu13_mfd.mod

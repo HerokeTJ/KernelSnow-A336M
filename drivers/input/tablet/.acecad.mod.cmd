@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/acecad.mod := { echo  drivers/input/tablet/acecad.o; llvm-nm drivers/input/tablet/acecad.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/tablet/acecad.mod

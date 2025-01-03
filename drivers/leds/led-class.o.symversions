@@ -1,0 +1,9 @@
+__crc_led_classdev_suspend = 0x36813dbf;
+__crc_led_classdev_resume = 0x5f377ef7;
+__crc_of_led_get = 0x7e3deb6b;
+__crc_led_put = 0x378945a6;
+__crc_devm_of_led_get = 0x7dfc6f29;
+__crc_led_classdev_register_ext = 0x0d6296d3;
+__crc_led_classdev_unregister = 0xcb7db351;
+__crc_devm_led_classdev_register_ext = 0x78e191fd;
+__crc_devm_led_classdev_unregister = 0x6d4083fd;

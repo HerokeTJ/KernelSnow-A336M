@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/gdc/modules.order := {   echo drivers/media/platform/exynos/camera-pp/gdc/gdc.ko; :; } | awk '!x[$$0]++' - > drivers/media/platform/exynos/camera-pp/gdc/modules.order

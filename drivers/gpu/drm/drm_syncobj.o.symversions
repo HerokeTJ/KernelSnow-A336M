@@ -1,0 +1,9 @@
+__crc_drm_syncobj_find = 0x2f70d2c5;
+__crc_drm_syncobj_add_point = 0x803ba4b3;
+__crc_drm_syncobj_replace_fence = 0x3aecc622;
+__crc_drm_syncobj_find_fence = 0x95ed58ce;
+__crc_drm_syncobj_free = 0x1a411479;
+__crc_drm_syncobj_create = 0xac420866;
+__crc_drm_syncobj_get_handle = 0xf046e48c;
+__crc_drm_syncobj_get_fd = 0x8463c74e;
+__crc_drm_timeout_abs_to_jiffies = 0x50674de7;

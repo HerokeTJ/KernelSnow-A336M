@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/gnssif/gnss_mbox.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/soc/samsung/gnssif/gnss_mbox.lto.o -T drivers/soc/samsung/gnssif/gnss_mbox.o.symversions --whole-archive drivers/soc/samsung/gnssif/gnss_mbox.o

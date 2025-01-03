@@ -1,0 +1,2 @@
+drivers/soc/samsung/exynos-ppmpu.o
+__arm_smccc_smc __platform_driver_register __this_module _dev_err _dev_info devm_kmalloc devm_request_threaded_irq dma_free_attrs dma_set_mask dmam_alloc_attrs irq_of_parse_and_map of_property_read_variable_u32_array platform_driver_unregister printk

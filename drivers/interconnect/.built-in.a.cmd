@@ -1,0 +1,1 @@
+cmd_drivers/interconnect/built-in.a := rm -f drivers/interconnect/built-in.a.symversions   ; cat drivers/interconnect/core.o.symversions >> drivers/interconnect/built-in.a.symversions  ; rm -f drivers/interconnect/built-in.a; llvm-ar cDPrST drivers/interconnect/built-in.a drivers/interconnect/core.o drivers/interconnect/bulk.o

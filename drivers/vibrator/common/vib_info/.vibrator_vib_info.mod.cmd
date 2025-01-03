@@ -1,0 +1,1 @@
+cmd_drivers/vibrator/common/vib_info/vibrator_vib_info.mod := { echo  drivers/vibrator/common/vib_info/vibrator_vib_info.o; llvm-nm drivers/vibrator/common/vib_info/vibrator_vib_info.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/vibrator/common/vib_info/vibrator_vib_info.mod

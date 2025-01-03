@@ -1,0 +1,1 @@
+cmd_drivers/clk/samsung/clk_exynos.o := rm -f drivers/clk/samsung/clk_exynos.o.symversions    ; rm -f drivers/clk/samsung/clk_exynos.o; llvm-ar cDPrsT drivers/clk/samsung/clk_exynos.o drivers/clk/samsung/clk-s5e8825.o drivers/clk/samsung/composite.o

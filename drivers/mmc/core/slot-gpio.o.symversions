@@ -1,0 +1,9 @@
+__crc_mmc_gpio_get_ro = 0xfdca5507;
+__crc_mmc_gpio_get_cd = 0x302d9b76;
+__crc_mmc_gpiod_request_cd_irq = 0x998206b1;
+__crc_mmc_gpio_set_cd_wake = 0xa6306cae;
+__crc_mmc_gpio_set_cd_isr = 0x08a049e6;
+__crc_mmc_gpiod_request_cd = 0xd318b008;
+__crc_mmc_can_gpio_cd = 0xd09be6b4;
+__crc_mmc_gpiod_request_ro = 0x79e6a140;
+__crc_mmc_can_gpio_ro = 0xae2fa684;

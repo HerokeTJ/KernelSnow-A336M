@@ -1,0 +1,1 @@
+cmd_drivers/virtio/built-in.a := rm -f drivers/virtio/built-in.a.symversions   ; cat drivers/virtio/virtio.o.symversions >> drivers/virtio/built-in.a.symversions   ; cat drivers/virtio/virtio_ring.o.symversions >> drivers/virtio/built-in.a.symversions; rm -f drivers/virtio/built-in.a; llvm-ar cDPrST drivers/virtio/built-in.a drivers/virtio/virtio.o drivers/virtio/virtio_ring.o

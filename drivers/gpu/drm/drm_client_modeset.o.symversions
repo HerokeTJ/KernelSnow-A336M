@@ -1,0 +1,6 @@
+__crc_drm_client_modeset_probe = 0x64d18687;
+__crc_drm_client_rotation = 0x17bf2ad0;
+__crc_drm_client_modeset_check = 0x25f16be6;
+__crc_drm_client_modeset_commit_locked = 0x73e984a3;
+__crc_drm_client_modeset_commit = 0x0d6a77b5;
+__crc_drm_client_modeset_dpms = 0x97270961;

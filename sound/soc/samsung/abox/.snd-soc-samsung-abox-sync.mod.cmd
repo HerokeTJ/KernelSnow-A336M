@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/abox/snd-soc-samsung-abox-sync.mod := { echo  sound/soc/samsung/abox/abox_synchronized_ipc.o; llvm-nm sound/soc/samsung/abox/snd-soc-samsung-abox-sync.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/abox/snd-soc-samsung-abox-sync.mod

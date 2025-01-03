@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/vbus_notifier/vbus_notifier.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/common/vbus_notifier/vbus_notifier.lto.o -T drivers/usb/common/vbus_notifier/vbus_notifier.o.symversions --whole-archive drivers/usb/common/vbus_notifier/vbus_notifier.o

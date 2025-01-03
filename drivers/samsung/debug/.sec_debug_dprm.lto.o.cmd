@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/sec_debug_dprm.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/samsung/debug/sec_debug_dprm.lto.o  --whole-archive drivers/samsung/debug/sec_debug_dprm.o

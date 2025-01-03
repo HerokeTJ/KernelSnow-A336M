@@ -1,0 +1,1 @@
+cmd_sound/usb/exynos-usb-audio-offloading.o := rm -f sound/usb/exynos-usb-audio-offloading.o.symversions   ; cat sound/usb/exynos_usb_audio.o.symversions >> sound/usb/exynos-usb-audio-offloading.o.symversions; rm -f sound/usb/exynos-usb-audio-offloading.o; llvm-ar cDPrsT sound/usb/exynos-usb-audio-offloading.o sound/usb/exynos_usb_audio.o

@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/sm5451_charger/modules.order := {   echo drivers/battery/charger/sm5451_charger/sm5451-charger.ko; :; } | awk '!x[$$0]++' - > drivers/battery/charger/sm5451_charger/modules.order

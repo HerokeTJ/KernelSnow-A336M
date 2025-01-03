@@ -1,0 +1,1 @@
+cmd_security/samsung/proca/gaf/built-in.a := rm -f security/samsung/proca/gaf/built-in.a.symversions  ; rm -f security/samsung/proca/gaf/built-in.a; llvm-ar cDPrST security/samsung/proca/gaf/built-in.a security/samsung/proca/gaf/gaf_v6.o

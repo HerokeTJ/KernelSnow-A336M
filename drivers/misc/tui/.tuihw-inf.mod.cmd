@@ -1,0 +1,1 @@
+cmd_drivers/misc/tui/tuihw-inf.mod := { echo  drivers/misc/tui/stui_inf.o; llvm-nm drivers/misc/tui/tuihw-inf.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/tui/tuihw-inf.mod

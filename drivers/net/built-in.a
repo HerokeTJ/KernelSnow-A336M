@@ -1,0 +1,102 @@
+!<thin>
+//                                              810       `
+dummy.o/
+wireguard/main.o/
+wireguard/noise.o/
+wireguard/device.o/
+wireguard/peer.o/
+wireguard/timers.o/
+wireguard/queueing.o/
+wireguard/send.o/
+wireguard/receive.o/
+wireguard/socket.o/
+wireguard/peerlookup.o/
+wireguard/allowedips.o/
+wireguard/ratelimiter.o/
+wireguard/cookie.o/
+wireguard/netlink.o/
+ifb.o/
+mii.o/
+Space.o/
+loopback.o/
+phy/mdio-boardinfo.o/
+phy/mdio_devres.o/
+phy/phylink.o/
+phy/phy.o/
+phy/phy-c45.o/
+phy/phy-core.o/
+phy/phy_device.o/
+phy/linkmode.o/
+phy/mdio_bus.o/
+phy/mdio_device.o/
+phy/swphy.o/
+phy/fixed_phy.o/
+mdio/of_mdio.o/
+tun.o/
+veth.o/
+can/dev/dev.o/
+can/dev/rx-offload.o/
+ppp/ppp_generic.o/
+ppp/bsd_comp.o/
+ppp/ppp_deflate.o/
+ppp/ppp_mppe.o/
+ppp/pppox.o/
+ppp/pptp.o/
+slip/slhc.o/
+usb/rtl8150.o/
+usb/r8152.o/
+usb/cdc_ether.o/
+usb/cdc_eem.o/
+usb/usbnet.o/
+usb/cdc_ncm.o/
+usb/aqc111.o/
+/0              0           0     0     644     280108    `
+/9              0           0     0     644     353500    `
+/27             0           0     0     644     455236    `
+/46             0           0     0     644     418720    `
+/66             0           0     0     644     395268    `
+/84             0           0     0     644     397652    `
+/104            0           0     0     644     379104    `
+/126            0           0     0     644     443044    `
+/144            0           0     0     644     465620    `
+/165            0           0     0     644     425968    `
+/185            0           0     0     644     382204    `
+/209            0           0     0     644     412940    `
+/233            0           0     0     644     368368    `
+/258            0           0     0     644     378196    `
+/278            0           0     0     644     440036    `
+/299            0           0     0     644     318852    `
+/306            0           0     0     644     293500    `
+/313            0           0     0     644     251548    `
+/322            0           0     0     644     371504    `
+/334            0           0     0     644     146280    `
+/356            0           0     0     644     146912    `
+/375            0           0     0     644     469644    `
+/390            0           0     0     644     468336    `
+/401            0           0     0     644     189556    `
+/416            0           0     0     644     231580    `
+/432            0           0     0     644     506572    `
+/450            0           0     0     644     13652     `
+/466            0           0     0     644     455948    `
+/482            0           0     0     644     162772    `
+/501            0           0     0     644     8412      `
+/514            0           0     0     644     303292    `
+/531            0           0     0     644     316128    `
+/547            0           0     0     644     977784    `
+/554            0           0     0     644     552928    `
+/562            0           0     0     644     443524    `
+/577            0           0     0     644     362368    `
+/599            0           0     0     644     674148    `
+/618            0           0     0     644     152560    `
+/634            0           0     0     644     138392    `
+/653            0           0     0     644     156836    `
+/669            0           0     0     644     361516    `
+/682            0           0     0     644     459584    `
+/694            0           0     0     644     46464     `
+/707            0           0     0     644     360524    `
+/722            0           0     0     644     1419748   `
+/735            0           0     0     644     309456    `
+/752            0           0     0     644     287000    `
+/767            0           0     0     644     557300    `
+/781            0           0     0     644     454132    `
+/796            0           0     0     644     463084    `

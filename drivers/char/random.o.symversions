@@ -1,0 +1,14 @@
+__crc_rng_is_initialized = 0x3a4f9d28;
+__crc_wait_for_random_bytes = 0x742578a5;
+__crc_get_random_bytes = 0x79aa04a2;
+__crc_get_random_u64 = 0xe3ff2c41;
+__crc_get_random_u32 = 0xd36dc10c;
+__crc_get_random_bytes_arch = 0x5d830297;
+__crc_add_device_randomness = 0x2fb6de5d;
+__crc_add_hwgenerator_randomness = 0x22f31abb;
+__crc_add_bootloader_randomness = 0xdb7a5380;
+__crc_add_interrupt_randomness = 0x16dfbf36;
+__crc_add_input_randomness = 0x3cd06035;
+__crc_add_disk_randomness = 0x1d1736e1;
+__crc_add_random_ready_callback = 0x67e239bd;
+__crc_del_random_ready_callback = 0x7578b4c8;

@@ -1,0 +1,5 @@
+__crc___udp6_lib_lookup = 0x20c53042;
+__crc_udp6_lib_lookup_skb = 0x2f23f8ee;
+__crc_udp6_lib_lookup = 0x4c24e36a;
+__crc_udpv6_encap_enable = 0x74e5ff1a;
+__crc_udp6_seq_ops = 0x5342e2ff;

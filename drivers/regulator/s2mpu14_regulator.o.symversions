@@ -1,0 +1,4 @@
+__crc_s2mpu14_write_gpio = 0x9a8612b3;
+__crc_s2mpu14_read_gpio = 0x1b779f5e;
+__crc_sub_pmic_update_reg = 0xe96cfa4b;
+__crc_sub_pmic_get_i2c = 0x1605159c;

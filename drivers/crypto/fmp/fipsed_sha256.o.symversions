@@ -1,0 +1,3 @@
+__crc_fmp_sha256_init = 0x905e95e7;
+__crc_fmp_sha256_update = 0xc0e5b380;
+__crc_fmp_sha256_final = 0xa4dd8cc3;

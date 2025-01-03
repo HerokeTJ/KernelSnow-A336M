@@ -1,0 +1,1 @@
+cmd_drivers/dma/samsung-dma.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/dma/samsung-dma.lto.o -T drivers/dma/samsung-dma.o.symversions --whole-archive drivers/dma/samsung-dma.o

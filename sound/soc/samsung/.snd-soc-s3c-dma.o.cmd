@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/snd-soc-s3c-dma.o := rm -f sound/soc/samsung/snd-soc-s3c-dma.o.symversions   ; cat sound/soc/samsung/dmaengine.o.symversions >> sound/soc/samsung/snd-soc-s3c-dma.o.symversions; rm -f sound/soc/samsung/snd-soc-s3c-dma.o; llvm-ar cDPrsT sound/soc/samsung/snd-soc-s3c-dma.o sound/soc/samsung/dmaengine.o

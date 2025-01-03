@@ -1,0 +1,3 @@
+__crc_ip6_route_me_harder = 0x3582321b;
+__crc___nf_ip6_route = 0x9ea0bc1b;
+__crc_br_ip6_fragment = 0x82c06122;

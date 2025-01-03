@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/lvstest.mod := { echo  drivers/usb/misc/lvstest.o; llvm-nm drivers/usb/misc/lvstest.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/misc/lvstest.mod

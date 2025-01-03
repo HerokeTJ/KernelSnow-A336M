@@ -1,0 +1,1 @@
+cmd_drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.mod := { echo  drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.o; llvm-nm drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.mod

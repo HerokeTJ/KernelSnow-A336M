@@ -1,0 +1,4 @@
+drivers/gpu/drm/samsung/dpu/exynos-drm.ko
+drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-drv.ko
+drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.ko
+drivers/gpu/arm/bv_r32p1/mali_kbase.ko

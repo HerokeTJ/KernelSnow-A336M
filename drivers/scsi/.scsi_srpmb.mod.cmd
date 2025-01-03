@@ -1,0 +1,1 @@
+cmd_drivers/scsi/scsi_srpmb.mod := { echo  drivers/scsi/scsi_srpmb.o; llvm-nm drivers/scsi/scsi_srpmb.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/scsi/scsi_srpmb.mod

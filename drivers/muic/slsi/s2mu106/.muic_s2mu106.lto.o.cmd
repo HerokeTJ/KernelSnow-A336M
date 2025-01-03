@@ -1,0 +1,1 @@
+cmd_drivers/muic/slsi/s2mu106/muic_s2mu106.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/muic/slsi/s2mu106/muic_s2mu106.lto.o -T drivers/muic/slsi/s2mu106/muic_s2mu106.o.symversions --whole-archive drivers/muic/slsi/s2mu106/muic_s2mu106.o

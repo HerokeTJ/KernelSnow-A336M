@@ -1,0 +1,1 @@
+cmd_drivers/net/can/dev/built-in.a := rm -f drivers/net/can/dev/built-in.a.symversions   ; cat drivers/net/can/dev/dev.o.symversions >> drivers/net/can/dev/built-in.a.symversions  ; rm -f drivers/net/can/dev/built-in.a; llvm-ar cDPrST drivers/net/can/dev/built-in.a drivers/net/can/dev/dev.o drivers/net/can/dev/rx-offload.o

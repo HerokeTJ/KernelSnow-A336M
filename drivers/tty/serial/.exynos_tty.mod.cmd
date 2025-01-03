@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/exynos_tty.mod := { echo  drivers/tty/serial/exynos_tty.o; llvm-nm drivers/tty/serial/exynos_tty.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/tty/serial/exynos_tty.mod

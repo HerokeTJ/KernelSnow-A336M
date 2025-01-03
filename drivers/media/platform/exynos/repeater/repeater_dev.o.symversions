@@ -1,0 +1,5 @@
+__crc_repeater_request_buffer = 0x931e9a56;
+__crc_repeater_get_valid_buffer = 0x39ba44c0;
+__crc_repeater_set_valid_buffer = 0x3998dfa3;
+__crc_repeater_register_encode_cb = 0x4ad2aa04;
+__crc_repeater_encoding_done = 0x6a9ebca8;

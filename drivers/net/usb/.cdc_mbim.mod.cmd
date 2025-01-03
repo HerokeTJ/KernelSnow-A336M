@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_mbim.mod := { echo  drivers/net/usb/cdc_mbim.o; llvm-nm drivers/net/usb/cdc_mbim.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/net/usb/cdc_mbim.mod

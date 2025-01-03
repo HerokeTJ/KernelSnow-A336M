@@ -1,0 +1,11 @@
+__crc_get_each_object_track = 0x882f614f;
+__crc_kmem_cache_alloc = 0x4ba1ee76;
+__crc_kmem_cache_alloc_trace = 0xb38391e9;
+__crc_kmem_cache_free = 0xd419eeb6;
+__crc_kmem_cache_free_bulk = 0xd363982c;
+__crc_kmem_cache_alloc_bulk = 0x50d112e2;
+__crc___kmalloc = 0xeb233a45;
+__crc___ksize = 0x69585523;
+__crc_kfree = 0x037a0cba;
+__crc___kmalloc_track_caller = 0xd2c99738;
+__crc_get_slabinfo = 0x3f6ac589;

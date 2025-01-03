@@ -1,0 +1,16 @@
+__crc___hwspin_trylock = 0x2da93066;
+__crc___hwspin_lock_timeout = 0x0c922cc7;
+__crc___hwspin_unlock = 0x2aac8a01;
+__crc_of_hwspin_lock_get_id = 0x32d9b70e;
+__crc_of_hwspin_lock_get_id_byname = 0x1ade1f08;
+__crc_hwspin_lock_register = 0xb7b284f6;
+__crc_hwspin_lock_unregister = 0x76bd7997;
+__crc_devm_hwspin_lock_unregister = 0xcf1b6a96;
+__crc_devm_hwspin_lock_register = 0x5fee0220;
+__crc_hwspin_lock_get_id = 0x33d9c3fd;
+__crc_hwspin_lock_request = 0xa430937c;
+__crc_hwspin_lock_request_specific = 0xfad9c346;
+__crc_hwspin_lock_free = 0xac847ea8;
+__crc_devm_hwspin_lock_free = 0x643850e4;
+__crc_devm_hwspin_lock_request = 0x9fe9d93d;
+__crc_devm_hwspin_lock_request_specific = 0x6ed2bdbe;

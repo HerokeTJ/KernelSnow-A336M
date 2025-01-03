@@ -1,0 +1,4 @@
+__crc_exynos_pd_lookup_name = 0x598cab6e;
+__crc_exynos_pd_lookup_cmu_id = 0x7529652e;
+__crc_exynos_pd_status = 0xdded8bf2;
+__crc_exynos_pd_booton_rel = 0xcbaecc98;

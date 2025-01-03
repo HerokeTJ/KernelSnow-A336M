@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/scsc_logring.mod := { echo  drivers/misc/samsung/scsc/scsc_logring_main.o drivers/misc/samsung/scsc/scsc_logring_ring.o drivers/misc/samsung/scsc/scsc_logring_debugfs.o; llvm-nm drivers/misc/samsung/scsc/scsc_logring.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/samsung/scsc/scsc_logring.mod

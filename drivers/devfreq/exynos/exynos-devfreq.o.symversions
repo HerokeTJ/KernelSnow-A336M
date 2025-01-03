@@ -1,0 +1,4 @@
+__crc_exynos_devfreq_get_freq_infos = 0x99c6841f;
+__crc_exynos_devfreq_set_profile = 0x1bf998e5;
+__crc_exynos_devfreq_get_profile = 0xb53f5104;
+__crc_exynos_devfreq_get_domain_freq = 0x98b5ae62;

@@ -1,0 +1,3 @@
+__crc_get_pelt_halflife = 0x252824e3;
+__crc_set_pelt_halflife = 0x7a44ce5f;
+__crc___update_load_avg_blocked_se = 0xfbdf5c3e;

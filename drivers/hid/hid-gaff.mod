@@ -1,0 +1,2 @@
+drivers/hid/hid-gaff.o
+__cfi_slowpath __hid_register_driver __hid_request __this_module _dev_err _dev_info arm64_const_caps_ready cpu_hwcap_keys hid_debug hid_hw_start hid_open_report hid_unregister_driver input_ff_create_memless kfree kmalloc_caches kmem_cache_alloc_trace printk

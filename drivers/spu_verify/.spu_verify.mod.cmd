@@ -1,0 +1,1 @@
+cmd_drivers/spu_verify/spu_verify.mod := { echo  drivers/spu_verify/spu-sign-verify.o; llvm-nm drivers/spu_verify/spu_verify.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/spu_verify/spu_verify.mod

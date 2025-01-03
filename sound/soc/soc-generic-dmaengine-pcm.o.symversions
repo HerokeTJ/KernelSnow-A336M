@@ -1,0 +1,3 @@
+__crc_snd_dmaengine_pcm_prepare_slave_config = 0x86d3f850;
+__crc_snd_dmaengine_pcm_register = 0xddb209a1;
+__crc_snd_dmaengine_pcm_unregister = 0x5468f8f9;

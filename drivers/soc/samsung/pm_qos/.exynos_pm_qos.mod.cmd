@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/pm_qos/exynos_pm_qos.mod := { echo  drivers/soc/samsung/pm_qos/exynos_pm_qos.o; llvm-nm drivers/soc/samsung/pm_qos/exynos_pm_qos.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/pm_qos/exynos_pm_qos.mod

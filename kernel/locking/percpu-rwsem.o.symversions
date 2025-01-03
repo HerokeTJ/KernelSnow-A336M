@@ -1,0 +1,6 @@
+__crc__trace_android_vh_record_pcpu_rwsem_starttime = 0xc22864a7;
+__crc___percpu_init_rwsem = 0x21a1cfeb;
+__crc_percpu_free_rwsem = 0xf676d9dd;
+__crc___percpu_down_read = 0xec40655f;
+__crc_percpu_down_write = 0x87487d40;
+__crc_percpu_up_write = 0x3ee3430e;

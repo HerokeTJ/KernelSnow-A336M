@@ -1,0 +1,1 @@
+cmd_drivers/dma-buf/heaps/samsung/dma-buf-container.mod := { echo  drivers/dma-buf/heaps/samsung/dma-buf-container.o; llvm-nm drivers/dma-buf/heaps/samsung/dma-buf-container.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/dma-buf/heaps/samsung/dma-buf-container.mod

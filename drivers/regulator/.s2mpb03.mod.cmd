@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpb03.mod := { echo  drivers/regulator/s2mpb03.o; llvm-nm drivers/regulator/s2mpb03.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/regulator/s2mpb03.mod

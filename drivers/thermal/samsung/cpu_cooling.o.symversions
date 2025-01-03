@@ -1,0 +1,4 @@
+__crc_cpufreq_cooling_get_level = 0xc97d1140;
+__crc_cpu_cooling_notifier_register = 0x6f3f8850;
+__crc_cpu_cooling_notifier_unregister = 0xc8196e73;
+__crc_exynos_cpufreq_cooling_register = 0x48a6dee7;

@@ -1,0 +1,1 @@
+cmd_drivers/spu_verify/spu_verify.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/spu_verify/spu_verify.lto.o -T drivers/spu_verify/spu_verify.o.symversions --whole-archive drivers/spu_verify/spu_verify.o

@@ -1,0 +1,1 @@
+cmd_drivers/sti/abc/abc.o := rm -f drivers/sti/abc/abc.o.symversions   ; cat drivers/sti/abc/abc_common.o.symversions >> drivers/sti/abc/abc.o.symversions    ; rm -f drivers/sti/abc/abc.o; llvm-ar cDPrsT drivers/sti/abc/abc.o drivers/sti/abc/abc_common.o drivers/sti/abc/abc_spec_manager.o drivers/sti/abc/abc_spec_manager_type1.o

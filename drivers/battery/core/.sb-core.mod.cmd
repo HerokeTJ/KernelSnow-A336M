@@ -1,0 +1,1 @@
+cmd_drivers/battery/core/sb-core.mod := { echo  drivers/battery/core/sb_pqueue.o drivers/battery/core/sb_notify.o drivers/battery/core/sb_sysfs.o drivers/battery/core/sb_vote.o drivers/battery/core/sb_core.o; llvm-nm drivers/battery/core/sb-core.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/core/sb-core.mod

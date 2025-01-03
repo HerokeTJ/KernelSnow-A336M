@@ -1,0 +1,11 @@
+drivers/samsung/pm/sec_pm_debug.ko
+drivers/samsung/pm/sec_thermistor.ko
+drivers/samsung/pm/sec_wakeup_cpu_allocator.ko
+drivers/samsung/sec_reboot.ko
+drivers/samsung/sec_crash_key.ko
+drivers/samsung/sec_crash_key_user.ko
+drivers/samsung/sec_hard_reset_hook.ko
+drivers/samsung/sec_key_notifier.ko
+drivers/samsung/sec_class.ko
+drivers/samsung/sec_bootstat.ko
+drivers/samsung/sec_argos.ko

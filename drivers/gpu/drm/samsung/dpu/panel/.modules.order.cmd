@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/samsung/dpu/panel/modules.order := {   echo drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-drv.ko;   echo drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.ko; :; } | awk '!x[$$0]++' - > drivers/gpu/drm/samsung/dpu/panel/modules.order

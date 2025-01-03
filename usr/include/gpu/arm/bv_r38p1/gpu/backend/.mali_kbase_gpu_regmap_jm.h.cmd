@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/bv_r38p1/gpu/backend/mali_kbase_gpu_regmap_jm.h := sh ./scripts/headers_install.sh include/uapi/gpu/arm/bv_r38p1/gpu/backend/mali_kbase_gpu_regmap_jm.h usr/include/gpu/arm/bv_r38p1/gpu/backend/mali_kbase_gpu_regmap_jm.h

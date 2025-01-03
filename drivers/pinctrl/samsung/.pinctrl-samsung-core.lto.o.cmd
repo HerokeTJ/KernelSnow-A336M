@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/samsung/pinctrl-samsung-core.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/pinctrl/samsung/pinctrl-samsung-core.lto.o -T drivers/pinctrl/samsung/pinctrl-samsung-core.o.symversions --whole-archive drivers/pinctrl/samsung/pinctrl-samsung-core.o

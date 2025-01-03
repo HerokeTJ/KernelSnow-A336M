@@ -1,0 +1,3 @@
+__crc_switch_set_state = 0xae3fbde0;
+__crc_switch_dev_register = 0x56e342ec;
+__crc_switch_dev_unregister = 0x6ab5a8a7;

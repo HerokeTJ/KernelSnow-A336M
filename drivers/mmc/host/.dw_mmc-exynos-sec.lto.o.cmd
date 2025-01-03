@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/dw_mmc-exynos-sec.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/mmc/host/dw_mmc-exynos-sec.lto.o  --whole-archive drivers/mmc/host/dw_mmc-exynos-sec.o

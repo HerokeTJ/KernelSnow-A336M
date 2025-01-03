@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/modules.order := {   echo drivers/net/usb/asix.ko;   echo drivers/net/usb/ax88179_178a.ko;   echo drivers/net/usb/smsc75xx.ko;   echo drivers/net/usb/smsc95xx.ko;   echo drivers/net/usb/cdc_mbim.ko; :; } | awk '!x[$$0]++' - > drivers/net/usb/modules.order

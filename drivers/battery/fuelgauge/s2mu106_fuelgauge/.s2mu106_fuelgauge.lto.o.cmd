@@ -1,0 +1,1 @@
+cmd_drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.lto.o  --whole-archive drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.o

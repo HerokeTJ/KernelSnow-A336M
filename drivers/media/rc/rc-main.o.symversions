@@ -1,0 +1,14 @@
+__crc_rc_map_get = 0x087ba771;
+__crc_rc_map_register = 0x7bc8ac67;
+__crc_rc_map_unregister = 0x1ac62c77;
+__crc_rc_g_keycode_from_table = 0xa9605c29;
+__crc_rc_keyup = 0x169d9612;
+__crc_rc_repeat = 0xc0d8be0f;
+__crc_rc_keydown = 0x628aa0ae;
+__crc_rc_keydown_notimeout = 0xe0473702;
+__crc_rc_allocate_device = 0xac3aa562;
+__crc_rc_free_device = 0x74e8ae0c;
+__crc_devm_rc_allocate_device = 0x7b0f7589;
+__crc_rc_register_device = 0xf8d42b98;
+__crc_devm_rc_register_device = 0xebf37fd4;
+__crc_rc_unregister_device = 0x07201f5f;

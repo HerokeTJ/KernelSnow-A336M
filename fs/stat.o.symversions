@@ -1,0 +1,9 @@
+__crc_generic_fillattr = 0x2191fd40;
+__crc_vfs_getattr_nosec = 0xec00a150;
+__crc_vfs_getattr = 0x3a03350f;
+__crc___inode_add_bytes = 0x5f0b3f5e;
+__crc_inode_add_bytes = 0xca2550f3;
+__crc___inode_sub_bytes = 0x50d487ee;
+__crc_inode_sub_bytes = 0xc5fae843;
+__crc_inode_get_bytes = 0x346f0b1e;
+__crc_inode_set_bytes = 0xb76d592d;

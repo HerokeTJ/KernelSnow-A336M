@@ -1,0 +1,1 @@
+cmd_drivers/regulator/modules.order := {   echo drivers/regulator/s2mpu13_regulator.ko;   echo drivers/regulator/s2mpu14_regulator.ko;   echo drivers/regulator/s2mpb03.ko; :; } | awk '!x[$$0]++' - > drivers/regulator/modules.order

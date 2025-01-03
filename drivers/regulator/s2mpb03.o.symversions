@@ -1,0 +1,6 @@
+__crc_s2mpb03_read_reg = 0x53457d87;
+__crc_s2mpb03_bulk_read = 0xcdfa0908;
+__crc_s2mpb03_read_word = 0x5695980e;
+__crc_s2mpb03_write_reg = 0x8a5d44aa;
+__crc_s2mpb03_bulk_write = 0xcf76cc02;
+__crc_s2mpb03_update_reg = 0xa74f2c5b;

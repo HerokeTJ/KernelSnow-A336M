@@ -1,0 +1,26 @@
+!<thin>
+//                                              212       `
+dma-buf.o/
+dma-fence.o/
+dma-fence-array.o/
+dma-fence-chain.o/
+dma-resv.o/
+seqno-fence.o/
+dma-heap.o/
+heaps/deferred-free-helper.o/
+heaps/page_pool.o/
+heaps/samsung/hpa_heap.o/
+sync_file.o/
+dma-buf-sysfs-stats.o/
+/0              0           0     0     644     320856    `
+/11             0           0     0     644     352296    `
+/24             0           0     0     644     55016     `
+/43             0           0     0     644     73804     `
+/62             0           0     0     644     245884    `
+/74             0           0     0     644     125908    `
+/89             0           0     0     644     276156    `
+/101            0           0     0     644     215076    `
+/131            0           0     0     644     224072    `
+/150            0           0     0     644     347248    `
+/176            0           0     0     644     196644    `
+/189            0           0     0     644     143152    `

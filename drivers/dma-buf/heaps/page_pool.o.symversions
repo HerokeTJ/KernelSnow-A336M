@@ -1,0 +1,4 @@
+__crc_dmabuf_page_pool_alloc = 0x98a4e351;
+__crc_dmabuf_page_pool_free = 0xeadbf1fd;
+__crc_dmabuf_page_pool_create = 0xc7ca016b;
+__crc_dmabuf_page_pool_destroy = 0xa1f4f3d0;

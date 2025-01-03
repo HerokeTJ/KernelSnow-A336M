@@ -1,0 +1,1 @@
+cmd_drivers/thermal/samsung/gpu_cooling.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/thermal/samsung/gpu_cooling.lto.o -T drivers/thermal/samsung/gpu_cooling.o.symversions --whole-archive drivers/thermal/samsung/gpu_cooling.o

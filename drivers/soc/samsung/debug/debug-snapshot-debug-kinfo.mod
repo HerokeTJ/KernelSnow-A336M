@@ -1,0 +1,2 @@
+drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.o
+__kmalloc __platform_driver_register __this_module _dev_warn arm64_use_ng_mappings kfree kmalloc_caches kmalloc_order_trace kmem_cache_alloc_trace memstart_addr of_parse_phandle of_reserved_mem_lookup platform_driver_unregister strscpy vmap

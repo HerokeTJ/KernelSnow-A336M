@@ -1,0 +1,2 @@
+drivers/watchdog/s3c2410_wdt.ko
+drivers/watchdog/softdog.ko

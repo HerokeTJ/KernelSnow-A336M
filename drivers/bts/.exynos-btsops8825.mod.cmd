@@ -1,0 +1,1 @@
+cmd_drivers/bts/exynos-btsops8825.mod := { echo  drivers/bts/exynos-btsops8825.o; llvm-nm drivers/bts/exynos-btsops8825.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/bts/exynos-btsops8825.mod

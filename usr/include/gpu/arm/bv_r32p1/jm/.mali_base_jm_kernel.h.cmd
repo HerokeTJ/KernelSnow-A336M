@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/bv_r32p1/jm/mali_base_jm_kernel.h := sh ./scripts/headers_install.sh include/uapi/gpu/arm/bv_r32p1/jm/mali_base_jm_kernel.h usr/include/gpu/arm/bv_r32p1/jm/mali_base_jm_kernel.h

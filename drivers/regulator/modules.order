@@ -1,0 +1,3 @@
+drivers/regulator/s2mpu13_regulator.ko
+drivers/regulator/s2mpu14_regulator.ko
+drivers/regulator/s2mpb03.ko

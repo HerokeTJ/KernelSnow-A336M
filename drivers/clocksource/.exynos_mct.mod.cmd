@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/exynos_mct.mod := { echo  drivers/clocksource/exynos_mct.o; llvm-nm drivers/clocksource/exynos_mct.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/clocksource/exynos_mct.mod

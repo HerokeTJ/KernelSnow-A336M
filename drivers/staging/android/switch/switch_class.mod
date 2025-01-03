@@ -1,0 +1,2 @@
+drivers/staging/android/switch/switch_class.o
+__cfi_slowpath __class_create __this_module arm64_const_caps_ready class_destroy cpu_hwcap_keys device_create device_create_file device_destroy device_remove_file free_pages get_zeroed_page kobject_uevent kobject_uevent_env printk snprintf sprintf switch_dev_register switch_dev_unregister switch_set_state

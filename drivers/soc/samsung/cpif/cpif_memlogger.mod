@@ -1,0 +1,2 @@
+drivers/soc/samsung/cpif/cpif_memlogger.o
+cpif_memlog_init cpif_memlog_log_enabled cpif_memlog_log_obj ktime_get_ts64 memlog_alloc_printf memlog_register memlog_write_printf pr_buffer_memlog printk sys_tz time64_to_tm

@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/acecad.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/input/tablet/acecad.lto.o  --whole-archive drivers/input/tablet/acecad.o

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/exynos-adv-tracer.mod := { echo  drivers/soc/samsung/debug/exynos-adv-tracer.o; llvm-nm drivers/soc/samsung/debug/exynos-adv-tracer.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/exynos-adv-tracer.mod

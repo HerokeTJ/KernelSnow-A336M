@@ -1,0 +1,4 @@
+__crc_ptype_log = 0x74f97a28;
+__crc_support_dropdump = 0x06060197;
+__crc_drd_kfree_skb = 0x7edfe159;
+__crc_drd_ptype_head = 0x100cc164;

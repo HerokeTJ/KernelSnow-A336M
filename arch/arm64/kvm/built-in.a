@@ -1,0 +1,106 @@
+!<thin>
+//                                              854       `
+../../../virt/kvm/kvm_main.o/
+../../../virt/kvm/coalesced_mmio.o/
+../../../virt/kvm/eventfd.o/
+../../../virt/kvm/vfio.o/
+../../../virt/kvm/irqchip.o/
+arm.o/
+mmu.o/
+mmio.o/
+psci.o/
+perf.o/
+hypercalls.o/
+pvtime.o/
+inject_fault.o/
+va_layout.o/
+handle_exit.o/
+guest.o/
+debug.o/
+reset.o/
+sys_regs.o/
+vgic-sys-reg-v3.o/
+fpsimd.o/
+pmu.o/
+arch_timer.o/
+trng.o/
+vgic/vgic.o/
+vgic/vgic-init.o/
+vgic/vgic-irqfd.o/
+vgic/vgic-v2.o/
+vgic/vgic-v3.o/
+vgic/vgic-v4.o/
+vgic/vgic-mmio.o/
+vgic/vgic-mmio-v2.o/
+vgic/vgic-mmio-v3.o/
+vgic/vgic-kvm-device.o/
+vgic/vgic-its.o/
+vgic/vgic-debug.o/
+pmu-emul.o/
+hyp/vhe/timer-sr.o/
+hyp/vhe/sysreg-sr.o/
+hyp/vhe/debug-sr.o/
+hyp/vhe/switch.o/
+hyp/vhe/tlb.o/
+hyp/vgic-v3-sr.o/
+hyp/aarch32.o/
+hyp/vgic-v2-cpuif-proxy.o/
+hyp/entry.o/
+hyp/fpsimd.o/
+hyp/hyp-entry.o/
+hyp/exception.o/
+hyp/nvhe/kvm_nvhe.o/
+hyp/pgtable.o/
+hyp/reserved_mem.o/
+/0              0           0     0     644     1186348   `
+/30             0           0     0     644     206276    `
+/66             0           0     0     644     292716    `
+/95             0           0     0     644     247388    `
+/121            0           0     0     644     229528    `
+/150            0           0     0     644     804036    `
+/157            0           0     0     644     416076    `
+/164            0           0     0     644     224456    `
+/172            0           0     0     644     299748    `
+/180            0           0     0     644     194948    `
+/188            0           0     0     644     195504    `
+/202            0           0     0     644     255304    `
+/212            0           0     0     644     198320    `
+/228            0           0     0     644     28448     `
+/241            0           0     0     644     376516    `
+/256            0           0     0     644     380744    `
+/265            0           0     0     644     263708    `
+/274            0           0     0     644     232896    `
+/283            0           0     0     644     617768    `
+/295            0           0     0     644     207152    `
+/314            0           0     0     644     228152    `
+/324            0           0     0     644     228608    `
+/331            0           0     0     644     431740    `
+/345            0           0     0     644     185280    `
+/353            0           0     0     644     326120    `
+/366            0           0     0     644     251048    `
+/384            0           0     0     644     205400    `
+/403            0           0     0     644     234972    `
+/419            0           0     0     644     270384    `
+/435            0           0     0     644     253092    `
+/451            0           0     0     644     268952    `
+/469            0           0     0     644     227480    `
+/490            0           0     0     644     265704    `
+/511            0           0     0     644     376808    `
+/535            0           0     0     644     492256    `
+/552            0           0     0     644     213244    `
+/571            0           0     0     644     327344    `
+/583            0           0     0     644     3332      `
+/603            0           0     0     644     281060    `
+/624            0           0     0     644     227908    `
+/644            0           0     0     644     308108    `
+/662            0           0     0     644     252824    `
+/677            0           0     0     644     401876    `
+/695            0           0     0     644     193456    `
+/710            0           0     0     644     211848    `
+/737            0           0     0     644     5040      `
+/750            0           0     0     644     2840      `
+/764            0           0     0     644     34816     `
+/781            0           0     0     644     196276    `
+/798            0           0     0     644     3706368   `
+/819            0           0     0     644     288504    `
+/834            0           0     0     644     176164    `

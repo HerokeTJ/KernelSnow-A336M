@@ -1,0 +1,2 @@
+__crc___regmap_init_spi = 0x498dadbc;
+__crc___devm_regmap_init_spi = 0xb2658a6f;

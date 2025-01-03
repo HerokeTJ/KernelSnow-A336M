@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/fingerprint.mod := { echo  drivers/fingerprint/fingerprint_common_lsi.o drivers/fingerprint/fingerprint_common.o drivers/fingerprint/el7xx-spi.o drivers/fingerprint/el7xx-spi_data_transfer.o; llvm-nm drivers/fingerprint/fingerprint.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/fingerprint/fingerprint.mod

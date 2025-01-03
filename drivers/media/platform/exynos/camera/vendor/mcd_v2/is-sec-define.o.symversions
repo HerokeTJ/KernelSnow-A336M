@@ -1,0 +1,4 @@
+__crc_is_sec_set_rear3_dualized_rom_probe = 0xdccbc4fe;
+__crc_is_sec_get_sysfs_finfo = 0x95f47e93;
+__crc_is_sec_get_cal_buf = 0xe4f891dd;
+__crc_is_sec_get_cal_buf_rom_data = 0xfbcf3c5d;

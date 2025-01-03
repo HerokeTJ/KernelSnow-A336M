@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/fingerprint.o := rm -f drivers/fingerprint/fingerprint.o.symversions        ; rm -f drivers/fingerprint/fingerprint.o; llvm-ar cDPrsT drivers/fingerprint/fingerprint.o drivers/fingerprint/fingerprint_common_lsi.o drivers/fingerprint/fingerprint_common.o drivers/fingerprint/el7xx-spi.o drivers/fingerprint/el7xx-spi_data_transfer.o

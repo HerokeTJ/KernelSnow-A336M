@@ -1,0 +1,2 @@
+drivers/usb/misc/lvstest.o
+__cfi_slowpath __this_module _dev_err _dev_info devm_kmalloc flush_work kfree kmalloc_caches kmem_cache_alloc_trace kstrtoint kstrtoull msleep printk queue_work_on register_lvs system_wq usb_alloc_dev usb_alloc_urb usb_control_msg usb_deregister usb_find_common_endpoints usb_free_urb usb_poison_urb usb_put_dev usb_register_driver usb_set_device_state usb_submit_urb usbpd_wait_entermode

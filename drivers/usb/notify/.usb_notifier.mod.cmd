@@ -1,0 +1,1 @@
+cmd_drivers/usb/notify/usb_notifier.mod := { echo  drivers/usb/notify/usb_notifier.o; llvm-nm drivers/usb/notify/usb_notifier.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/notify/usb_notifier.mod

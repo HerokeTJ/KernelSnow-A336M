@@ -1,0 +1,7 @@
+__crc_s2mpu14_read_reg = 0x4eac7b81;
+__crc_s2mpu14_bulk_read = 0x280b4ad1;
+__crc_s2mpu14_write_reg = 0xd584baf6;
+__crc_s2mpu14_bulk_write = 0xa603b589;
+__crc_s2mpu14_update_reg = 0x89bb5e08;
+__crc_s2mpu14_call_notifier = 0x56f5ea66;
+__crc_s2mpu14_notifier_init = 0x7a298a99;

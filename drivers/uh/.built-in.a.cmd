@@ -1,0 +1,1 @@
+cmd_drivers/uh/built-in.a := rm -f drivers/uh/built-in.a.symversions      ; rm -f drivers/uh/built-in.a; llvm-ar cDPrST drivers/uh/built-in.a drivers/uh/uh_debug_log.o drivers/uh/rkp.o drivers/uh/kdp.o

@@ -1,0 +1,6 @@
+__crc_vsock_addr_init = 0x73879664;
+__crc_vsock_addr_validate = 0xd95ac116;
+__crc_vsock_addr_bound = 0xbd0f699d;
+__crc_vsock_addr_unbind = 0x751ff010;
+__crc_vsock_addr_equals_addr = 0x2663cb64;
+__crc_vsock_addr_cast = 0x59d943c8;

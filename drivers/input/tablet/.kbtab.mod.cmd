@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/kbtab.mod := { echo  drivers/input/tablet/kbtab.o; llvm-nm drivers/input/tablet/kbtab.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/tablet/kbtab.mod

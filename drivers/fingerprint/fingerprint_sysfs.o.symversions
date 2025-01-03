@@ -1,0 +1,4 @@
+__crc_fingerprint_class = 0x42d85ef6;
+__crc_fingerprint_register = 0x02497929;
+__crc_fingerprint_unregister = 0xd264c2f0;
+__crc_destroy_fingerprint_class = 0xcb01704e;

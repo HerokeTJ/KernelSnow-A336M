@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/manager/modules.order := {   echo drivers/usb/typec/manager/usb_typec_manager.ko;   echo drivers/usb/typec/manager/if_cb_manager.ko; :; } | awk '!x[$$0]++' - > drivers/usb/typec/manager/modules.order

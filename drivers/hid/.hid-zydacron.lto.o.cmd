@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-zydacron.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/hid/hid-zydacron.lto.o  --whole-archive drivers/hid/hid-zydacron.o

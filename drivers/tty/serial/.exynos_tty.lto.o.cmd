@@ -1,0 +1,1 @@
+cmd_drivers/tty/serial/exynos_tty.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/tty/serial/exynos_tty.lto.o -T drivers/tty/serial/exynos_tty.o.symversions --whole-archive drivers/tty/serial/exynos_tty.o

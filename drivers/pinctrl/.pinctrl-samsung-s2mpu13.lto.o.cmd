@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/pinctrl-samsung-s2mpu13.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/pinctrl/pinctrl-samsung-s2mpu13.lto.o  --whole-archive drivers/pinctrl/pinctrl-samsung-s2mpu13.o

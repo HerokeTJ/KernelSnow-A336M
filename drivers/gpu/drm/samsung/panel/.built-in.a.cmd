@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/samsung/panel/built-in.a := rm -f drivers/gpu/drm/samsung/panel/built-in.a.symversions ; rm -f drivers/gpu/drm/samsung/panel/built-in.a; llvm-ar cDPrST drivers/gpu/drm/samsung/panel/built-in.a 

@@ -1,0 +1,1 @@
+cmd_drivers/battery/common/sb_wireless.mod := { echo  drivers/battery/common/sb_wireless.o; llvm-nm drivers/battery/common/sb_wireless.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/common/sb_wireless.mod

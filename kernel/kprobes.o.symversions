@@ -1,0 +1,10 @@
+__crc_register_kprobe = 0xc502eb6d;
+__crc_register_kprobes = 0xa90f3c63;
+__crc_unregister_kprobe = 0x18b23dc5;
+__crc_unregister_kprobes = 0xb8d4235d;
+__crc_register_kretprobe = 0x881262d4;
+__crc_register_kretprobes = 0x5bed414f;
+__crc_unregister_kretprobe = 0x8ea54251;
+__crc_unregister_kretprobes = 0xbdd2f42a;
+__crc_disable_kprobe = 0xb05bd6b8;
+__crc_enable_kprobe = 0xea7d9091;

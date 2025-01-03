@@ -1,0 +1,13 @@
+__crc_tfa_ext_register = 0x19ced71e;
+__crc_tfa98xx_get_tfa_device_from_index = 0xd99676ca;
+__crc_tfa98xx_get_tfa_device_from_channel = 0x402596b9;
+__crc_tfa_run_cal = 0xca146b0a;
+__crc_tfa_get_cal_data = 0xeaaa1bc1;
+__crc_tfa_get_cal_temp = 0x1224c33f;
+__crc_tfa98xx_set_blackbox = 0xd092589c;
+__crc_tfa98xx_get_blackbox_data = 0x38af7e2f;
+__crc_tfa98xx_get_blackbox_data_index = 0x1f1bc89a;
+__crc_tfa_run_vval = 0x1d3f7e29;
+__crc_tfa_get_vval_data = 0x7a32c6cd;
+__crc_tfa98xx_update_spkt_data = 0xb5341fe9;
+__crc_tfa98xx_write_sknt_control = 0x1d797a89;

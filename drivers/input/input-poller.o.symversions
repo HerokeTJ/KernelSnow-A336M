@@ -1,0 +1,5 @@
+__crc_input_setup_polling = 0x921c33d7;
+__crc_input_set_poll_interval = 0xd65e77bb;
+__crc_input_set_min_poll_interval = 0x4c2236a6;
+__crc_input_set_max_poll_interval = 0x107b1ba2;
+__crc_input_get_poll_interval = 0xe8136dfd;

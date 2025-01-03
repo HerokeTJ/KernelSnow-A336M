@@ -1,0 +1,5 @@
+__crc_clocks_calc_mult_shift = 0x62bb09bf;
+__crc___clocksource_update_freq_scale = 0x588a0add;
+__crc___clocksource_register_scale = 0x0b30d744;
+__crc_clocksource_change_rating = 0xde7c64a9;
+__crc_clocksource_unregister = 0xed70fc5b;

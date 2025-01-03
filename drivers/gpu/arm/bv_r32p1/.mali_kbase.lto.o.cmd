@@ -1,0 +1,1 @@
+cmd_drivers/gpu/arm/bv_r32p1/mali_kbase.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/gpu/arm/bv_r32p1/mali_kbase.lto.o -T drivers/gpu/arm/bv_r32p1/mali_kbase.o.symversions --whole-archive drivers/gpu/arm/bv_r32p1/mali_kbase.o

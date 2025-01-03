@@ -1,0 +1,1 @@
+cmd_drivers/muic/slsi/s2mu106/muic_s2mu106.mod := { echo  drivers/muic/slsi/s2mu106/s2mu106-muic.o drivers/muic/slsi/s2mu106/s2mu106-muic-afc.o; llvm-nm drivers/muic/slsi/s2mu106/muic_s2mu106.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/muic/slsi/s2mu106/muic_s2mu106.mod

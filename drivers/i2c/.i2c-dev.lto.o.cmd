@@ -1,0 +1,1 @@
+cmd_drivers/i2c/i2c-dev.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/i2c/i2c-dev.lto.o  --whole-archive drivers/i2c/i2c-dev.o

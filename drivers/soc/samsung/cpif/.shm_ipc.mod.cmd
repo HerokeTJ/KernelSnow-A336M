@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/shm_ipc.mod := { echo  drivers/soc/samsung/cpif/shm_ipc.o; llvm-nm drivers/soc/samsung/cpif/shm_ipc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/cpif/shm_ipc.mod

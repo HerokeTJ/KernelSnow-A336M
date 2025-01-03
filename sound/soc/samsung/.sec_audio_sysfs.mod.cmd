@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/sec_audio_sysfs.mod := { echo  sound/soc/samsung/sec_audio_sysfs.o; llvm-nm sound/soc/samsung/sec_audio_sysfs.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/sec_audio_sysfs.mod

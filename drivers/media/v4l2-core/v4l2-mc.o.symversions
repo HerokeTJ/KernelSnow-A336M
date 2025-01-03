@@ -1,0 +1,9 @@
+__crc_v4l2_mc_create_media_graph = 0xf368a7e9;
+__crc_v4l_enable_media_source = 0x035ec361;
+__crc_v4l_disable_media_source = 0xf695524f;
+__crc_v4l_vb2q_enable_media_source = 0xc42a2126;
+__crc_v4l2_create_fwnode_links_to_pad = 0x8573ae19;
+__crc_v4l2_create_fwnode_links = 0x064df4cc;
+__crc_v4l2_pipeline_pm_get = 0x4d475fda;
+__crc_v4l2_pipeline_pm_put = 0x213d9e9d;
+__crc_v4l2_pipeline_link_notify = 0x8b4f4749;

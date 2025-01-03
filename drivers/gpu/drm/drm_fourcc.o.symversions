@@ -1,0 +1,8 @@
+__crc_drm_mode_legacy_fb_format = 0x29f078d1;
+__crc_drm_driver_legacy_fb_format = 0x39a59477;
+__crc_drm_get_format_name = 0x4e095f11;
+__crc_drm_format_info = 0xf826786c;
+__crc_drm_get_format_info = 0x400fbf4b;
+__crc_drm_format_info_block_width = 0xb9f56e22;
+__crc_drm_format_info_block_height = 0xeef14d8c;
+__crc_drm_format_info_min_pitch = 0xc7f0f027;

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.mod := { echo  drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.o; llvm-nm drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.mod

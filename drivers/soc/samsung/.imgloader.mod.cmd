@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/imgloader.mod := { echo  drivers/soc/samsung/imgloader.o; llvm-nm drivers/soc/samsung/imgloader.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/imgloader.mod

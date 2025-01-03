@@ -1,0 +1,1 @@
+cmd_drivers/dma/pl330.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/dma/pl330.lto.o -T drivers/dma/pl330.o.symversions --whole-archive drivers/dma/pl330.o

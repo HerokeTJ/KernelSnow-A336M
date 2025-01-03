@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/built-in.a := rm -f drivers/power/reset/built-in.a.symversions  ; rm -f drivers/power/reset/built-in.a; llvm-ar cDPrST drivers/power/reset/built-in.a drivers/power/reset/hisi-reboot.o

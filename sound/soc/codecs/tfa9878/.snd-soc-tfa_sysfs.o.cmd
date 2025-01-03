@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o := rm -f sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o.symversions        ; rm -f sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o; llvm-ar cDPrsT sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o sound/soc/codecs/tfa9878/tfa_sysfs.o sound/soc/codecs/tfa9878/tfa_cal.o sound/soc/codecs/tfa9878/tfa_vval.o sound/soc/codecs/tfa9878/tfa_stc.o

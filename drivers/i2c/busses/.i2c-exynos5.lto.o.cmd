@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-exynos5.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/i2c/busses/i2c-exynos5.lto.o -T drivers/i2c/busses/i2c-exynos5.o.symversions --whole-archive drivers/i2c/busses/i2c-exynos5.o

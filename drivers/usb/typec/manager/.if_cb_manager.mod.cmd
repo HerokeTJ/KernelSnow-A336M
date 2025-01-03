@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/manager/if_cb_manager.mod := { echo  drivers/usb/typec/manager/if_cb_manager.o; llvm-nm drivers/usb/typec/manager/if_cb_manager.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/typec/manager/if_cb_manager.mod

@@ -1,0 +1,12 @@
+__crc_register_chrdev_region = 0x3fd78f3b;
+__crc_unregister_chrdev_region = 0x6091b333;
+__crc_alloc_chrdev_region = 0xe3ec2f2b;
+__crc_cdev_init = 0x95613f30;
+__crc_cdev_alloc = 0xe2d07004;
+__crc_cdev_del = 0x9e1bac16;
+__crc_cdev_add = 0x2e6debbe;
+__crc_cdev_set_parent = 0x2cf5e714;
+__crc_cdev_device_add = 0x832f346c;
+__crc_cdev_device_del = 0x4537a658;
+__crc___register_chrdev = 0xbb0a7735;
+__crc___unregister_chrdev = 0x6bc3fbc0;

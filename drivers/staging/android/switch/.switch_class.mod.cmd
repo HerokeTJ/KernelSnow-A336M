@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/switch/switch_class.mod := { echo  drivers/staging/android/switch/switch_class.o; llvm-nm drivers/staging/android/switch/switch_class.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/staging/android/switch/switch_class.mod

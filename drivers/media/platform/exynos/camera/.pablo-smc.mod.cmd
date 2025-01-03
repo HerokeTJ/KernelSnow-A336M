@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/pablo-smc.mod := { echo  drivers/media/platform/exynos/camera/lib/pablo-smc.o; llvm-nm drivers/media/platform/exynos/camera/pablo-smc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/camera/pablo-smc.mod

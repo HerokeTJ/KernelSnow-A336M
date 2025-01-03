@@ -1,0 +1,7 @@
+drivers/misc/samsung/scsc/scsc_log_collection.ko
+drivers/misc/samsung/scsc/scsc_logring.ko
+drivers/misc/samsung/scsc/scsc_platform_mif.ko
+drivers/misc/samsung/scsc/scsc_mx.ko
+drivers/misc/samsung/scsc/mx_client_test.ko
+drivers/misc/samsung/scsc/scsc_mmap.ko
+drivers/misc/samsung/scsc/scsc_mx250_fm.ko

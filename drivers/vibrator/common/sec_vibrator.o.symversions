@@ -1,0 +1,2 @@
+__crc_sec_vibrator_register = 0x7b358786;
+__crc_sec_vibrator_unregister = 0x3416fbd0;

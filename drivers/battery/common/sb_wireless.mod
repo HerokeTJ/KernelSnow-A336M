@@ -1,0 +1,2 @@
+drivers/battery/common/sb_wireless.o
+__cfi_slowpath kmalloc_caches kmem_cache_alloc_trace printk sb_notify_register sb_sysfs_add_attrs sb_wireless_set_op sb_wrl_op_mode_str scnprintf

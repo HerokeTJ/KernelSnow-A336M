@@ -1,0 +1,14 @@
+__crc_sm_dc_create_pd_instance = 0x4f40200a;
+__crc_sm_dc_create_x2bat_instance = 0xc8231020;
+__crc_sm_dc_verify_configuration = 0x34f1b4cd;
+__crc_sm_dc_destroy_instance = 0xf3db03b9;
+__crc_sm_dc_report_error_status = 0xbbfdc090;
+__crc_sm_dc_report_interrupt_event = 0x34c9cf33;
+__crc_sm_dc_get_current_state = 0x488b18e7;
+__crc_sm_dc_start_charging = 0x32eb7ca5;
+__crc_sm_dc_stop_charging = 0x587c714b;
+__crc_sm_dc_start_manual_charging = 0x41383e6c;
+__crc_sm_dc_set_ta_volt_by_soc = 0x78dc26f1;
+__crc_sm_dc_set_target_vbat = 0xb50bd712;
+__crc_sm_dc_set_target_ibus = 0x8b04f396;
+__crc_sm_dc_set_target_ibat = 0xc2c9d5d3;

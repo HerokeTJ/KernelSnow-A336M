@@ -1,0 +1,54 @@
+!<thin>
+//                                              362       `
+dm-uevent.o/
+dm.o/
+dm-table.o/
+dm-target.o/
+dm-linear.o/
+dm-stripe.o/
+dm-ioctl.o/
+dm-io.o/
+dm-kcopyd.o/
+dm-sysfs.o/
+dm-stats.o/
+dm-rq.o/
+dm-builtin.o/
+dm-bufio.o/
+dm-crypt.o/
+dm-default-key.o/
+dm-snap.o/
+dm-exception-store.o/
+dm-snap-transient.o/
+dm-snap-persistent.o/
+dm-verity-fec.o/
+dm-verity-target.o/
+dm-verity-debug.o/
+alta_bigdata.o/
+dm-bow.o/
+dm-user.o/
+/0              0           0     0     644     194644    `
+/13             0           0     0     644     547148    `
+/19             0           0     0     644     334036    `
+/31             0           0     0     644     202616    `
+/44             0           0     0     644     201972    `
+/57             0           0     0     644     239448    `
+/70             0           0     0     644     377908    `
+/82             0           0     0     644     237620    `
+/91             0           0     0     644     281684    `
+/104            0           0     0     644     196404    `
+/116            0           0     0     644     323560    `
+/128            0           0     0     644     245728    `
+/137            0           0     0     644     180720    `
+/151            0           0     0     644     457440    `
+/163            0           0     0     644     676452    `
+/175            0           0     0     644     195084    `
+/193            0           0     0     644     493840    `
+/204            0           0     0     644     184924    `
+/226            0           0     0     644     166024    `
+/247            0           0     0     644     218544    `
+/269            0           0     0     644     220508    `
+/286            0           0     0     644     297436    `
+/306            0           0     0     644     225824    `
+/325            0           0     0     644     175992    `
+/341            0           0     0     644     306436    `
+/351            0           0     0     644     253616    `

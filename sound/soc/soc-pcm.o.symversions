@@ -1,0 +1,11 @@
+__crc_snd_soc_runtime_action = 0x2dd4888c;
+__crc_snd_soc_set_runtime_hwparams = 0x4056c6e4;
+__crc_snd_soc_runtime_calc_hw = 0x5aa06655;
+__crc_dpcm_be_dai_trigger = 0xa7b6041a;
+__crc_snd_soc_dpcm_runtime_update = 0x6809c106;
+__crc_snd_soc_dpcm_fe_can_update = 0xc055368b;
+__crc_snd_soc_dpcm_be_can_update = 0x569da211;
+__crc_snd_soc_dpcm_get_substream = 0xa85ff24d;
+__crc_snd_soc_dpcm_can_be_free_stop = 0xd053a2a0;
+__crc_snd_soc_dpcm_can_be_params = 0x758d6910;
+__crc_snd_soc_dpcm_can_be_prepared = 0xc2283887;

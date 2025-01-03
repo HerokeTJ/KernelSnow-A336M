@@ -1,0 +1,2 @@
+drivers/samsung/sec_crash_key_user.o
+panic printk sec_kn_register_notifier sec_kn_unregister_notifier secdbg_mode_enter_upload

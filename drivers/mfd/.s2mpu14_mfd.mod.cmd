@@ -1,0 +1,1 @@
+cmd_drivers/mfd/s2mpu14_mfd.mod := { echo  drivers/mfd/s2mpu14_core.o drivers/mfd/s2mpu14_notifier.o; llvm-nm drivers/mfd/s2mpu14_mfd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/mfd/s2mpu14_mfd.mod

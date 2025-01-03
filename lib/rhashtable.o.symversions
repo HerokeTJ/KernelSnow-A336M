@@ -1,0 +1,14 @@
+__crc_rhashtable_insert_slow = 0xe086059f;
+__crc_rhashtable_walk_enter = 0xd0bee905;
+__crc_rhashtable_walk_exit = 0xe48c117d;
+__crc_rhashtable_walk_start_check = 0x507873c7;
+__crc_rhashtable_walk_next = 0xfebb4111;
+__crc_rhashtable_walk_peek = 0xc45a2ba8;
+__crc_rhashtable_walk_stop = 0x7121e44c;
+__crc_rhashtable_init = 0x1e449fb4;
+__crc_rhltable_init = 0xc73580c5;
+__crc_rhashtable_free_and_destroy = 0x02f09093;
+__crc_rhashtable_destroy = 0x0a5363bc;
+__crc___rht_bucket_nested = 0xd0d156e9;
+__crc_rht_bucket_nested = 0xb7f990e9;
+__crc_rht_bucket_nested_insert = 0x9920ae2a;

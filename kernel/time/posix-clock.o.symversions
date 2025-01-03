@@ -1,0 +1,2 @@
+__crc_posix_clock_register = 0x83d63a52;
+__crc_posix_clock_unregister = 0x78a471cf;

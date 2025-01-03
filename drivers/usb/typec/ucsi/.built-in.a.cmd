@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/ucsi/built-in.a := rm -f drivers/usb/typec/ucsi/built-in.a.symversions   ; cat drivers/usb/typec/ucsi/ucsi.o.symversions >> drivers/usb/typec/ucsi/built-in.a.symversions    ; rm -f drivers/usb/typec/ucsi/built-in.a; llvm-ar cDPrST drivers/usb/typec/ucsi/built-in.a drivers/usb/typec/ucsi/ucsi.o drivers/usb/typec/ucsi/trace.o drivers/usb/typec/ucsi/psy.o

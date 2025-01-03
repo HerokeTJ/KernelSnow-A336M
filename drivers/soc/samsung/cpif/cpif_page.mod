@@ -1,0 +1,2 @@
+drivers/soc/samsung/cpif/cpif_page.o
+___ratelimit __alloc_pages_nodemask __free_pages arm64_const_caps_ready cpif_cur_page_size cpif_get_cur_page cpif_memlog_log_enabled cpif_memlog_log_obj cpif_page_alloc cpif_page_init_tmp_page cpif_page_pool_create cpif_page_pool_delete cpu_hwcap_keys kasan_flag_enabled kvfree kvmalloc_node memlog_write_printf printk

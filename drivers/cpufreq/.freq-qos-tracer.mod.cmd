@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/freq-qos-tracer.mod := { echo  drivers/cpufreq/freq-qos-tracer.o; llvm-nm drivers/cpufreq/freq-qos-tracer.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/cpufreq/freq-qos-tracer.mod

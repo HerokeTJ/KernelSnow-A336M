@@ -1,0 +1,1 @@
+cmd_drivers/block/zram/zram.mod := { echo  drivers/block/zram/zcomp.o drivers/block/zram/zram_drv.o; llvm-nm drivers/block/zram/zram.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/block/zram/zram.mod

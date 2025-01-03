@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/gdc/gdc.mod := { echo  drivers/media/platform/exynos/camera-pp/gdc/camerapp-gdc-core.o drivers/media/platform/exynos/camera-pp/gdc/camerapp-hw-api-gdc-v220.o; llvm-nm drivers/media/platform/exynos/camera-pp/gdc/gdc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/camera-pp/gdc/gdc.mod

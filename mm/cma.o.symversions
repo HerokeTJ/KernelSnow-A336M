@@ -1,0 +1,4 @@
+__crc_cma_get_name = 0x507151bb;
+__crc_cma_alloc = 0x6e17861c;
+__crc_cma_release = 0xa00ed463;
+__crc_cma_for_each_area = 0x86d07c22;

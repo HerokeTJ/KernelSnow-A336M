@@ -1,0 +1,1 @@
+cmd_drivers/samsung/pm/sec_thermistor.mod := { echo  drivers/samsung/pm/sec_thermistor.o; llvm-nm drivers/samsung/pm/sec_thermistor.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/pm/sec_thermistor.mod

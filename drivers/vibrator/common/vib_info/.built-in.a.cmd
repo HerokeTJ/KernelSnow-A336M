@@ -1,0 +1,1 @@
+cmd_drivers/vibrator/common/vib_info/built-in.a := rm -f drivers/vibrator/common/vib_info/built-in.a.symversions ; rm -f drivers/vibrator/common/vib_info/built-in.a; llvm-ar cDPrST drivers/vibrator/common/vib_info/built-in.a 

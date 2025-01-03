@@ -1,0 +1,1 @@
+cmd_drivers/clocksource/exynos_mct.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/clocksource/exynos_mct.lto.o -T drivers/clocksource/exynos_mct.o.symversions --whole-archive drivers/clocksource/exynos_mct.o

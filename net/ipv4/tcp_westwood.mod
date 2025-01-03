@@ -1,0 +1,2 @@
+net/ipv4/tcp_westwood.o
+__this_module __usecs_to_jiffies jiffies jiffies_to_usecs tcp_register_congestion_control tcp_reno_cong_avoid tcp_reno_ssthresh tcp_reno_undo_cwnd tcp_unregister_congestion_control

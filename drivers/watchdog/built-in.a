@@ -1,0 +1,8 @@
+!<thin>
+//                                              56        `
+watchdog_core.o/
+watchdog_dev.o/
+s3c2410_builtin_wdt.o/
+/0              0           0     0     644     169104    `
+/17             0           0     0     644     305452    `
+/33             0           0     0     644     86776     `

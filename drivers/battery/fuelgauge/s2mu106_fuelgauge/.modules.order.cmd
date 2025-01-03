@@ -1,0 +1,1 @@
+cmd_drivers/battery/fuelgauge/s2mu106_fuelgauge/modules.order := {   echo drivers/battery/fuelgauge/s2mu106_fuelgauge/s2mu106_fuelgauge.ko; :; } | awk '!x[$$0]++' - > drivers/battery/fuelgauge/s2mu106_fuelgauge/modules.order

@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/s2mu106_charger/modules.order := {   echo drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.ko;   echo drivers/battery/charger/s2mu106_charger/s2mu106_charger.ko; :; } | awk '!x[$$0]++' - > drivers/battery/charger/s2mu106_charger/modules.order

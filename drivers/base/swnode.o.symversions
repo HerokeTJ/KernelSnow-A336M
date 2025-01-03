@@ -1,0 +1,16 @@
+__crc_is_software_node = 0x4f9d6ab3;
+__crc_to_software_node = 0xa6afda3c;
+__crc_software_node_fwnode = 0xbbd13a8a;
+__crc_property_entries_dup = 0x53c089f5;
+__crc_property_entries_free = 0x01a0cb78;
+__crc_software_node_find_by_name = 0xda8e1302;
+__crc_software_node_register_nodes = 0x31839ad3;
+__crc_software_node_unregister_nodes = 0x90ad66b1;
+__crc_software_node_register_node_group = 0x7a9e4c23;
+__crc_software_node_unregister_node_group = 0x8fc12788;
+__crc_software_node_register = 0xb48f0638;
+__crc_software_node_unregister = 0x0cbe3ee2;
+__crc_fwnode_create_software_node = 0x1cedf5f8;
+__crc_fwnode_remove_software_node = 0xf4405b99;
+__crc_device_add_software_node = 0xdf7e7bf0;
+__crc_device_remove_software_node = 0xda17df81;

@@ -1,0 +1,15 @@
+__crc_tcf_action_check_ctrlact = 0x999ba679;
+__crc_tcf_action_set_ctrlact = 0x505cbfc2;
+__crc_tcf_idr_release = 0x911cc0e0;
+__crc_tcf_generic_walker = 0xa5f68a41;
+__crc_tcf_idr_search = 0x6badd139;
+__crc_tcf_idr_create = 0x15c2828c;
+__crc_tcf_idr_create_from_flags = 0x933c9ced;
+__crc_tcf_idr_cleanup = 0xcfc1f0d1;
+__crc_tcf_idr_check_alloc = 0x688de1bf;
+__crc_tcf_idrinfo_destroy = 0x09370271;
+__crc_tcf_register_action = 0x61b5a701;
+__crc_tcf_unregister_action = 0xc75ae60c;
+__crc_tcf_action_exec = 0x0ef56adf;
+__crc_tcf_action_dump_1 = 0xf63989b4;
+__crc_tcf_action_update_stats = 0x80038c25;

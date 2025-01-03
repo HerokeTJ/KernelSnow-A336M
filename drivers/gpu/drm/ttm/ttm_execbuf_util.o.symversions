@@ -1,0 +1,3 @@
+__crc_ttm_eu_backoff_reservation = 0x4061ee9a;
+__crc_ttm_eu_reserve_buffers = 0x3d2a201b;
+__crc_ttm_eu_fence_buffer_objects = 0x932ffee4;

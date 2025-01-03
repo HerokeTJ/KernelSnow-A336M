@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/vendor/mcd_v2/modules.order := {   echo drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-eeprom.ko;   echo drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-otprom.ko; :; } | awk '!x[$$0]++' - > drivers/media/platform/exynos/camera/vendor/mcd_v2/modules.order

@@ -1,0 +1,7 @@
+__crc_cfg80211_chandef_create = 0xef265f27;
+__crc_cfg80211_chandef_valid = 0x2a5d816f;
+__crc_cfg80211_chandef_compatible = 0x3d8e5894;
+__crc_cfg80211_chandef_dfs_required = 0x8b2ce24f;
+__crc_cfg80211_chandef_usable = 0xcaa0146f;
+__crc_cfg80211_reg_can_beacon = 0x03880859;
+__crc_cfg80211_reg_can_beacon_relax = 0x8785fc4d;

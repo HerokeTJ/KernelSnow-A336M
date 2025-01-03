@@ -1,0 +1,104 @@
+!<thin>
+//                                              1192      `
+i2c/ir-kbd-i2c.o/
+mc/mc-device.o/
+mc/mc-devnode.o/
+mc/mc-entity.o/
+mc/mc-request.o/
+mc/mc-dev-allocator.o/
+v4l2-core/v4l2-dev.o/
+v4l2-core/v4l2-ioctl.o/
+v4l2-core/v4l2-device.o/
+v4l2-core/v4l2-fh.o/
+v4l2-core/v4l2-event.o/
+v4l2-core/v4l2-ctrls.o/
+v4l2-core/v4l2-subdev.o/
+v4l2-core/v4l2-clk.o/
+v4l2-core/v4l2-async.o/
+v4l2-core/v4l2-common.o/
+v4l2-core/v4l2-compat-ioctl32.o/
+v4l2-core/v4l2-trace.o/
+v4l2-core/v4l2-mc.o/
+v4l2-core/v4l2-spi.o/
+v4l2-core/v4l2-i2c.o/
+v4l2-core/v4l2-dv-timings.o/
+v4l2-core/v4l2-mem2mem.o/
+rc/rc-main.o/
+rc/rc-ir-raw.o/
+rc/lirc_dev.o/
+rc/keymaps/rc-cec.o/
+rc/bpf-lirc.o/
+cec/core/cec-core.o/
+cec/core/cec-adap.o/
+cec/core/cec-api.o/
+cec/core/cec-notifier.o/
+cec/core/cec-pin.o/
+common/videobuf2/videobuf2-core.o/
+common/videobuf2/vb2-trace.o/
+common/videobuf2/videobuf2-v4l2.o/
+common/videobuf2/videobuf2-memops.o/
+common/videobuf2/videobuf2-vmalloc.o/
+common/videobuf2/videobuf2-dma-contig.o/
+usb/uvc/uvc_driver.o/
+usb/uvc/uvc_queue.o/
+usb/uvc/uvc_v4l2.o/
+usb/uvc/uvc_video.o/
+usb/uvc/uvc_ctrl.o/
+usb/uvc/uvc_status.o/
+usb/uvc/uvc_isight.o/
+usb/uvc/uvc_debugfs.o/
+usb/uvc/uvc_metadata.o/
+usb/uvc/uvc_entity.o/
+usb/gspca/gspca.o/
+usb/gspca/autogain_functions.o/
+/0              0           0     0     644     218328    `
+/18             0           0     0     644     291872    `
+/34             0           0     0     644     163452    `
+/51             0           0     0     644     224364    `
+/67             0           0     0     644     187640    `
+/84             0           0     0     644     158600    `
+/107            0           0     0     644     402800    `
+/129            0           0     0     644     539988    `
+/153            0           0     0     644     220036    `
+/178            0           0     0     644     183064    `
+/199            0           0     0     644     180368    `
+/223            0           0     0     644     631024    `
+/247            0           0     0     644     299196    `
+/272            0           0     0     644     166016    `
+/294            0           0     0     644     247308    `
+/318            0           0     0     644     220420    `
+/343            0           0     0     644     2337340   `
+/376            0           0     0     644     271924    `
+/400            0           0     0     644     207428    `
+/421            0           0     0     644     175976    `
+/443            0           0     0     644     180172    `
+/465            0           0     0     644     66788     `
+/494            0           0     0     644     381852    `
+/520            0           0     0     644     278172    `
+/534            0           0     0     644     194848    `
+/550            0           0     0     644     241880    `
+/565            0           0     0     644     5920      `
+/586            0           0     0     644     349064    `
+/601            0           0     0     644     195120    `
+/622            0           0     0     644     331668    `
+/643            0           0     0     644     246656    `
+/663            0           0     0     644     175680    `
+/688            0           0     0     644     207284    `
+/708            0           0     0     644     412916    `
+/743            0           0     0     644     221012    `
+/773            0           0     0     644     304064    `
+/808            0           0     0     644     127624    `
+/845            0           0     0     644     178756    `
+/883            0           0     0     644     198276    `
+/924            0           0     0     644     391648    `
+/946            0           0     0     644     246516    `
+/967            0           0     0     644     412616    `
+/987            0           0     0     644     321664    `
+/1008           0           0     0     644     395788    `
+/1028           0           0     0     644     214776    `
+/1050           0           0     0     644     189228    `
+/1072           0           0     0     644     205552    `
+/1095           0           0     0     644     230692    `
+/1119           0           0     0     644     194404    `
+/1141           0           0     0     644     358464    `
+/1160           0           0     0     644     222224    `

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/exynos-coresight.mod := { echo  drivers/soc/samsung/debug/exynos-coresight.o; llvm-nm drivers/soc/samsung/debug/exynos-coresight.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/exynos-coresight.mod

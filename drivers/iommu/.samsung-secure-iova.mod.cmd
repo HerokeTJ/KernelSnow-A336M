@@ -1,0 +1,1 @@
+cmd_drivers/iommu/samsung-secure-iova.mod := { echo  drivers/iommu/samsung-secure-iova.o; llvm-nm drivers/iommu/samsung-secure-iova.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/iommu/samsung-secure-iova.mod

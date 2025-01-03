@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-topseed.mod := { echo  drivers/hid/hid-topseed.o; llvm-nm drivers/hid/hid-topseed.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-topseed.mod

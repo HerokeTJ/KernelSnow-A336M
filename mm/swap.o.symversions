@@ -1,0 +1,13 @@
+__crc___put_page = 0x1022e36e;
+__crc_put_pages_list = 0xf0009fee;
+__crc_get_kernel_pages = 0x3b413908;
+__crc_get_kernel_page = 0x1f2ceac8;
+__crc_mark_page_accessed = 0xb2c27e90;
+__crc_lru_cache_add = 0xd8e9d5de;
+__crc_lru_cache_enable = 0x702663ed;
+__crc_lru_cache_disable = 0x308165ec;
+__crc_release_pages = 0x8eefcb0d;
+__crc___pagevec_release = 0x0e26e5ad;
+__crc_pagevec_lookup_range = 0x10791c48;
+__crc_pagevec_lookup_range_tag = 0xf059efc4;
+__crc_pagevec_lookup_range_nr_tag = 0x9c8d592f;

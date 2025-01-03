@@ -1,0 +1,2 @@
+drivers/dma/samsung-dma.o
+__cfi_slowpath __pl330_prep_dma_cyclic _dev_err arm64_const_caps_ready cpu_hwcap_keys dma_release_channel dma_request_chan memstart_addr pl330_dma_debug pl330_dma_getposition printk samsung_dmadev_get_ops sg_init_table

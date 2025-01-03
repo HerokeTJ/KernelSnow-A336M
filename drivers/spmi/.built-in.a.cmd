@@ -1,0 +1,1 @@
+cmd_drivers/spmi/built-in.a := rm -f drivers/spmi/built-in.a.symversions   ; cat drivers/spmi/spmi.o.symversions >> drivers/spmi/built-in.a.symversions; rm -f drivers/spmi/built-in.a; llvm-ar cDPrST drivers/spmi/built-in.a drivers/spmi/spmi.o

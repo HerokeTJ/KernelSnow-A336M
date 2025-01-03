@@ -1,0 +1,16 @@
+!<thin>
+//                                              124       `
+hdmi.o/
+backlight/backlight.o/
+fbdev/core/fb_cmdline.o/
+display_timing.o/
+videomode.o/
+of_display_timing.o/
+of_videomode.o/
+/0              0           0     0     644     182092    `
+/8              0           0     0     644     203172    `
+/31             0           0     0     644     11788     `
+/56             0           0     0     644     7332      `
+/74             0           0     0     644     9848      `
+/87             0           0     0     644     82032     `
+/108            0           0     0     644     60484     `

@@ -1,0 +1,3 @@
+__crc_of_get_panel_regulator = 0x6f0cf669;
+__crc_panel_regulator_create = 0xdd331a50;
+__crc_panel_regulator_destroy = 0x89fdb17a;

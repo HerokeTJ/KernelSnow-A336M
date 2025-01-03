@@ -1,0 +1,2 @@
+drivers/samsung/pm/sec_wakeup_cpu_allocator.o
+__platform_driver_register __this_module arm64_const_caps_ready cpu_hwcap_keys of_property_read_variable_u32_array platform_driver_unregister printk set_cpus_allowed_ptr

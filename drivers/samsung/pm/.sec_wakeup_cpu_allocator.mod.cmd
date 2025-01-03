@@ -1,0 +1,1 @@
+cmd_drivers/samsung/pm/sec_wakeup_cpu_allocator.mod := { echo  drivers/samsung/pm/sec_wakeup_cpu_allocator.o; llvm-nm drivers/samsung/pm/sec_wakeup_cpu_allocator.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/pm/sec_wakeup_cpu_allocator.mod

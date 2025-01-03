@@ -1,0 +1,11 @@
+__crc_muic_notifier_set_new_noti = 0xcdbf4a60;
+__crc_muic_notifier_register = 0x7cbcf117;
+__crc_muic_notifier_unregister = 0x7548e7b9;
+__crc_muic_pdic_notifier_register = 0xe3c36145;
+__crc_muic_pdic_notifier_unregister = 0x2aa52b92;
+__crc_muic_notifier_attach_attached_dev = 0x0b4f94af;
+__crc_muic_pdic_notifier_attach_attached_dev = 0xfb489c22;
+__crc_muic_pdic_notifier_detach_attached_dev = 0x7bedb8da;
+__crc_muic_notifier_detach_attached_dev = 0x8beab057;
+__crc_muic_notifier_logically_attach_attached_dev = 0x971e5690;
+__crc_muic_notifier_logically_detach_attached_dev = 0x17bb7268;

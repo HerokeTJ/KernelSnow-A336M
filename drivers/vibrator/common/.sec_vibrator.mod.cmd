@@ -1,0 +1,1 @@
+cmd_drivers/vibrator/common/sec_vibrator.mod := { echo  drivers/vibrator/common/sec_vibrator.o; llvm-nm drivers/vibrator/common/sec_vibrator.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/vibrator/common/sec_vibrator.mod

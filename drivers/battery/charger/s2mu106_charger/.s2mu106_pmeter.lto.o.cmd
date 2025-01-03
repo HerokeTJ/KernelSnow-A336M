@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.lto.o  --whole-archive drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.o

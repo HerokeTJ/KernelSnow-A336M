@@ -1,0 +1,4 @@
+__crc_usbpd_policy_work = 0x131a02c2;
+__crc_usbpd_init_policy = 0x68921c15;
+__crc_usbpd_kick_policy_work = 0x1f456d02;
+__crc_usbpd_cancel_policy_work = 0x0a6988e4;

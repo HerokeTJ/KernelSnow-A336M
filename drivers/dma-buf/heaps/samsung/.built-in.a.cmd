@@ -1,0 +1,1 @@
+cmd_drivers/dma-buf/heaps/samsung/built-in.a := rm -f drivers/dma-buf/heaps/samsung/built-in.a.symversions  ; rm -f drivers/dma-buf/heaps/samsung/built-in.a; llvm-ar cDPrST drivers/dma-buf/heaps/samsung/built-in.a drivers/dma-buf/heaps/samsung/hpa_heap.o

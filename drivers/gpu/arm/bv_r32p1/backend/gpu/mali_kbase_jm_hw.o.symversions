@@ -1,0 +1,5 @@
+__crc_kbase_job_slot_init = 0x6c706eea;
+__crc_kbase_job_slot_term = 0xc5988ede;
+__crc_kbase_prepare_to_reset_gpu = 0x14f0707c;
+__crc_kbase_reset_gpu = 0x5499445f;
+__crc_kbase_reset_gpu_wait = 0x9a6e3c78;

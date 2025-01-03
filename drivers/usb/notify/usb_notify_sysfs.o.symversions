@@ -1,0 +1,5 @@
+__crc_usb_notify_dev_uevent = 0x6edbca29;
+__crc_usb_notify_dev_register = 0x707d01ba;
+__crc_usb_notify_dev_unregister = 0xea224d5d;
+__crc_usb_notify_class_init = 0x7a331052;
+__crc_usb_notify_class_exit = 0xcf6c0172;

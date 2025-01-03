@@ -1,0 +1,3 @@
+__crc_devm_rtc_allocate_device = 0x2bedc5ef;
+__crc___rtc_register_device = 0xfd8cab20;
+__crc_devm_rtc_device_register = 0x3614a710;

@@ -1,0 +1,6 @@
+__crc___tracepoint_usb_gadget_connect = 0x5b9cc4fa;
+__crc___traceiter_usb_gadget_connect = 0x7b576f56;
+__crc___SCK__tp_func_usb_gadget_connect = 0x20422080;
+__crc___tracepoint_usb_gadget_disconnect = 0x574ab5a6;
+__crc___traceiter_usb_gadget_disconnect = 0xa39d4339;
+__crc___SCK__tp_func_usb_gadget_disconnect = 0x55559160;

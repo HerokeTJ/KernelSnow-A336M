@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/scsc_mx.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/misc/samsung/scsc/scsc_mx.lto.o -T drivers/misc/samsung/scsc/scsc_mx.o.symversions --whole-archive drivers/misc/samsung/scsc/scsc_mx.o

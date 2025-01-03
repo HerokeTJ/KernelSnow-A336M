@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/scsc/mx_client_test.mod := { echo  drivers/misc/samsung/scsc/client_test.o; llvm-nm drivers/misc/samsung/scsc/mx_client_test.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/samsung/scsc/mx_client_test.mod

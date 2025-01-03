@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-keytouch.mod := { echo  drivers/hid/hid-keytouch.o; llvm-nm drivers/hid/hid-keytouch.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-keytouch.mod

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix/berlin/goodix_ts_berlin.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/input/touchscreen/goodix/berlin/goodix_ts_berlin.lto.o  --whole-archive drivers/input/touchscreen/goodix/berlin/goodix_ts_berlin.o

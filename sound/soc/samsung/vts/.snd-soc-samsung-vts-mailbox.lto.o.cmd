@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.lto.o -T sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.o.symversions --whole-archive sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.o

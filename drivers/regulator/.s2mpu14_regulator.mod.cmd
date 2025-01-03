@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpu14_regulator.mod := { echo  drivers/regulator/s2mpu14_regulator.o; llvm-nm drivers/regulator/s2mpu14_regulator.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/regulator/s2mpu14_regulator.mod

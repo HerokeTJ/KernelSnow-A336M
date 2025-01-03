@@ -1,0 +1,6 @@
+__crc_isp_cooling_get_level = 0xf11c798c;
+__crc_isp_cooling_get_fps = 0xe488bda6;
+__crc_exynos_tmu_isp_add_notifier = 0x56e25dd1;
+__crc_isp_cooling_register = 0x7349bbf8;
+__crc_of_isp_cooling_register = 0x6824ead6;
+__crc_isp_cooling_unregister = 0x6f6f7685;

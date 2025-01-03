@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/built-in.a := rm -f drivers/net/wireless/built-in.a.symversions    ; rm -f drivers/net/wireless/built-in.a; llvm-ar cDPrST drivers/net/wireless/built-in.a drivers/net/wireless/microchip/built-in.a drivers/net/wireless/broadcom/built-in.a

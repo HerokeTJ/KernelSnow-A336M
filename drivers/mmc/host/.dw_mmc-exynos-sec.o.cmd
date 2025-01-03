@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/dw_mmc-exynos-sec.o := rm -f drivers/mmc/host/dw_mmc-exynos-sec.o.symversions      ; rm -f drivers/mmc/host/dw_mmc-exynos-sec.o; llvm-ar cDPrsT drivers/mmc/host/dw_mmc-exynos-sec.o drivers/mmc/host/dw_mmc-exynos.o drivers/mmc/host/mmc-sec-feature.o drivers/mmc/host/mmc-sec-sysfs.o

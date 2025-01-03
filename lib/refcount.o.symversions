@@ -1,0 +1,6 @@
+__crc_refcount_warn_saturate = 0x0296695f;
+__crc_refcount_dec_if_one = 0xf915179e;
+__crc_refcount_dec_not_one = 0xe441e95a;
+__crc_refcount_dec_and_mutex_lock = 0x55eb4a7f;
+__crc_refcount_dec_and_lock = 0xd9e8aee7;
+__crc_refcount_dec_and_lock_irqsave = 0x3d5bb3fd;

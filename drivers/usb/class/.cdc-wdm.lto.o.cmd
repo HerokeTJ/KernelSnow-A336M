@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/cdc-wdm.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/class/cdc-wdm.lto.o -T drivers/usb/class/cdc-wdm.o.symversions --whole-archive drivers/usb/class/cdc-wdm.o

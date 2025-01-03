@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/hardlockup-watchdog.mod := { echo  drivers/soc/samsung/debug/hardlockup-watchdog.o; llvm-nm drivers/soc/samsung/debug/hardlockup-watchdog.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/hardlockup-watchdog.mod

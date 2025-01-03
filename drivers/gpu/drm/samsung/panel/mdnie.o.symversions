@@ -1,0 +1,7 @@
+__crc_mdnie_get_maptbl_index = 0x3241e095;
+__crc_mdnie_find_maptbl = 0xecc55913;
+__crc_mdnie_find_etc_maptbl = 0x8d4d065e;
+__crc_mdnie_set_def_wrgb = 0x97756f0b;
+__crc_mdnie_set_cur_wrgb = 0x5954739a;
+__crc_mdnie_cur_wrgb_to_byte_array = 0xff07db13;
+__crc_mdnie_update_wrgb = 0xd0afced6;

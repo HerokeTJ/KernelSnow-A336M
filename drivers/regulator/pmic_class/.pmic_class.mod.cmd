@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pmic_class/pmic_class.mod := { echo  drivers/regulator/pmic_class/pmic_class.o; llvm-nm drivers/regulator/pmic_class/pmic_class.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/regulator/pmic_class/pmic_class.mod

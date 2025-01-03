@@ -1,0 +1,5 @@
+__crc_exynos_migov_register_frame_cnt = 0x396b8f8e;
+__crc_exynos_migov_register_vsync_cnt = 0xf3946f72;
+__crc_exynos_migov_register_fence_cnt = 0x3ee25ca2;
+__crc_migov_update_fps_change = 0x740deebd;
+__crc_exynos_migov_register_domain = 0x26228998;

@@ -1,0 +1,58 @@
+!<thin>
+//                                              554       `
+clk-devres.o/
+clk-bulk.o/
+clkdev.o/
+clk.o/
+clk-divider.o/
+clk-fixed-factor.o/
+clk-fixed-rate.o/
+clk-gate.o/
+clk-multiplier.o/
+clk-mux.o/
+clk-composite.o/
+clk-fractional-divider.o/
+clk-gpio.o/
+clk-conf.o/
+clk-scpi.o/
+hisilicon/clk.o/
+hisilicon/clkgate-separated.o/
+hisilicon/clkdivider-hi6220.o/
+hisilicon/clk-hisi-phase.o/
+hisilicon/crg-hi3516cv300.o/
+hisilicon/clk-hi3519.o/
+hisilicon/clk-hi3660.o/
+hisilicon/clk-hi3670.o/
+hisilicon/crg-hi3798cv200.o/
+hisilicon/clk-hi6220.o/
+hisilicon/reset.o/
+hisilicon/clk-hi6220-stub.o/
+hisilicon/clk-hi3660-stub.o/
+/0              0           0     0     644     98008     `
+/14             0           0     0     644     99260     `
+/26             0           0     0     644     168108    `
+/36             0           0     0     644     1034168   `
+/43             0           0     0     644     186688    `
+/58             0           0     0     644     163560    `
+/78             0           0     0     644     156064    `
+/96             0           0     0     644     142012    `
+/108            0           0     0     644     23704     `
+/126            0           0     0     644     150176    `
+/137            0           0     0     644     36604     `
+/154            0           0     0     644     155916    `
+/180            0           0     0     644     89272     `
+/192            0           0     0     644     79564     `
+/204            0           0     0     644     161232    `
+/216            0           0     0     644     103436    `
+/233            0           0     0     644     21112     `
+/264            0           0     0     644     26708     `
+/295            0           0     0     644     141496    `
+/323            0           0     0     644     157636    `
+/352            0           0     0     644     148040    `
+/376            0           0     0     644     113060    `
+/400            0           0     0     644     124284    `
+/424            0           0     0     644     161348    `
+/453            0           0     0     644     102480    `
+/477            0           0     0     644     84196     `
+/496            0           0     0     644     89824     `
+/525            0           0     0     644     145352    `

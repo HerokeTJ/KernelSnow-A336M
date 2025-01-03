@@ -1,0 +1,2 @@
+drivers/iommu/samsung-secure-iova.o
+dma_heap_find dma_heap_put gen_pool_add_owner gen_pool_alloc_algo_owner gen_pool_avail gen_pool_create gen_pool_destroy gen_pool_first_fit_align gen_pool_free_owner gen_pool_size of_find_node_by_name of_get_property of_n_addr_cells of_n_size_cells printk secure_iova_alloc secure_iova_free

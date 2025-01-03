@@ -1,0 +1,9 @@
+__crc_request_firmware = 0x92d08abd;
+__crc_firmware_request_nowarn = 0x4bff2d19;
+__crc_request_firmware_direct = 0x4febe59f;
+__crc_firmware_request_platform = 0xb64c07d6;
+__crc_firmware_request_cache = 0x95ed342e;
+__crc_request_firmware_into_buf = 0x068f6cf3;
+__crc_request_partial_firmware_into_buf = 0xd48c7046;
+__crc_release_firmware = 0xc6d09aa9;
+__crc_request_firmware_nowait = 0x7d3e320e;

@@ -1,0 +1,1 @@
+cmd_drivers/phy/samsung/phy-exynos-usbdrd-super.mod := { echo  drivers/phy/samsung/phy-exynos-usbdrd.o drivers/phy/samsung/phy-exynos-usb3p1.o; llvm-nm drivers/phy/samsung/phy-exynos-usbdrd-super.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/phy/samsung/phy-exynos-usbdrd-super.mod

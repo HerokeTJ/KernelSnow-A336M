@@ -1,0 +1,1 @@
+cmd_drivers/samsung/pm/sec_pm_debug.mod := { echo  drivers/samsung/pm/sec_pm_debug.o; llvm-nm drivers/samsung/pm/sec_pm_debug.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/pm/sec_pm_debug.mod

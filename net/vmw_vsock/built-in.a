@@ -1,0 +1,15 @@
+!<thin>
+//                                              96        `
+af_vsock.o/
+af_vsock_tap.o/
+vsock_addr.o/
+diag.o/
+virtio_transport_common.o/
+vsock_loopback.o/
+
+/0              0           0     0     644     591676    `
+/12             0           0     0     644     349180    `
+/28             0           0     0     644     10336     `
+/42             0           0     0     644     351640    `
+/50             0           0     0     644     621972    `
+/77             0           0     0     644     356512    `

@@ -1,0 +1,1 @@
+cmd_drivers/mstdrv/mstdrv.o := rm -f drivers/mstdrv/mstdrv.o.symversions   ; cat drivers/mstdrv/mstdrv_main.o.symversions >> drivers/mstdrv/mstdrv.o.symversions; rm -f drivers/mstdrv/mstdrv.o; llvm-ar cDPrsT drivers/mstdrv/mstdrv.o drivers/mstdrv/mstdrv_main.o

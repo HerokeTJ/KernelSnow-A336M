@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ifpmic_class.mod := { echo  drivers/power/supply/ifpmic_class.o; llvm-nm drivers/power/supply/ifpmic_class.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/power/supply/ifpmic_class.mod

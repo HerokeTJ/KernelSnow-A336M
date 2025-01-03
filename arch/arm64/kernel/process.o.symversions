@@ -1,0 +1,4 @@
+__crc___stack_chk_guard = 0x8f678b07;
+__crc_pm_power_off = 0x60a32ea9;
+__crc_show_regs = 0x17df5a72;
+__crc_get_wchan = 0x7a4afbf0;

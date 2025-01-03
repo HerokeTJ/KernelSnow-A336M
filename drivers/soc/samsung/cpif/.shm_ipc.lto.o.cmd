@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/shm_ipc.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/soc/samsung/cpif/shm_ipc.lto.o -T drivers/soc/samsung/cpif/shm_ipc.o.symversions --whole-archive drivers/soc/samsung/cpif/shm_ipc.o

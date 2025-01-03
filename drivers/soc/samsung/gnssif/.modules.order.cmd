@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/gnssif/modules.order := {   echo drivers/soc/samsung/gnssif/gnss_mbox.ko;   echo drivers/soc/samsung/gnssif/gnssif.ko; :; } | awk '!x[$$0]++' - > drivers/soc/samsung/gnssif/modules.order

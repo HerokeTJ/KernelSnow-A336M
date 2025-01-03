@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-wow.mod := { echo  drivers/soc/samsung/exynos-wow.o; llvm-nm drivers/soc/samsung/exynos-wow.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-wow.mod

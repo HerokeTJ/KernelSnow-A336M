@@ -1,0 +1,1 @@
+cmd_drivers/nfc/nfc_sec.mod := { echo  drivers/nfc/sec_nfc.o drivers/nfc/nfc_logger/nfc_logger.o; llvm-nm drivers/nfc/nfc_sec.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/nfc/nfc_sec.mod

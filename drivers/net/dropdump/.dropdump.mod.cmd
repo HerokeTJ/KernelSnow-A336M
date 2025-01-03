@@ -1,0 +1,1 @@
+cmd_drivers/net/dropdump/dropdump.mod := { echo  drivers/net/dropdump/dropdump.o; llvm-nm drivers/net/dropdump/dropdump.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/net/dropdump/dropdump.mod

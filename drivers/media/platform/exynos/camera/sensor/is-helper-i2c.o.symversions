@@ -1,0 +1,17 @@
+__crc_is_i2c_transfer = 0x916a832d;
+__crc_is_sensor_addr8_read8 = 0x709980c6;
+__crc_is_sensor_read8 = 0xdd7b4752;
+__crc_is_sensor_read16 = 0xb945c55a;
+__crc_is_sensor_read8_size = 0xb5eafad4;
+__crc_is_sensor_write = 0x3d5b3f41;
+__crc_is_sensor_addr8_write8 = 0x1d6687b5;
+__crc_is_sensor_write8 = 0xe7055ca1;
+__crc_is_sensor_write8_array = 0x08d4da99;
+__crc_is_sensor_write16 = 0xa204ea60;
+__crc_is_sensor_write16_array = 0xdc0bceda;
+__crc_is_sensor_write16_burst = 0xdb362996;
+__crc_is_sensor_write8_sequential = 0xe20adbbb;
+__crc_is_sensor_write8_burst = 0x58f78f9d;
+__crc_is_sensor_data_read16 = 0x49bc08f9;
+__crc_is_sensor_data_write16 = 0xffc7abba;
+__crc_is_sensor_addr_data_write16 = 0x73523de3;

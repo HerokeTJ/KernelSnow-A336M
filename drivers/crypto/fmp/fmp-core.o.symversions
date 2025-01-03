@@ -1,0 +1,15 @@
+__crc_get_fmp = 0x901a3983;
+__crc_exynos_fmp_setkey = 0x514a130f;
+__crc_exynos_fmp_crypt = 0x972caeaa;
+__crc_exynos_fmp_clear = 0xcdfecc10;
+__crc_is_fmp_fips_op = 0x1c8dd5e8;
+__crc_is_fmp_fips_clean = 0xbf9f57bd;
+__crc_exynos_fmp_bypass = 0x29688586;
+__crc_exynos_fmp_fips_test = 0x0e2d96f4;
+__crc_hmac_sha256_init = 0x5c146b78;
+__crc_hmac_sha256_update = 0xa34c88b9;
+__crc_hmac_sha256_final = 0xc2ab01c3;
+__crc_hmac_sha256_ctx_cleanup = 0x5f7bdbdd;
+__crc_fmp_sha256_init = 0x905e95e7;
+__crc_fmp_sha256_update = 0xc0e5b380;
+__crc_fmp_sha256_final = 0xa4dd8cc3;

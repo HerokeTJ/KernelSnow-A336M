@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/memlogger.mod := { echo  drivers/soc/samsung/memlogger.o; llvm-nm drivers/soc/samsung/memlogger.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/memlogger.mod

@@ -1,0 +1,12 @@
+__crc_tty_chars_in_buffer = 0x62364753;
+__crc_tty_write_room = 0x449e3d5e;
+__crc_tty_driver_flush_buffer = 0x2f2814e2;
+__crc_tty_throttle = 0x8c4421a4;
+__crc_tty_unthrottle = 0x4eb83c74;
+__crc_tty_wait_until_sent = 0x3d11a5ab;
+__crc_tty_termios_copy_hw = 0x30e74134;
+__crc_tty_termios_hw_change = 0x6c257ac0;
+__crc_tty_set_termios = 0xbfa1a5ca;
+__crc_tty_mode_ioctl = 0x417bf1a7;
+__crc_tty_perform_flush = 0xb38f2097;
+__crc_n_tty_ioctl_helper = 0x06387f2f;

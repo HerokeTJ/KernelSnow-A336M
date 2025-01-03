@@ -1,0 +1,8 @@
+__crc_sdev_prefix_printk = 0xc3100a76;
+__crc_scmd_printk = 0x160ae8c9;
+__crc___scsi_format_command = 0x93022ba6;
+__crc_scsi_print_command = 0xa204f4fe;
+__crc_scsi_print_sense_hdr = 0x9160a1ae;
+__crc___scsi_print_sense = 0x8c752fc2;
+__crc_scsi_print_sense = 0xf4e9a264;
+__crc_scsi_print_result = 0x9659030d;

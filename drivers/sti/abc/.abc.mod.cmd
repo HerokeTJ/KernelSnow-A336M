@@ -1,0 +1,1 @@
+cmd_drivers/sti/abc/abc.mod := { echo  drivers/sti/abc/abc_common.o drivers/sti/abc/abc_spec_manager.o drivers/sti/abc/abc_spec_manager_type1.o; llvm-nm drivers/sti/abc/abc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/sti/abc/abc.mod

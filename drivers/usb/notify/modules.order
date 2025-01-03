@@ -1,0 +1,2 @@
+drivers/usb/notify/usb_notify_layer.ko
+drivers/usb/notify/usb_notifier.ko

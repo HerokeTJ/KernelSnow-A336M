@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/sec_debug.mod := { echo  drivers/samsung/debug/sec_debug_base.o drivers/samsung/debug/sec_dump_sink.o drivers/samsung/debug/sec_debug_atomic_sleep.o; llvm-nm drivers/samsung/debug/sec_debug.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/debug/sec_debug.mod

@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/slsi/s2mu106/built-in.a := rm -f drivers/usb/typec/slsi/s2mu106/built-in.a.symversions ; rm -f drivers/usb/typec/slsi/s2mu106/built-in.a; llvm-ar cDPrST drivers/usb/typec/slsi/s2mu106/built-in.a 

@@ -1,0 +1,4 @@
+__crc_sysfs_create_link = 0xc01c8b87;
+__crc_sysfs_create_link_nowarn = 0xb8ba01a8;
+__crc_sysfs_remove_link = 0x9b2b597c;
+__crc_sysfs_rename_link_ns = 0x5de23756;

@@ -1,0 +1,2 @@
+__crc_xhci_bus_suspend = 0x7664b3d3;
+__crc_xhci_bus_resume = 0x3c627f22;

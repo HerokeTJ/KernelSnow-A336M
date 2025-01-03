@@ -1,0 +1,1 @@
+cmd_drivers/battery/common/sec-direct-charger.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/battery/common/sec-direct-charger.lto.o -T drivers/battery/common/sec-direct-charger.o.symversions --whole-archive drivers/battery/common/sec-direct-charger.o

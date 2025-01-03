@@ -1,0 +1,1 @@
+cmd_drivers/regulator/pmic_class/built-in.a := rm -f drivers/regulator/pmic_class/built-in.a.symversions ; rm -f drivers/regulator/pmic_class/built-in.a; llvm-ar cDPrST drivers/regulator/pmic_class/built-in.a 

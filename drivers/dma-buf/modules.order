@@ -1,0 +1,2 @@
+drivers/dma-buf/heaps/samsung/dma-buf-container.ko
+drivers/dma-buf/heaps/samsung/samsung_dma_heap.ko

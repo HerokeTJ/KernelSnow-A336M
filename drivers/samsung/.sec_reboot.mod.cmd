@@ -1,0 +1,1 @@
+cmd_drivers/samsung/sec_reboot.mod := { echo  drivers/samsung/sec_reboot.o; llvm-nm drivers/samsung/sec_reboot.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/sec_reboot.mod

@@ -1,0 +1,3 @@
+__crc_pci_enable_pcie_error_reporting = 0xbbdddf5f;
+__crc_pci_disable_pcie_error_reporting = 0x238f464a;
+__crc_pci_aer_clear_nonfatal_status = 0x821e0032;

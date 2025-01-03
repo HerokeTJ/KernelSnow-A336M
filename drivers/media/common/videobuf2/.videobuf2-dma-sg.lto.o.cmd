@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-dma-sg.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/media/common/videobuf2/videobuf2-dma-sg.lto.o -T drivers/media/common/videobuf2/videobuf2-dma-sg.o.symversions --whole-archive drivers/media/common/videobuf2/videobuf2-dma-sg.o

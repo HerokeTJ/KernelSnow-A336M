@@ -1,0 +1,4 @@
+__crc_kbase_mmu_insert_pages = 0x22cc36ec;
+__crc_kbase_mmu_update = 0x54450adf;
+__crc_kbase_mmu_disable = 0xae6f8b60;
+__crc_kbase_mmu_teardown_pages = 0x1a306d56;

@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/exynos-dsufreq.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/cpufreq/exynos-dsufreq.lto.o  --whole-archive drivers/cpufreq/exynos-dsufreq.o

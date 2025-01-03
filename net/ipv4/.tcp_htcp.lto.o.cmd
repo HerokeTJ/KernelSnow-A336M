@@ -1,0 +1,1 @@
+cmd_net/ipv4/tcp_htcp.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o net/ipv4/tcp_htcp.lto.o  --whole-archive net/ipv4/tcp_htcp.o

@@ -1,0 +1,2 @@
+__crc_modem_force_crash_exit_ext = 0x14ca1dd0;
+__crc_send_uart_noti_to_modem = 0xbb079e30;

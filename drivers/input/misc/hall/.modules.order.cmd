@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/hall/modules.order := {   echo drivers/input/misc/hall/hall_ic.ko;   echo drivers/input/misc/hall/hall_ic_notifier.ko; :; } | awk '!x[$$0]++' - > drivers/input/misc/hall/modules.order

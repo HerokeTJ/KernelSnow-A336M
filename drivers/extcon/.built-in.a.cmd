@@ -1,0 +1,1 @@
+cmd_drivers/extcon/built-in.a := rm -f drivers/extcon/built-in.a.symversions   ; cat drivers/extcon/extcon.o.symversions >> drivers/extcon/built-in.a.symversions   ; cat drivers/extcon/devres.o.symversions >> drivers/extcon/built-in.a.symversions; rm -f drivers/extcon/built-in.a; llvm-ar cDPrST drivers/extcon/built-in.a drivers/extcon/extcon.o drivers/extcon/devres.o

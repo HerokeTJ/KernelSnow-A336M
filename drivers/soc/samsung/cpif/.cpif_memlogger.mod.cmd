@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/cpif_memlogger.mod := { echo  drivers/soc/samsung/cpif/cpif_memlogger.o; llvm-nm drivers/soc/samsung/cpif/cpif_memlogger.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/cpif/cpif_memlogger.mod

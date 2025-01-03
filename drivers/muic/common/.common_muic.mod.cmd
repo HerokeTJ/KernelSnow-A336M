@@ -1,0 +1,1 @@
+cmd_drivers/muic/common/common_muic.mod := { echo  drivers/muic/common/muic_notifier.o drivers/muic/common/muic_param.o drivers/muic/common/muic_sysfs.o drivers/muic/common/muic_core.o; llvm-nm drivers/muic/common/common_muic.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/muic/common/common_muic.mod

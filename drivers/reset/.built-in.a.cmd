@@ -1,0 +1,1 @@
+cmd_drivers/reset/built-in.a := rm -f drivers/reset/built-in.a.symversions   ; cat drivers/reset/core.o.symversions >> drivers/reset/built-in.a.symversions        ; rm -f drivers/reset/built-in.a; llvm-ar cDPrST drivers/reset/built-in.a drivers/reset/core.o drivers/reset/hisilicon/built-in.a drivers/reset/reset-scmi.o drivers/reset/reset-simple.o drivers/reset/reset-sunxi.o

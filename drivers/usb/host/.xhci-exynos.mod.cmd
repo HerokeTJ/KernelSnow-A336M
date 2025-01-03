@@ -1,0 +1,1 @@
+cmd_drivers/usb/host/xhci-exynos.mod := { echo  drivers/usb/host/xhci-exynos.o; llvm-nm drivers/usb/host/xhci-exynos.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/host/xhci-exynos.mod

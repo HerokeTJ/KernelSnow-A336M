@@ -1,0 +1,10 @@
+__crc_acpm_get_nfc_log_buf = 0x564bf9de;
+__crc_acpm_time_calc = 0xb6735b01;
+__crc_acpm_get_peri_timer = 0x0e14a63a;
+__crc_acpm_stop_log = 0xaae45b1b;
+__crc_acpm_ipc_set_ch_mode = 0x3415e8f2;
+__crc_acpm_ipc_request_channel = 0xa7e888c3;
+__crc_acpm_ipc_release_channel = 0x34976353;
+__crc_acpm_ipc_send_data_sync = 0xe38239b6;
+__crc_acpm_ipc_send_data = 0xf5f585ea;
+__crc_is_acpm_ipc_busy = 0x75483de5;

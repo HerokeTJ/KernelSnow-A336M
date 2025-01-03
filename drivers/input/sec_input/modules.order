@@ -1,0 +1,4 @@
+drivers/input/sec_input/sec_tsp_log.ko
+drivers/input/sec_input/sec_tsp_dumpkey.ko
+drivers/input/sec_input/sec_common_fn.ko
+drivers/input/sec_input/sec_cmd.ko

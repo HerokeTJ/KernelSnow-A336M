@@ -1,0 +1,2 @@
+drivers/muic/common/common_muic.ko
+drivers/muic/common/muic_manager.ko

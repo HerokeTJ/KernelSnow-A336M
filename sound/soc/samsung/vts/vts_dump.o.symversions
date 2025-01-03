@@ -1,0 +1,3 @@
+__crc_vts_audiodump_schedule_flush = 0xf425ad97;
+__crc_vts_logdump_schedule_flush = 0xcb3177ed;
+__crc_vts_dump_addr_register = 0x81314c92;

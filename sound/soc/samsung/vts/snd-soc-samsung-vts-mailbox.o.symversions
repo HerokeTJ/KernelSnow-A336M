@@ -1,0 +1,14 @@
+__crc_vts_irq_generic_chip_ops = 0xb1ee730a;
+__crc_mailbox_update_vts_is_on = 0x151fae73;
+__crc_mailbox_generate_interrupt = 0xd17edbd4;
+__crc_mailbox_write_shared_register = 0x9945e3e1;
+__crc_mailbox_read_shared_register = 0x9191f07a;
+__crc_vts_irq_gc_mask_set_bit = 0x7a1e2752;
+__crc_vts_irq_gc_mask_clr_bit = 0xb0bb5f41;
+__crc_vts_irq_gc_ack_set_bit = 0xfeb80f17;
+__crc_vts_irq_alloc_generic_chip = 0x6a83145d;
+__crc_vts_irq_alloc_domain_generic_chips = 0xa70ab222;
+__crc_vts_irq_get_domain_generic_chip = 0x99ce6c32;
+__crc_vts_irq_setup_generic_chip = 0x22680811;
+__crc_vts_irq_setup_alt_chip = 0xeea9ca33;
+__crc_vts_irq_remove_generic_chip = 0x98b75052;

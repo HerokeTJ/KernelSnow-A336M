@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/asix.mod := { echo  drivers/net/usb/asix_devices.o drivers/net/usb/asix_common.o drivers/net/usb/ax88172a.o; llvm-nm drivers/net/usb/asix.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/net/usb/asix.mod

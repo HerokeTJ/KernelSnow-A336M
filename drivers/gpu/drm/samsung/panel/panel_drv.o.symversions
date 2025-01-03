@@ -1,0 +1,7 @@
+__crc_panel_log_level = 0xe6e0b264;
+__crc_panel_cmd_log = 0xc8d0a8e6;
+__crc_get_lcd_info = 0x907fa746;
+__crc_panel_device_create = 0x6e1a627f;
+__crc_panel_device_destroy = 0x2b52abe9;
+__crc_panel_device_init = 0x1a561c68;
+__crc_panel_device_exit = 0x342f669c;

@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/vbus_notifier/built-in.a := rm -f drivers/usb/common/vbus_notifier/built-in.a.symversions ; rm -f drivers/usb/common/vbus_notifier/built-in.a; llvm-ar cDPrST drivers/usb/common/vbus_notifier/built-in.a 

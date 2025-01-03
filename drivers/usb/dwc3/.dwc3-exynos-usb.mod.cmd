@@ -1,0 +1,1 @@
+cmd_drivers/usb/dwc3/dwc3-exynos-usb.mod := { echo  drivers/usb/dwc3/dwc3-exynos.o drivers/usb/dwc3/dwc3-exynos-otg.o drivers/usb/dwc3/exynos_usb_tpmon.o; llvm-nm drivers/usb/dwc3/dwc3-exynos-usb.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/dwc3/dwc3-exynos-usb.mod

@@ -1,0 +1,1 @@
+cmd_drivers/vibrator/common/vib_info/vibrator_vib_info.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/vibrator/common/vib_info/vibrator_vib_info.lto.o  --whole-archive drivers/vibrator/common/vib_info/vibrator_vib_info.o

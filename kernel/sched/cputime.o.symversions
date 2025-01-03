@@ -1,0 +1,4 @@
+__crc_cpu_irqtime = 0x54023c4e;
+__crc_irqtime_account_irq = 0xf4956354;
+__crc_task_cputime_adjusted = 0x25f8eafa;
+__crc_thread_group_cputime_adjusted = 0x37af4882;

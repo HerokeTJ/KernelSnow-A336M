@@ -1,0 +1,5 @@
+__crc_gnss_allocate_device = 0x691b73ee;
+__crc_gnss_put_device = 0x9094f720;
+__crc_gnss_register_device = 0x5a90bdac;
+__crc_gnss_deregister_device = 0xe506bb35;
+__crc_gnss_insert_raw = 0xbc7f72b8;

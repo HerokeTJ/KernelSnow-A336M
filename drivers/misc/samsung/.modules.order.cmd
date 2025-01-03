@@ -1,0 +1,1 @@
+cmd_drivers/misc/samsung/modules.order := {   cat drivers/misc/samsung/scsc/modules.order;   cat drivers/misc/samsung/scsc_bt/modules.order; :; } | awk '!x[$$0]++' - > drivers/misc/samsung/modules.order

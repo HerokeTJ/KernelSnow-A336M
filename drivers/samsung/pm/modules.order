@@ -1,0 +1,3 @@
+drivers/samsung/pm/sec_pm_debug.ko
+drivers/samsung/pm/sec_thermistor.ko
+drivers/samsung/pm/sec_wakeup_cpu_allocator.ko

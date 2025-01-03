@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_dm1.o := rm -f drivers/usb/gadget/function/usb_f_dm1.o.symversions   ; cat drivers/usb/gadget/function/f_dm1.o.symversions >> drivers/usb/gadget/function/usb_f_dm1.o.symversions; rm -f drivers/usb/gadget/function/usb_f_dm1.o; llvm-ar cDPrsT drivers/usb/gadget/function/usb_f_dm1.o drivers/usb/gadget/function/f_dm1.o

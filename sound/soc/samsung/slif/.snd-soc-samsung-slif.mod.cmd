@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/slif/snd-soc-samsung-slif.mod := { echo  sound/soc/samsung/slif/slif_clk_table.o sound/soc/samsung/slif/slif_soc.o sound/soc/samsung/slif/slif.o sound/soc/samsung/slif/slif_util.o; llvm-nm sound/soc/samsung/slif/snd-soc-samsung-slif.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/slif/snd-soc-samsung-slif.mod

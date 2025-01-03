@@ -1,0 +1,2 @@
+drivers/bts/exynos-btsops8825.o
+__log_post_read_mmio __log_read_mmio __log_write_mmio __tracepoint_rwmmio_post_read __tracepoint_rwmmio_read __tracepoint_rwmmio_write kmalloc_caches kmem_cache_alloc_trace printk register_btsops

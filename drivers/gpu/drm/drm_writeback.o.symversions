@@ -1,0 +1,6 @@
+__crc_drm_writeback_connector_init = 0x68b29b25;
+__crc_drm_writeback_prepare_job = 0xd571d90b;
+__crc_drm_writeback_queue_job = 0xea164e56;
+__crc_drm_writeback_cleanup_job = 0x8c359f1b;
+__crc_drm_writeback_signal_completion = 0x908a1865;
+__crc_drm_writeback_get_out_fence = 0xe319fd15;

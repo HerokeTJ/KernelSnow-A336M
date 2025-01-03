@@ -1,0 +1,7 @@
+__crc_s2mu106_read_reg = 0xc78f6708;
+__crc_s2mu106_bulk_read = 0xb78cf983;
+__crc_s2mu106_read_word = 0x4f1a1f23;
+__crc_s2mu106_write_reg = 0x42b3dedc;
+__crc_s2mu106_bulk_write = 0xa67e81cb;
+__crc_s2mu106_write_word = 0x2c6ea4b9;
+__crc_s2mu106_update_reg = 0x80b103c8;

@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.mod := { echo  sound/soc/samsung/vts/mailbox.o sound/soc/samsung/vts/vts_irq.o; llvm-nm sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.mod

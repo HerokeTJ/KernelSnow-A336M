@@ -1,0 +1,1 @@
+cmd_drivers/input/sec_input/modules.order := {   echo drivers/input/sec_input/sec_tsp_log.ko;   echo drivers/input/sec_input/sec_tsp_dumpkey.ko;   echo drivers/input/sec_input/sec_common_fn.ko;   echo drivers/input/sec_input/sec_cmd.ko; :; } | awk '!x[$$0]++' - > drivers/input/sec_input/modules.order

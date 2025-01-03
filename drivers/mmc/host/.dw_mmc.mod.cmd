@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/dw_mmc.mod := { echo  drivers/mmc/host/dw_mmc.o; llvm-nm drivers/mmc/host/dw_mmc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/mmc/host/dw_mmc.mod

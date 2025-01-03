@@ -1,0 +1,1 @@
+cmd_drivers/mfd/slsi/s2mu106/mfd_s2mu106.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/mfd/slsi/s2mu106/mfd_s2mu106.lto.o -T drivers/mfd/slsi/s2mu106/mfd_s2mu106.o.symversions --whole-archive drivers/mfd/slsi/s2mu106/mfd_s2mu106.o

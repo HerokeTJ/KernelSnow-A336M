@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/hl7132_charger/hl7132_charger.mod := { echo  drivers/battery/charger/hl7132_charger/hl7132_charger.o; llvm-nm drivers/battery/charger/hl7132_charger/hl7132_charger.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/charger/hl7132_charger/hl7132_charger.mod

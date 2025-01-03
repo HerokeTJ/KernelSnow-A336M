@@ -1,0 +1,7 @@
+__crc_edac_device_alloc_ctl_info = 0x073b0083;
+__crc_edac_device_free_ctl_info = 0x4d0e6d69;
+__crc_edac_device_alloc_index = 0x6e3ff83a;
+__crc_edac_device_add_device = 0x572b218a;
+__crc_edac_device_del_device = 0xd29353ed;
+__crc_edac_device_handle_ce_count = 0x32f4fbff;
+__crc_edac_device_handle_ue_count = 0x374c95d4;

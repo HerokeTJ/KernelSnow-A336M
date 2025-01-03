@@ -1,0 +1,2 @@
+__crc_stui_spi_lock = 0x809f225b;
+__crc_stui_spi_unlock = 0x66c11ba4;

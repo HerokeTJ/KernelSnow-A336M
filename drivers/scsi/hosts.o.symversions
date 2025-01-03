@@ -1,0 +1,12 @@
+__crc_scsi_remove_host = 0x251ddf69;
+__crc_scsi_add_host_with_dma = 0x958fcdf2;
+__crc_scsi_host_alloc = 0x763b5f61;
+__crc_scsi_host_lookup = 0x0da60261;
+__crc_scsi_host_get = 0x3e350066;
+__crc_scsi_host_busy = 0x9952a8fc;
+__crc_scsi_host_put = 0x54c5e58c;
+__crc_scsi_is_host_device = 0x2de8e4cb;
+__crc_scsi_queue_work = 0x32158bf6;
+__crc_scsi_flush_work = 0xfd63a139;
+__crc_scsi_host_complete_all_commands = 0x7828df66;
+__crc_scsi_host_busy_iter = 0x48842e0f;

@@ -1,0 +1,1 @@
+cmd_drivers/input/sec_input/sec_tsp_dumpkey.mod := { echo  drivers/input/sec_input/sec_tsp_dumpkey.o; llvm-nm drivers/input/sec_input/sec_tsp_dumpkey.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/sec_input/sec_tsp_dumpkey.mod

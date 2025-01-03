@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/focaltech/ft3519/modules.order := {   echo drivers/input/touchscreen/focaltech/ft3519/focaltech_ts_ft3519.ko; :; } | awk '!x[$$0]++' - > drivers/input/touchscreen/focaltech/ft3519/modules.order

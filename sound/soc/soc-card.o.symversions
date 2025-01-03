@@ -1,0 +1,4 @@
+__crc_snd_soc_card_get_kcontrol = 0xc4652660;
+__crc_snd_soc_card_jack_new = 0xbb169b45;
+__crc_snd_soc_card_add_dai_link = 0x65015c31;
+__crc_snd_soc_card_remove_dai_link = 0xe5de754f;

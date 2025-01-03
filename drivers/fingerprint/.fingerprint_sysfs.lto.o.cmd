@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/fingerprint_sysfs.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/fingerprint/fingerprint_sysfs.lto.o -T drivers/fingerprint/fingerprint_sysfs.o.symversions --whole-archive drivers/fingerprint/fingerprint_sysfs.o

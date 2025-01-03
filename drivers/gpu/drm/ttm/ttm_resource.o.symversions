@@ -1,0 +1,4 @@
+__crc_ttm_resource_free = 0xa098e480;
+__crc_ttm_resource_manager_init = 0xa33b3620;
+__crc_ttm_resource_manager_force_list_clean = 0x023b88b1;
+__crc_ttm_resource_manager_debug = 0x90a48eb3;

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/dit/exynos_dit.mod := { echo  drivers/soc/samsung/cpif/dit/dit.o drivers/soc/samsung/cpif/dit/dit_net.o drivers/soc/samsung/cpif/dit/dit_hal.o drivers/soc/samsung/cpif/dit/dit_2_1_0.o; llvm-nm drivers/soc/samsung/cpif/dit/exynos_dit.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/cpif/dit/exynos_dit.mod

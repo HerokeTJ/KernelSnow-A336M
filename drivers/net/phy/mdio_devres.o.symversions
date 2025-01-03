@@ -1,0 +1,3 @@
+__crc_devm_mdiobus_alloc_size = 0x9442a11d;
+__crc___devm_mdiobus_register = 0x04ada710;
+__crc_devm_of_mdiobus_register = 0xfc660858;

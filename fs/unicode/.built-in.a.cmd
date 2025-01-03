@@ -1,0 +1,1 @@
+cmd_fs/unicode/built-in.a := rm -f fs/unicode/built-in.a.symversions     ; cat fs/unicode/utf8-core.o.symversions >> fs/unicode/built-in.a.symversions; rm -f fs/unicode/built-in.a; llvm-ar cDPrST fs/unicode/built-in.a fs/unicode/utf8-norm.o fs/unicode/utf8-core.o

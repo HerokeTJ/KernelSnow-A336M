@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/altmodes/built-in.a := rm -f drivers/usb/typec/altmodes/built-in.a.symversions ; rm -f drivers/usb/typec/altmodes/built-in.a; llvm-ar cDPrST drivers/usb/typec/altmodes/built-in.a 

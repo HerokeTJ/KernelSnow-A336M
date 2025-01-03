@@ -1,0 +1,8 @@
+__crc_sec_bat_get_adc_data = 0xdc55f98f;
+__crc_sec_bat_get_charger_type_adc = 0x6f95790a;
+__crc_sec_bat_convert_adc_to_val = 0xad41a17a;
+__crc_sec_bat_get_inbat_vol_by_adc = 0x07d2d877;
+__crc_sec_bat_check_vf_adc = 0x8384335f;
+__crc_sec_bat_get_direct_chg_temp_adc = 0xae6d8167;
+__crc_adc_init = 0x767f92c2;
+__crc_adc_exit = 0x1fb7dc7b;

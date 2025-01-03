@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/s2mpu13_adc.mod := { echo  drivers/iio/adc/s2mpu13_adc.o; llvm-nm drivers/iio/adc/s2mpu13_adc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/iio/adc/s2mpu13_adc.mod

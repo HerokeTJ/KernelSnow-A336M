@@ -1,0 +1,10 @@
+__crc_divider_recalc_rate = 0x8486edbe;
+__crc_divider_round_rate_parent = 0x0e755f4a;
+__crc_divider_ro_round_rate_parent = 0xeb1fb02e;
+__crc_divider_get_val = 0x5e798ffb;
+__crc_clk_divider_ops = 0x4ed3c288;
+__crc_clk_divider_ro_ops = 0xae330045;
+__crc___clk_hw_register_divider = 0x4100ef44;
+__crc_clk_register_divider_table = 0x2093f4dd;
+__crc_clk_unregister_divider = 0xff291ecf;
+__crc_clk_hw_unregister_divider = 0x68d1ab7b;

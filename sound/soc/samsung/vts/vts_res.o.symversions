@@ -1,0 +1,4 @@
+__crc_vts_port_cfg = 0x4a63c63e;
+__crc_vts_set_clk_src = 0x3ca3ee50;
+__crc_vts_set_sel_pad = 0xc7a90266;
+__crc_vts_clk_aud_set_rate = 0x59ccc240;

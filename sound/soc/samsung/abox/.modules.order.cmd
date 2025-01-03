@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/abox/modules.order := {   echo sound/soc/samsung/abox/snd-soc-samsung-abox-gic.ko;   echo sound/soc/samsung/abox/snd-soc-samsung-abox.ko;   echo sound/soc/samsung/abox/snd-soc-samsung-abox-sync.ko;   echo sound/soc/samsung/abox/abox_adaptation.ko; :; } | awk '!x[$$0]++' - > sound/soc/samsung/abox/modules.order

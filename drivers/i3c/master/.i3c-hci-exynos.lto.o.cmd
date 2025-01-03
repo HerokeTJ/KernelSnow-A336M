@@ -1,0 +1,1 @@
+cmd_drivers/i3c/master/i3c-hci-exynos.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/i3c/master/i3c-hci-exynos.lto.o  --whole-archive drivers/i3c/master/i3c-hci-exynos.o

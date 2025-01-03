@@ -1,0 +1,11 @@
+__crc_mmu_interval_read_begin = 0x8f11e082;
+__crc___mmu_notifier_register = 0x2541f8a0;
+__crc_mmu_notifier_register = 0xcaafd95a;
+__crc_mmu_notifier_get_locked = 0xa569cfd3;
+__crc_mmu_notifier_unregister = 0x1ce5e2b6;
+__crc_mmu_notifier_put = 0x11e98c37;
+__crc_mmu_interval_notifier_insert = 0xae26b98a;
+__crc_mmu_interval_notifier_insert_locked = 0x5db70625;
+__crc_mmu_interval_notifier_remove = 0xbf1c6b37;
+__crc_mmu_notifier_synchronize = 0x6a4f623b;
+__crc_mmu_notifier_range_update_to_read_only = 0xfa5f0ea7;

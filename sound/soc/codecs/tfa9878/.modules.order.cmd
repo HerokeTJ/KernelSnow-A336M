@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tfa9878/modules.order := {   echo sound/soc/codecs/tfa9878/snd-soc-tfa98xx.ko;   echo sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.ko; :; } | awk '!x[$$0]++' - > sound/soc/codecs/tfa9878/modules.order

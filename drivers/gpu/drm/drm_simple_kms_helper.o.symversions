@@ -1,0 +1,3 @@
+__crc_drm_simple_encoder_init = 0x751f8a66;
+__crc_drm_simple_display_pipe_attach_bridge = 0xbd2da9bd;
+__crc_drm_simple_display_pipe_init = 0x15d781d6;

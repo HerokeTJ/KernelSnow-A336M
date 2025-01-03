@@ -1,0 +1,17 @@
+__crc_muic_core_get_pdic_cable_state = 0x3397a33e;
+__crc_muic_core_handle_attach = 0x333a4741;
+__crc_muic_core_handle_detach = 0x37330aee;
+__crc_muic_core_hv_is_hv_dev = 0x89b50dca;
+__crc_muic_core_hv_state_manager = 0x54fb577d;
+__crc_muic_core_hv_init = 0x98462f6f;
+__crc_muic_hv_charger_init = 0x8e2e1f88;
+__crc_hv_muic_change_afc_voltage = 0x25b5660c;
+__crc_muic_afc_get_voltage = 0x42a0672e;
+__crc_muic_afc_set_voltage = 0x01a0421e;
+__crc_muic_afc_request_cause_clear = 0xbb5b12e2;
+__crc_muic_afc_get_request_cause = 0x1e1fa128;
+__crc_muic_is_enable_afc_request = 0x2e249793;
+__crc_muic_afc_request_voltage = 0xa65edb9f;
+__crc_muic_set_hiccup_mode = 0xe1f599e2;
+__crc_muic_core_init = 0x63fc6632;
+__crc_muic_core_exit = 0xf019728e;

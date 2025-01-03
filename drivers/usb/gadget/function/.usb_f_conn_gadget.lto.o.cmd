@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_conn_gadget.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/gadget/function/usb_f_conn_gadget.lto.o -T drivers/usb/gadget/function/usb_f_conn_gadget.o.symversions --whole-archive drivers/usb/gadget/function/usb_f_conn_gadget.o

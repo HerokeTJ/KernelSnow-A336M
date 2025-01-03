@@ -1,0 +1,1 @@
+cmd_drivers/hwspinlock/built-in.a := rm -f drivers/hwspinlock/built-in.a.symversions   ; cat drivers/hwspinlock/hwspinlock_core.o.symversions >> drivers/hwspinlock/built-in.a.symversions; rm -f drivers/hwspinlock/built-in.a; llvm-ar cDPrST drivers/hwspinlock/built-in.a drivers/hwspinlock/hwspinlock_core.o

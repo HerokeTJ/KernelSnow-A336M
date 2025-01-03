@@ -1,0 +1,14 @@
+__crc_snd_device_initialize = 0x9726515c;
+__crc_snd_card_new = 0x5d885b0f;
+__crc_snd_card_ref = 0x743fda48;
+__crc_snd_card_disconnect = 0xe26c968c;
+__crc_snd_card_disconnect_sync = 0xaf7a52b2;
+__crc_snd_card_free_when_closed = 0x5c2616bd;
+__crc_snd_card_free = 0x9348463f;
+__crc_snd_card_set_id = 0x31baaa94;
+__crc_snd_card_add_dev_attr = 0x388ab6e8;
+__crc_snd_card_register = 0x1f80a2eb;
+__crc_snd_component_add = 0x14e43f0d;
+__crc_snd_card_file_add = 0x8f516717;
+__crc_snd_card_file_remove = 0xa10f500e;
+__crc_snd_power_wait = 0x9b8d88fb;

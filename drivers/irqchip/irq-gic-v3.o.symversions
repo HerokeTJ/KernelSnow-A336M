@@ -1,0 +1,3 @@
+__crc_gic_pmr_sync = 0xb788fb30;
+__crc_gic_nonsecure_priorities = 0x4b0a3f52;
+__crc_gic_resume = 0x14da596c;

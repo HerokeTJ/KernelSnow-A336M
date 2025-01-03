@@ -1,0 +1,2 @@
+drivers/usb/common/vbus_notifier/vbus_notifier.o
+__cfi_slowpath blocking_notifier_call_chain blocking_notifier_chain_register blocking_notifier_chain_unregister mutex_lock mutex_unlock printk vbus_notifier_handle vbus_notifier_register vbus_notifier_unregister

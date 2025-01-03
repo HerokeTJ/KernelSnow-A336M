@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/aiptek.mod := { echo  drivers/input/tablet/aiptek.o; llvm-nm drivers/input/tablet/aiptek.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/tablet/aiptek.mod

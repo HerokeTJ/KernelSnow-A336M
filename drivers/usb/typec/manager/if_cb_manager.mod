@@ -1,0 +1,2 @@
+drivers/usb/typec/manager/if_cb_manager.o
+__cfi_slowpath kfree kmalloc_caches kmem_cache_alloc_trace muic_check_usb_killer muic_set_bc12 printk register_lvs register_muic register_usb register_usbpd usb_set_vbus_current usbpd_cc_control_command usbpd_sbu_test_read usbpd_set_host_on usbpd_wait_entermode

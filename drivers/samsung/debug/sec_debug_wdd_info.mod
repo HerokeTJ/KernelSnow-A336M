@@ -1,0 +1,2 @@
+drivers/samsung/debug/sec_debug_wdd_info.o
+cpu_number ktime_get_real_seconds printk rtc_time64_to_tm sched_clock secdbg_base_get_wdd_info secdbg_wdd_register_ping_notifier

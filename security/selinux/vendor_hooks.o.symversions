@@ -1,0 +1,4 @@
+__crc___tracepoint_android_vh_selinux_is_initialized = 0x7d722d35;
+__crc___traceiter_android_vh_selinux_is_initialized = 0x0f16d692;
+__crc___SCK__tp_func_android_vh_selinux_is_initialized = 0x0cfd5e73;
+__crc_GKI_struct_selinux_state = 0x43ff668a;

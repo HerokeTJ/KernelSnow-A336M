@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/acpm-mfd-bus.mod := { echo  drivers/i2c/busses/acpm-mfd-bus.o; llvm-nm drivers/i2c/busses/acpm-mfd-bus.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/i2c/busses/acpm-mfd-bus.mod

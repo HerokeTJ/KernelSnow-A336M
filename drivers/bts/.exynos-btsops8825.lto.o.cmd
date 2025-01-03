@@ -1,0 +1,1 @@
+cmd_drivers/bts/exynos-btsops8825.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/bts/exynos-btsops8825.lto.o -T drivers/bts/exynos-btsops8825.o.symversions --whole-archive drivers/bts/exynos-btsops8825.o

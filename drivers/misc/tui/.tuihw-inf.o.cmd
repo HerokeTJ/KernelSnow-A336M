@@ -1,0 +1,1 @@
+cmd_drivers/misc/tui/tuihw-inf.o := rm -f drivers/misc/tui/tuihw-inf.o.symversions   ; cat drivers/misc/tui/stui_inf.o.symversions >> drivers/misc/tui/tuihw-inf.o.symversions; rm -f drivers/misc/tui/tuihw-inf.o; llvm-ar cDPrsT drivers/misc/tui/tuihw-inf.o drivers/misc/tui/stui_inf.o

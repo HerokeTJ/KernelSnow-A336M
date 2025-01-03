@@ -1,0 +1,2 @@
+drivers/net/phy/smsc.o
+__genphy_config_aneg __this_module clk_disable clk_enable clk_get clk_prepare clk_put clk_set_rate clk_unprepare dev_err_probe devm_kmalloc genphy_read_status genphy_resume genphy_soft_reset genphy_suspend ktime_get mdiobus_read mdiobus_write of_find_property phy_drivers_register phy_drivers_unregister usleep_range

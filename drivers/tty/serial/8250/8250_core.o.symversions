@@ -1,0 +1,6 @@
+__crc_serial8250_get_port = 0xe8e14e2f;
+__crc_serial8250_set_isa_configurator = 0x75266c1d;
+__crc_serial8250_suspend_port = 0xcc248d26;
+__crc_serial8250_resume_port = 0xc7208c3a;
+__crc_serial8250_register_8250_port = 0xebcd3ec8;
+__crc_serial8250_unregister_port = 0xcefcd99a;

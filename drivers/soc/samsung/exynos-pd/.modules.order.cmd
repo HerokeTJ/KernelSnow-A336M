@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-pd/modules.order := {   echo drivers/soc/samsung/exynos-pd/exynos-pd.ko;   echo drivers/soc/samsung/exynos-pd/exynos-pd_el3.ko;   echo drivers/soc/samsung/exynos-pd/exynos-pd-dbg.ko; :; } | awk '!x[$$0]++' - > drivers/soc/samsung/exynos-pd/modules.order

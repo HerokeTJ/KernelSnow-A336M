@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/modules.order := {   echo drivers/cpufreq/freq-qos-tracer.ko;   echo drivers/cpufreq/exynos-acme.ko;   echo drivers/cpufreq/exynos-dsufreq.ko; :; } | awk '!x[$$0]++' - > drivers/cpufreq/modules.order

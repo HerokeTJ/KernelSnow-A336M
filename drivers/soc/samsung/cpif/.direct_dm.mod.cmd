@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/direct_dm.mod := { echo  drivers/soc/samsung/cpif/direct_dm.o; llvm-nm drivers/soc/samsung/cpif/direct_dm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/cpif/direct_dm.mod

@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.mod := { echo  drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.o; llvm-nm drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/charger/s2mu106_charger/s2mu106_pmeter.mod

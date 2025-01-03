@@ -1,0 +1,1 @@
+cmd_mm/damon/built-in.a := rm -f mm/damon/built-in.a.symversions        ; rm -f mm/damon/built-in.a; llvm-ar cDPrST mm/damon/built-in.a mm/damon/core.o mm/damon/prmtv-common.o mm/damon/paddr.o mm/damon/reclaim.o

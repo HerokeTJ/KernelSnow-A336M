@@ -1,0 +1,2 @@
+drivers/hid/hid-ntrig.o
+___ratelimit __cfi_slowpath __hid_register_driver __hid_request __this_module _dev_err _dev_info arm64_const_caps_ready cpu_hwcap_keys hid_hw_start hid_hw_stop hid_open_report hid_unregister_driver input_event input_set_abs_params kfree kmalloc_caches kmem_cache_alloc_trace kstrtoull param_ops_uint printk sprintf sysfs_create_group sysfs_remove_group usb_control_msg

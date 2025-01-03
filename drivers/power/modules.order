@@ -1,0 +1,2 @@
+drivers/power/reset/exynos-reboot.ko
+drivers/power/supply/ifpmic_class.ko

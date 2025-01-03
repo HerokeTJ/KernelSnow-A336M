@@ -1,0 +1,1 @@
+cmd_drivers/battery/common/sec_pd.mod := { echo  drivers/battery/common/sec_pd.o; llvm-nm drivers/battery/common/sec_pd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/battery/common/sec_pd.mod

@@ -1,0 +1,2 @@
+drivers/spu_verify/spu-sign-verify.o
+__cfi_slowpath __kmalloc bcmp crypto_alloc_shash crypto_destroy_tfm crypto_shash_final crypto_shash_update kfree kmalloc_caches kmalloc_order_trace kmem_cache_alloc_trace printk public_key_verify_signature spu_firmware_signature_verify strlen strncmp

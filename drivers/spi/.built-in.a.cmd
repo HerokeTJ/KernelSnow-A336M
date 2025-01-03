@@ -1,0 +1,1 @@
+cmd_drivers/spi/built-in.a := rm -f drivers/spi/built-in.a.symversions   ; cat drivers/spi/spi.o.symversions >> drivers/spi/built-in.a.symversions   ; cat drivers/spi/spi-mem.o.symversions >> drivers/spi/built-in.a.symversions; rm -f drivers/spi/built-in.a; llvm-ar cDPrST drivers/spi/built-in.a drivers/spi/spi.o drivers/spi/spi-mem.o

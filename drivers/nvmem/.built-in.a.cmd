@@ -1,0 +1,1 @@
+cmd_drivers/nvmem/built-in.a := rm -f drivers/nvmem/built-in.a.symversions   ; cat drivers/nvmem/core.o.symversions >> drivers/nvmem/built-in.a.symversions; rm -f drivers/nvmem/built-in.a; llvm-ar cDPrST drivers/nvmem/built-in.a drivers/nvmem/core.o

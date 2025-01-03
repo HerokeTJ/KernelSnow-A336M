@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/built-in.a := rm -f drivers/soc/samsung/built-in.a.symversions  ; rm -f drivers/soc/samsung/built-in.a; llvm-ar cDPrST drivers/soc/samsung/built-in.a drivers/soc/samsung/debug/built-in.a

@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/utility/sensor_core.mod := { echo  drivers/sensorhub/utility/sensor_core.o; llvm-nm drivers/sensorhub/utility/sensor_core.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/sensorhub/utility/sensor_core.mod

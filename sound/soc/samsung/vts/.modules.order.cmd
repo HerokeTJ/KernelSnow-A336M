@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/vts/modules.order := {   echo sound/soc/samsung/vts/snd-soc-samsung-vts-mailbox.ko;   echo sound/soc/samsung/vts/snd-soc-samsung-vts.ko; :; } | awk '!x[$$0]++' - > sound/soc/samsung/vts/modules.order

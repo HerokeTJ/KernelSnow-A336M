@@ -1,0 +1,1 @@
+cmd_drivers/power/reset/exynos-reboot.mod := { echo  drivers/power/reset/exynos-reboot.o; llvm-nm drivers/power/reset/exynos-reboot.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/power/reset/exynos-reboot.mod

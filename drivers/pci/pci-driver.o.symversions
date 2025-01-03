@@ -1,0 +1,9 @@
+__crc_pci_add_dynid = 0x3efe12d1;
+__crc_pci_match_id = 0xa1648ead;
+__crc___pci_register_driver = 0x0339795e;
+__crc_pci_unregister_driver = 0xe1e4290c;
+__crc_pci_dev_driver = 0xa76d2bbd;
+__crc_pci_dev_get = 0x105a5790;
+__crc_pci_dev_put = 0x39e91d75;
+__crc_pci_bus_type = 0x34945c88;
+__crc_pcie_port_bus_type = 0x885bb60b;

@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/samsung/pinctrl-samsung-core.mod := { echo  drivers/pinctrl/samsung/pinctrl-exynos.o drivers/pinctrl/samsung/pinctrl-exynos-arm64.o drivers/pinctrl/samsung/pinctrl-samsung.o; llvm-nm drivers/pinctrl/samsung/pinctrl-samsung-core.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/pinctrl/samsung/pinctrl-samsung-core.mod

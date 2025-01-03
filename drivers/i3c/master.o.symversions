@@ -1,0 +1,15 @@
+__crc_i3c_master_get_free_addr = 0x63513af3;
+__crc_i3c_master_entdaa_locked = 0xd7263d68;
+__crc_i3c_master_disec_locked = 0x29131c93;
+__crc_i3c_master_enec_locked = 0x9c443f42;
+__crc_i3c_master_defslvs_locked = 0x37d1f1b2;
+__crc_i3c_master_do_daa = 0x0f936af1;
+__crc_i3c_master_set_info = 0x5cd7229f;
+__crc_i3c_master_add_i3c_dev_locked = 0x19e78db7;
+__crc_i3c_master_queue_ibi = 0x7f6f6b80;
+__crc_i3c_generic_ibi_free_pool = 0x76fe3e05;
+__crc_i3c_generic_ibi_alloc_pool = 0x9256784e;
+__crc_i3c_generic_ibi_get_free_slot = 0xb133f9ea;
+__crc_i3c_generic_ibi_recycle_slot = 0x9a7ee19f;
+__crc_i3c_master_register = 0x785009dd;
+__crc_i3c_master_unregister = 0x682c06ff;

@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/snd-soc-s3c-dma.mod := { echo  sound/soc/samsung/dmaengine.o; llvm-nm sound/soc/samsung/snd-soc-s3c-dma.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/snd-soc-s3c-dma.mod

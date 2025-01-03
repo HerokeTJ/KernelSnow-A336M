@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-chicony.mod := { echo  drivers/hid/hid-chicony.o; llvm-nm drivers/hid/hid-chicony.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-chicony.mod

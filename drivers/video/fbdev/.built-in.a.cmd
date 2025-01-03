@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/built-in.a := rm -f drivers/video/fbdev/built-in.a.symversions   ; cat drivers/video/fbdev/core/built-in.a.symversions >> drivers/video/fbdev/built-in.a.symversions  ; rm -f drivers/video/fbdev/built-in.a; llvm-ar cDPrST drivers/video/fbdev/built-in.a drivers/video/fbdev/core/built-in.a drivers/video/fbdev/omap2/built-in.a

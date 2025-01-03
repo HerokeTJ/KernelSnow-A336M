@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/scsc/modules.order := {   echo drivers/net/wireless/scsc/scsc_wlan.ko;   echo drivers/net/wireless/scsc/scsc_wifilogger.ko; :; } | awk '!x[$$0]++' - > drivers/net/wireless/scsc/modules.order

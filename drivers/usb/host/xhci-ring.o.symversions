@@ -1,0 +1,5 @@
+__crc_xhci_trb_virt_to_dma = 0x83e71096;
+__crc_xhci_ring_cmd_db = 0xcc80957b;
+__crc_xhci_handle_event = 0x4391ec5d;
+__crc_xhci_update_erst_dequeue = 0x31c3e5d5;
+__crc_xhci_queue_stop_endpoint = 0xcf932950;

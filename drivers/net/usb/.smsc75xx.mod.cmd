@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/smsc75xx.mod := { echo  drivers/net/usb/smsc75xx.o; llvm-nm drivers/net/usb/smsc75xx.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/net/usb/smsc75xx.mod

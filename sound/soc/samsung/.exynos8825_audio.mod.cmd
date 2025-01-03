@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/exynos8825_audio.mod := { echo  sound/soc/samsung/exynos8825_audio.o; llvm-nm sound/soc/samsung/exynos8825_audio.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/exynos8825_audio.mod

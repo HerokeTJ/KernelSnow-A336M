@@ -1,0 +1,3 @@
+__crc_fsverity_verify_page = 0x51b28ae5;
+__crc_fsverity_verify_bio = 0x5d747fcb;
+__crc_fsverity_enqueue_verify_work = 0x57244555;

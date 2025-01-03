@@ -1,0 +1,1 @@
+cmd_drivers/spu_verify/spu_verify.o := rm -f drivers/spu_verify/spu_verify.o.symversions   ; cat drivers/spu_verify/spu-sign-verify.o.symversions >> drivers/spu_verify/spu_verify.o.symversions; rm -f drivers/spu_verify/spu_verify.o; llvm-ar cDPrsT drivers/spu_verify/spu_verify.o drivers/spu_verify/spu-sign-verify.o

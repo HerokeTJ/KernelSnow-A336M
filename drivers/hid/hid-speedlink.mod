@@ -1,0 +1,2 @@
+drivers/hid/hid-speedlink.o
+__hid_register_driver __this_module hid_unregister_driver

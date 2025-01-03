@@ -1,0 +1,2 @@
+drivers/thermal/samsung/exynos_thermal.ko
+drivers/thermal/samsung/gpu_cooling.ko

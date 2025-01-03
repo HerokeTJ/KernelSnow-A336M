@@ -1,0 +1,11 @@
+__crc_cdc_ncm_change_mtu = 0x682eab10;
+__crc_cdc_ncm_bind_common = 0x5d3f3436;
+__crc_cdc_ncm_unbind = 0x9d35f5b8;
+__crc_cdc_ncm_select_altsetting = 0x87283c38;
+__crc_cdc_ncm_fill_tx_frame = 0x46fbb4ea;
+__crc_cdc_ncm_tx_fixup = 0x91a8f5ae;
+__crc_cdc_ncm_rx_verify_nth16 = 0xcd14b214;
+__crc_cdc_ncm_rx_verify_nth32 = 0xb9c05424;
+__crc_cdc_ncm_rx_verify_ndp16 = 0x6d31298c;
+__crc_cdc_ncm_rx_verify_ndp32 = 0x73eba4aa;
+__crc_cdc_ncm_rx_fixup = 0xd72a27f4;

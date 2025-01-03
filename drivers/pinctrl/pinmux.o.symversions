@@ -1,0 +1,6 @@
+__crc_pinmux_generic_get_function_count = 0x35add691;
+__crc_pinmux_generic_get_function_name = 0xf7f0c6e0;
+__crc_pinmux_generic_get_function_groups = 0x9fa814f2;
+__crc_pinmux_generic_get_function = 0x3d5c8e0e;
+__crc_pinmux_generic_add_function = 0x5586dc30;
+__crc_pinmux_generic_remove_function = 0x3a142ae2;

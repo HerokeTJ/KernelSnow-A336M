@@ -1,0 +1,4 @@
+__crc_drm_sysfs_hotplug_event = 0x43818116;
+__crc_drm_sysfs_connector_status_event = 0x2567aa4b;
+__crc_drm_class_device_register = 0x25f747b8;
+__crc_drm_class_device_unregister = 0x89be9d47;

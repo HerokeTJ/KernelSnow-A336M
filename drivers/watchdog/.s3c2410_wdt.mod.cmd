@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/s3c2410_wdt.mod := { echo  drivers/watchdog/s3c2410_wdt.o; llvm-nm drivers/watchdog/s3c2410_wdt.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/watchdog/s3c2410_wdt.mod

@@ -1,0 +1,5 @@
+__crc_bio_crypt_set_ctx = 0xb28b98e8;
+__crc___bio_crypt_clone = 0x21121313;
+__crc_blk_crypto_init_key = 0x50f8429f;
+__crc_blk_crypto_start_using_key = 0xaad5bc75;
+__crc_blk_crypto_evict_key = 0xb21e0bbe;

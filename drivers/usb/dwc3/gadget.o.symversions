@@ -1,0 +1,2 @@
+__crc_dwc3_send_gadget_ep_cmd = 0xd0131516;
+__crc_dwc3_stop_active_transfer = 0xd7e7f268;

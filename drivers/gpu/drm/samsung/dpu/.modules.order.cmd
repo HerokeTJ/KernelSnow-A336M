@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/samsung/dpu/modules.order := {   echo drivers/gpu/drm/samsung/dpu/exynos-drm.ko;   cat drivers/gpu/drm/samsung/dpu/panel/modules.order; :; } | awk '!x[$$0]++' - > drivers/gpu/drm/samsung/dpu/modules.order

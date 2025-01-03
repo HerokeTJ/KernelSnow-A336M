@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/modules.order := {   echo drivers/mmc/host/dw_mmc.ko;   echo drivers/mmc/host/dw_mmc-pltfm.ko;   echo drivers/mmc/host/dw_mmc-exynos-sec.ko; :; } | awk '!x[$$0]++' - > drivers/mmc/host/modules.order

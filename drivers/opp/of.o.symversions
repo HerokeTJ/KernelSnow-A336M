@@ -1,0 +1,11 @@
+__crc_dev_pm_opp_of_get_opp_desc_node = 0x473b9917;
+__crc_dev_pm_opp_of_find_icc_paths = 0x752d5443;
+__crc_dev_pm_opp_of_remove_table = 0x7d69d0b2;
+__crc_dev_pm_opp_of_add_table = 0x78e27b3f;
+__crc_dev_pm_opp_of_add_table_indexed = 0x47d458c0;
+__crc_dev_pm_opp_of_cpumask_remove_table = 0x6ded56d3;
+__crc_dev_pm_opp_of_cpumask_add_table = 0x8cf281e7;
+__crc_dev_pm_opp_of_get_sharing_cpus = 0x933261cc;
+__crc_of_get_required_opp_performance_state = 0xa9e87dc0;
+__crc_dev_pm_opp_get_of_node = 0x6c144fba;
+__crc_dev_pm_opp_of_register_em = 0xfb4b74d4;

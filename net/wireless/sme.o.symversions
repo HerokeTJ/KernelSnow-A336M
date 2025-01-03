@@ -1,0 +1,4 @@
+__crc_cfg80211_connect_done = 0xf4e79daf;
+__crc_cfg80211_roamed = 0xc4248da0;
+__crc_cfg80211_port_authorized = 0x7823fdc8;
+__crc_cfg80211_disconnected = 0x56d15730;

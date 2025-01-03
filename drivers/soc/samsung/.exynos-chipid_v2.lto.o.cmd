@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-chipid_v2.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/soc/samsung/exynos-chipid_v2.lto.o -T drivers/soc/samsung/exynos-chipid_v2.o.symversions --whole-archive drivers/soc/samsung/exynos-chipid_v2.o

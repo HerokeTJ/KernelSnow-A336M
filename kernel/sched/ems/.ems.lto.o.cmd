@@ -1,0 +1,1 @@
+cmd_kernel/sched/ems/ems.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o kernel/sched/ems/ems.lto.o -T kernel/sched/ems/ems.o.symversions --whole-archive kernel/sched/ems/ems.o

@@ -1,0 +1,2 @@
+drivers/samsung/debug/sec_debug_mode.o
+__this_module atomic_notifier_chain_register atomic_notifier_chain_unregister dbg_snapshot_scratch_clear panic_notifier_list param_ops_int printk secdbg_mode_enter_upload

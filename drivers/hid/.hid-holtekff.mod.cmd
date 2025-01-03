@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-holtekff.mod := { echo  drivers/hid/hid-holtekff.o; llvm-nm drivers/hid/hid-holtekff.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-holtekff.mod

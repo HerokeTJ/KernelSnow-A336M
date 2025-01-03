@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-mif-profiler.mod := { echo  drivers/soc/samsung/exynos-mif-profiler.o; llvm-nm drivers/soc/samsung/exynos-mif-profiler.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-mif-profiler.mod

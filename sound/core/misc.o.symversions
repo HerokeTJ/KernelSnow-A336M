@@ -1,0 +1,6 @@
+__crc_release_and_free_resource = 0xd8e83e82;
+__crc_snd_pci_quirk_lookup_id = 0x73076315;
+__crc_snd_pci_quirk_lookup = 0x1babb63a;
+__crc_snd_fasync_helper = 0x413e7903;
+__crc_snd_kill_fasync = 0xf8f2a4eb;
+__crc_snd_fasync_free = 0x5af762f1;

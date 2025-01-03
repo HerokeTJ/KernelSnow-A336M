@@ -1,0 +1,15 @@
+__crc_dev_pm_qos_flags = 0x85d34178;
+__crc_dev_pm_qos_read_value = 0x6d34f6c4;
+__crc_dev_pm_qos_add_request = 0x66e2a4b9;
+__crc_dev_pm_qos_update_request = 0xfe313071;
+__crc_dev_pm_qos_remove_request = 0xc866d6b8;
+__crc_dev_pm_qos_add_notifier = 0xd4bf9547;
+__crc_dev_pm_qos_remove_notifier = 0xf8bebc9d;
+__crc_dev_pm_qos_add_ancestor_request = 0x3f7fd567;
+__crc_dev_pm_qos_expose_latency_limit = 0x774813ee;
+__crc_dev_pm_qos_hide_latency_limit = 0xe820569b;
+__crc_dev_pm_qos_expose_flags = 0xb7d9fd45;
+__crc_dev_pm_qos_hide_flags = 0x411dad88;
+__crc_dev_pm_qos_update_user_latency_tolerance = 0xc9b16216;
+__crc_dev_pm_qos_expose_latency_tolerance = 0x8b807645;
+__crc_dev_pm_qos_hide_latency_tolerance = 0xd3fc7342;

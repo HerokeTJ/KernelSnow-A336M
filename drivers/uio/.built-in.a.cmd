@@ -1,0 +1,1 @@
+cmd_drivers/uio/built-in.a := rm -f drivers/uio/built-in.a.symversions   ; cat drivers/uio/uio.o.symversions >> drivers/uio/built-in.a.symversions; rm -f drivers/uio/built-in.a; llvm-ar cDPrST drivers/uio/built-in.a drivers/uio/uio.o

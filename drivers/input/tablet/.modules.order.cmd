@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/modules.order := {   echo drivers/input/tablet/acecad.ko;   echo drivers/input/tablet/aiptek.ko;   echo drivers/input/tablet/gtco.ko;   echo drivers/input/tablet/hanwang.ko;   echo drivers/input/tablet/kbtab.ko; :; } | awk '!x[$$0]++' - > drivers/input/tablet/modules.order

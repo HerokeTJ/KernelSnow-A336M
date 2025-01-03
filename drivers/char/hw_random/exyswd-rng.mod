@@ -1,0 +1,2 @@
+drivers/char/hw_random/exyswd-rng.o
+__arm_smccc_smc __platform_driver_register __this_module _raw_spin_lock_irqsave _raw_spin_unlock_irqrestore devm_hwrng_register devm_kmalloc dma_free_attrs dmam_alloc_attrs panic platform_device_register platform_device_unregister platform_driver_unregister printk

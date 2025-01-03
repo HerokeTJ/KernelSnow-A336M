@@ -1,0 +1,1 @@
+cmd_net/wireless/cfg80211.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o net/wireless/cfg80211.lto.o -T net/wireless/cfg80211.o.symversions --whole-archive net/wireless/cfg80211.o

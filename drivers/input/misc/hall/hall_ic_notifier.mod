@@ -1,0 +1,2 @@
+drivers/input/misc/hall/hall_ic_notifier.o
+blocking_notifier_call_chain blocking_notifier_chain_register blocking_notifier_chain_unregister hall_notifier_notify hall_notifier_register hall_notifier_unregister printk

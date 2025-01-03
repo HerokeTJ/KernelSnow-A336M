@@ -1,0 +1,1 @@
+cmd_drivers/usb/common/vbus_notifier/vbus_notifier.mod := { echo  drivers/usb/common/vbus_notifier/vbus_notifier.o; llvm-nm drivers/usb/common/vbus_notifier/vbus_notifier.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/common/vbus_notifier/vbus_notifier.mod

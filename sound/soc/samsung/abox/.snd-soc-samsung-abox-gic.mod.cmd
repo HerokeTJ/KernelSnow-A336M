@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/abox/snd-soc-samsung-abox-gic.mod := { echo  sound/soc/samsung/abox/abox_gic.o sound/soc/samsung/abox/abox_util.o; llvm-nm sound/soc/samsung/abox/snd-soc-samsung-abox-gic.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/abox/snd-soc-samsung-abox-gic.mod

@@ -1,0 +1,2 @@
+__crc_scsi_dma_map = 0x1762f1f6;
+__crc_scsi_dma_unmap = 0x228b3043;

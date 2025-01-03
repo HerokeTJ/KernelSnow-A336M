@@ -1,0 +1,2 @@
+drivers/hid/hid-axff.o
+__cfi_slowpath __hid_register_driver __hid_request __this_module _dev_err _dev_info _dev_warn arm64_const_caps_ready cpu_hwcap_keys hid_debug hid_hw_close hid_hw_open hid_hw_start hid_hw_stop hid_open_report hid_unregister_driver input_ff_create_memless kfree kmalloc_caches kmem_cache_alloc_trace printk

@@ -1,0 +1,7 @@
+__crc_fscrypt_fname_alloc_buffer = 0x80e5f86f;
+__crc_fscrypt_fname_free_buffer = 0xa263892b;
+__crc_fscrypt_fname_disk_to_usr = 0xc0547238;
+__crc_fscrypt_setup_filename = 0xf5822a25;
+__crc_fscrypt_match_name = 0xa6a088b7;
+__crc_fscrypt_fname_siphash = 0x025b0e5f;
+__crc_fscrypt_d_revalidate = 0x20cd285e;

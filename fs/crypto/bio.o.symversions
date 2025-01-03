@@ -1,0 +1,2 @@
+__crc_fscrypt_decrypt_bio = 0x0f80b882;
+__crc_fscrypt_zeroout_range = 0x7d5ce516;

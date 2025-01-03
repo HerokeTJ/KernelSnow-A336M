@@ -1,0 +1,3 @@
+__crc_cpufreq_cooling_register = 0xc8fb2f86;
+__crc_of_cpufreq_cooling_register = 0x13699fd2;
+__crc_cpufreq_cooling_unregister = 0x5a36e80e;

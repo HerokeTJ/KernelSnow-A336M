@@ -1,0 +1,7 @@
+__crc_putback_movable_pages = 0xbd6f03f7;
+__crc_migrate_page_move_mapping = 0x01da1b45;
+__crc_migrate_page_states = 0xe5021e7e;
+__crc_migrate_page_copy = 0xc7c723ba;
+__crc_migrate_page = 0x7ed2e63f;
+__crc_buffer_migrate_page = 0xdf7d197b;
+__crc_migrate_pages = 0xf2cc1dd3;

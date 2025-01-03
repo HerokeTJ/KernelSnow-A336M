@@ -1,0 +1,1 @@
+cmd_drivers/dma/samsung-dma.mod := { echo  drivers/dma/samsung-dma.o; llvm-nm drivers/dma/samsung-dma.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/dma/samsung-dma.mod

@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix/berlin/built-in.a := rm -f drivers/input/touchscreen/goodix/berlin/built-in.a.symversions ; rm -f drivers/input/touchscreen/goodix/berlin/built-in.a; llvm-ar cDPrST drivers/input/touchscreen/goodix/berlin/built-in.a 

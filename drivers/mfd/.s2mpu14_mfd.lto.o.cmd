@@ -1,0 +1,1 @@
+cmd_drivers/mfd/s2mpu14_mfd.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/mfd/s2mpu14_mfd.lto.o -T drivers/mfd/s2mpu14_mfd.o.symversions --whole-archive drivers/mfd/s2mpu14_mfd.o

@@ -1,0 +1,1 @@
+cmd_drivers/devfreq/exynos/exynos_devfreq.mod := { echo  drivers/devfreq/exynos/exynos-devfreq.o drivers/devfreq/exynos/governor_simpleinteractive.o; llvm-nm drivers/devfreq/exynos/exynos_devfreq.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/devfreq/exynos/exynos_devfreq.mod

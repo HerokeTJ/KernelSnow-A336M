@@ -1,0 +1,1 @@
+cmd_mm/zsmalloc.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o mm/zsmalloc.lto.o -T mm/zsmalloc.o.symversions --whole-archive mm/zsmalloc.o

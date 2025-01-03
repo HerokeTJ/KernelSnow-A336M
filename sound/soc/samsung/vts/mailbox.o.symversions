@@ -1,0 +1,5 @@
+__crc_vts_irq_generic_chip_ops = 0xb1ee730a;
+__crc_mailbox_update_vts_is_on = 0x151fae73;
+__crc_mailbox_generate_interrupt = 0xd17edbd4;
+__crc_mailbox_write_shared_register = 0x9945e3e1;
+__crc_mailbox_read_shared_register = 0x9191f07a;

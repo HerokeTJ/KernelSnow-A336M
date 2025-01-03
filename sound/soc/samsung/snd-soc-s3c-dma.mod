@@ -1,0 +1,2 @@
+sound/soc/samsung/dmaengine.o
+devm_kmalloc devm_snd_dmaengine_pcm_register samsung_asoc_dma_platform_register snd_dmaengine_pcm_prepare_slave_config

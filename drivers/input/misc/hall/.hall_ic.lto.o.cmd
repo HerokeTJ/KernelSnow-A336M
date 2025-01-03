@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/hall/hall_ic.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/input/misc/hall/hall_ic.lto.o -T drivers/input/misc/hall/hall_ic.o.symversions --whole-archive drivers/input/misc/hall/hall_ic.o

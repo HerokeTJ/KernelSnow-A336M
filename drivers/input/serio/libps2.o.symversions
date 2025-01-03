@@ -1,0 +1,12 @@
+__crc_ps2_sendbyte = 0x1d77669b;
+__crc_ps2_begin_command = 0xa6e396e1;
+__crc_ps2_end_command = 0x064401f8;
+__crc_ps2_drain = 0xab42c999;
+__crc_ps2_is_keyboard_id = 0x213e4965;
+__crc___ps2_command = 0x4333c9ae;
+__crc_ps2_command = 0x5e2a4723;
+__crc_ps2_sliced_command = 0xcd808eea;
+__crc_ps2_init = 0x2d2e860f;
+__crc_ps2_handle_ack = 0x2b2657a1;
+__crc_ps2_handle_response = 0xf44c8ba8;
+__crc_ps2_cmd_aborted = 0x3860ff90;

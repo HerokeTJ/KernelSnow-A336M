@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/sec_debug_softdog.mod := { echo  drivers/samsung/debug/sec_debug_softdog.o; llvm-nm drivers/samsung/debug/sec_debug_softdog.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/debug/sec_debug_softdog.mod

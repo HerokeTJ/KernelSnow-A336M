@@ -1,0 +1,5 @@
+drivers/net/usb/asix.ko
+drivers/net/usb/ax88179_178a.ko
+drivers/net/usb/smsc75xx.ko
+drivers/net/usb/smsc95xx.ko
+drivers/net/usb/cdc_mbim.ko

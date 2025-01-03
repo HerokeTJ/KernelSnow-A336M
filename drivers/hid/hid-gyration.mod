@@ -1,0 +1,2 @@
+drivers/hid/hid-gyration.o
+___ratelimit __hid_register_driver __this_module arm64_const_caps_ready cpu_hwcap_keys hid_unregister_driver input_event printk

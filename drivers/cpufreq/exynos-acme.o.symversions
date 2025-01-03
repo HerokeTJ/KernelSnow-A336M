@@ -1,0 +1,3 @@
+__crc_exynos_cpufreq_register_notifier = 0x2ddc06f4;
+__crc_exynos_cpufreq_unregister_notifier = 0x3508e200;
+__crc_sec_bootstat_get_cpuinfo = 0x85dddd2b;

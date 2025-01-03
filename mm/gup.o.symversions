@@ -1,0 +1,17 @@
+__crc_unpin_user_page = 0x4b5e52d1;
+__crc_put_user_page = 0x968e84fc;
+__crc_unpin_user_pages_dirty_lock = 0xdf2df5e3;
+__crc_unpin_user_pages = 0x43db2bb5;
+__crc_fixup_user_fault = 0xfbb3e9a0;
+__crc_get_user_pages_remote = 0x8151d0b3;
+__crc_get_user_pages = 0x03efe018;
+__crc_get_user_pages_locked = 0x1a7f5dc1;
+__crc_get_user_pages_unlocked = 0x5f63f66b;
+__crc_get_user_pages_fast_only = 0xfa679a6f;
+__crc_get_user_pages_fast = 0x85d15b78;
+__crc_pin_user_pages_fast = 0x11470fc9;
+__crc_pin_user_pages_fast_only = 0x7f1ca862;
+__crc_pin_user_pages_remote = 0xb820deb2;
+__crc_pin_user_pages = 0x83986d0c;
+__crc_pin_user_pages_unlocked = 0xc9d64486;
+__crc_pin_user_pages_locked = 0x09907403;

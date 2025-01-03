@@ -1,0 +1,2 @@
+drivers/samsung/debug/sec_debug_dprm.o
+__this_module argv_free argv_split kstrtoull printk register_reboot_notifier secdbg_base_get_kcnst_base sprintf strcmp strncmp unregister_reboot_notifier

@@ -1,0 +1,4 @@
+__crc_gdb_transport_send = 0x53dc8be3;
+__crc_gdb_transport_register_channel_handler = 0x3df93a8d;
+__crc_gdb_transport_register_client = 0x4d39b94f;
+__crc_gdb_transport_unregister_client = 0xd265b329;

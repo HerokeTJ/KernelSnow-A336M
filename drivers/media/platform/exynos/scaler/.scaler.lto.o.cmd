@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/scaler/scaler.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/media/platform/exynos/scaler/scaler.lto.o  --whole-archive drivers/media/platform/exynos/scaler/scaler.o

@@ -1,0 +1,163 @@
+#include <linux/module.h>
+#define INCLUDE_VERMAGIC
+#include <linux/build-salt.h>
+#include <linux/vermagic.h>
+#include <linux/compiler.h>
+
+BUILD_SALT;
+
+MODULE_INFO(vermagic, VERMAGIC_STRING);
+MODULE_INFO(name, KBUILD_MODNAME);
+
+__visible struct module __this_module
+__section(".gnu.linkonce.this_module") = {
+	.name = KBUILD_MODNAME,
+	.init = init_module,
+#ifdef CONFIG_MODULE_UNLOAD
+	.exit = cleanup_module,
+#endif
+	.arch = MODULE_ARCH_INIT,
+};
+
+MODULE_INFO(intree, "Y");
+
+#ifdef CONFIG_RETPOLINE
+MODULE_INFO(retpoline, "Y");
+#endif
+
+static const struct modversion_info ____versions[]
+__used __section("__versions") = {
+	{ 0x7c24b32d, "module_layout" },
+	{ 0xdcb764ad, "memset" },
+	{ 0x4829a47e, "memcpy" },
+	{ 0x8f678b07, "__stack_chk_guard" },
+	{ 0x98a9d10c, "__stack_chk_fail" },
+	{ 0x9a7402a8, "gpiod_get_raw_value" },
+	{ 0xa471896, "gpiod_to_irq" },
+	{ 0x982b7d12, "of_get_named_gpio_flags" },
+	{ 0x2072ee9b, "request_threaded_irq" },
+	{ 0xd7c406eb, "iio_channel_release" },
+	{ 0x4e863092, "iio_read_channel_processed" },
+	{ 0x7fdcbbc0, "iio_read_channel_raw" },
+	{ 0x35b59c88, "iio_channel_get" },
+	{ 0xe914e41e, "strcpy" },
+	{ 0x5f9e9913, "of_property_count_elems_of_size" },
+	{ 0x9cf0dacc, "of_property_read_string" },
+	{ 0xa8a4448c, "of_property_read_u32_index" },
+	{ 0x69601c70, "of_get_next_child" },
+	{ 0x164eb7f6, "device_remove_file" },
+	{ 0xbcab6ee6, "sscanf" },
+	{ 0x9166fada, "strncpy" },
+	{ 0x527d5e6, "sec_pd_get_vid_pid" },
+	{ 0x50bda721, "sec_pd_manual_ccopen_req" },
+	{ 0xe1f599e2, "muic_set_hiccup_mode" },
+	{ 0xe1537255, "__list_del_entry_valid" },
+	{ 0x68f31cbd, "__list_add_valid" },
+	{ 0xbf27df8c, "simple_attr_open" },
+	{ 0xeb895e94, "simple_attr_release" },
+	{ 0xd9bf06e9, "simple_attr_write" },
+	{ 0x4a788936, "simple_attr_read" },
+	{ 0xe2aa8e76, "generic_file_llseek" },
+	{ 0xd740362b, "seq_printf" },
+	{ 0x4f731e2b, "single_open" },
+	{ 0xef42eddb, "single_release" },
+	{ 0xb9997d36, "seq_read" },
+	{ 0xad9f2705, "seq_lseek" },
+	{ 0x5243bc7e, "debugfs_remove" },
+	{ 0x4bef7eba, "debugfs_create_u32" },
+	{ 0x63ef7ca7, "debugfs_create_file" },
+	{ 0x82b308e8, "debugfs_create_dir" },
+	{ 0x96848186, "scnprintf" },
+	{ 0x2d3385d3, "system_wq" },
+	{ 0xd2728bc0, "param_ops_charp" },
+	{ 0xd8339549, "param_ops_int" },
+	{ 0x1115f928, "param_ops_uint" },
+	{ 0x329d9ae3, "platform_driver_unregister" },
+	{ 0xf8beca97, "cancel_delayed_work_sync" },
+	{ 0x42160169, "flush_workqueue" },
+	{ 0x536e1fa7, "alarm_cancel" },
+	{ 0xeba9190c, "sb_sysfs_create_attrs" },
+	{ 0x656e4a6e, "snprintf" },
+	{ 0xbbfcc83e, "power_supply_get_drvdata" },
+	{ 0xc5013613, "sec_pd_select_pdo" },
+	{ 0x1529b823, "sec_pd_select_pps" },
+	{ 0x5960ac70, "sec_pd_is_apdo" },
+	{ 0xa65edb9f, "muic_afc_request_voltage" },
+	{ 0x8e2e1f88, "muic_hv_charger_init" },
+	{ 0x45e2fb53, "sec_pd_pdo_type_str" },
+	{ 0xc1704c9a, "sec_pd_get_max_power" },
+	{ 0xe6fa567d, "sec_pd_get_apdo_prog_volt" },
+	{ 0x7a31b46b, "sec_pd_register_chg_info_cb" },
+	{ 0x14f7ef35, "sec_pd_init_data" },
+	{ 0x13c6383e, "get_afc_mode" },
+	{ 0xd9362e5f, "vbus_notifier_register" },
+	{ 0x47109311, "manager_notifier_register" },
+	{ 0x3faa973e, "sec_pd_get_current_pdo" },
+	{ 0xf6b4032d, "sec_pd_get_pdo_power" },
+	{ 0x14b4141b, "get_usb_enumeration_state" },
+	{ 0x111d2777, "alarm_start" },
+	{ 0x7f02188f, "__msecs_to_jiffies" },
+	{ 0x5de7762c, "sec_abc_send_event" },
+	{ 0x87f6e3eb, "of_find_node_by_name" },
+	{ 0x15fbf5a5, "sec_pd_vpdo_auth" },
+	{ 0xa9941a8b, "__pm_relax" },
+	{ 0x8e2fd0c, "devm_kmalloc" },
+	{ 0x357b5405, "wakeup_source_unregister" },
+	{ 0x8c03d20c, "destroy_workqueue" },
+	{ 0xf08621c8, "power_supply_unregister" },
+	{ 0xecd503fa, "sb_notify_register" },
+	{ 0xe3aa3619, "device_create_file" },
+	{ 0x62e6d81c, "power_supply_register" },
+	{ 0x1fbe3658, "alarm_init" },
+	{ 0x253af43d, "delayed_work_timer_fn" },
+	{ 0x79cf5987, "init_timer_key" },
+	{ 0xdf9208c0, "alloc_workqueue" },
+	{ 0x28230a3f, "wakeup_source_register" },
+	{ 0x574add77, "__mutex_init" },
+	{ 0x503a285e, "__platform_driver_register" },
+	{ 0x2c531865, "gpio_to_desc" },
+	{ 0x7ee96f3, "gpiod_get_raw_value_cansleep" },
+	{ 0xc4f0da12, "ktime_get_with_offset" },
+	{ 0x8a25ae5d, "pm_wakeup_ws_event" },
+	{ 0xbf57e89e, "queue_delayed_work_on" },
+	{ 0x37adced2, "sec_pd_change_src" },
+	{ 0x343793bc, "secdbg_exin_set_batt" },
+	{ 0xe2d5255a, "strcmp" },
+	{ 0xf9a482f9, "msleep" },
+	{ 0xfe990052, "gpio_free" },
+	{ 0x5ed4c6ae, "_dev_err" },
+	{ 0x47229b5c, "gpio_request" },
+	{ 0x1e1e140e, "ns_to_timespec64" },
+	{ 0x886d3ed1, "power_supply_changed" },
+	{ 0x37befc70, "jiffies_to_msecs" },
+	{ 0x2a3901ee, "__pm_stay_awake" },
+	{ 0xda571594, "cancel_delayed_work" },
+	{ 0xe8b268ae, "mutex_unlock" },
+	{ 0xeb9065d9, "mutex_lock" },
+	{ 0x5a921311, "strncmp" },
+	{ 0x92540fbf, "finish_wait" },
+	{ 0x8ddd8aad, "schedule_timeout" },
+	{ 0x8c26d495, "prepare_to_wait_event" },
+	{ 0xfe487975, "init_wait_entry" },
+	{ 0x3eeb2322, "__wake_up" },
+	{ 0xd9a5ea54, "__init_waitqueue_head" },
+	{ 0x8900b200, "kmalloc_caches" },
+	{ 0xfec2174f, "of_property_read_variable_u32_array" },
+	{ 0xb38391e9, "kmem_cache_alloc_trace" },
+	{ 0xeb233a45, "__kmalloc" },
+	{ 0x6ca7c29e, "of_find_property" },
+	{ 0x175ced1, "power_supply_get_by_name" },
+	{ 0x8eff6041, "_dev_info" },
+	{ 0x37a0cba, "kfree" },
+	{ 0x98cf60b3, "strlen" },
+	{ 0x3c3ff9fd, "sprintf" },
+	{ 0xad0a8a5a, "of_get_property" },
+	{ 0xa5939272, "power_supply_put" },
+	{ 0x2cd90edd, "__cfi_slowpath" },
+	{ 0xc5850110, "printk" },
+};
+
+MODULE_INFO(depends, "sec_pd,common_muic,sb-core,vbus_notifier,usb_typec_manager,abc,sec_debug_extra_info");
+
+MODULE_ALIAS("of:N*T*Csamsung,sec-battery");
+MODULE_ALIAS("of:N*T*Csamsung,sec-batteryC*");

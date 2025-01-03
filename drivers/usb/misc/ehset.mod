@@ -1,0 +1,2 @@
+drivers/usb/misc/ehset.o
+__this_module _dev_err kfree kmalloc_caches kmem_cache_alloc_trace msleep usb_control_msg usb_deregister usb_register_driver

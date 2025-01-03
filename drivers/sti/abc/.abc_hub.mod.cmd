@@ -1,0 +1,1 @@
+cmd_drivers/sti/abc/abc_hub.mod := { echo  drivers/sti/abc/abc_hub_core.o drivers/sti/abc/abc_hub_bootc.o; llvm-nm drivers/sti/abc/abc_hub.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/sti/abc/abc_hub.mod

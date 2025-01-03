@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-gyration.mod := { echo  drivers/hid/hid-gyration.o; llvm-nm drivers/hid/hid-gyration.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-gyration.mod

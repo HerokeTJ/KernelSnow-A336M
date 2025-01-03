@@ -1,0 +1,3 @@
+__crc_crypto_cipher_setkey = 0xbf592b9f;
+__crc_crypto_cipher_encrypt_one = 0x10778e6b;
+__crc_crypto_cipher_decrypt_one = 0x0305d0cc;

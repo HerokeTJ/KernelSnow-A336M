@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.a := rm -f drivers/char/hw_random/built-in.a.symversions   ; cat drivers/char/hw_random/core.o.symversions >> drivers/char/hw_random/built-in.a.symversions  ; rm -f drivers/char/hw_random/built-in.a; llvm-ar cDPrST drivers/char/hw_random/built-in.a drivers/char/hw_random/core.o drivers/char/hw_random/hisi-rng.o

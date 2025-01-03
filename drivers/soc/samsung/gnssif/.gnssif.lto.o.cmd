@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/gnssif/gnssif.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/soc/samsung/gnssif/gnssif.lto.o  --whole-archive drivers/soc/samsung/gnssif/gnssif.o

@@ -1,0 +1,1 @@
+cmd_drivers/leds/leds-s2mu106.mod := { echo  drivers/leds/leds-s2mu106.o; llvm-nm drivers/leds/leds-s2mu106.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/leds/leds-s2mu106.mod

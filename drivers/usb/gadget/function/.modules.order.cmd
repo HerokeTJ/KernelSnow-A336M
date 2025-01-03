@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/modules.order := {   echo drivers/usb/gadget/function/usb_f_dm.ko;   echo drivers/usb/gadget/function/usb_f_dm1.ko;   echo drivers/usb/gadget/function/usb_f_conn_gadget.ko;   echo drivers/usb/gadget/function/usb_f_ss_mon_gadget.ko; :; } | awk '!x[$$0]++' - > drivers/usb/gadget/function/modules.order

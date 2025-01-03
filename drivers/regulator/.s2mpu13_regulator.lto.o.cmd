@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpu13_regulator.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/regulator/s2mpu13_regulator.lto.o -T drivers/regulator/s2mpu13_regulator.o.symversions --whole-archive drivers/regulator/s2mpu13_regulator.o

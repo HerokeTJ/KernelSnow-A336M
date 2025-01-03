@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usbserial.mod := { echo  drivers/usb/serial/usb-serial.o drivers/usb/serial/generic.o drivers/usb/serial/bus.o; llvm-nm drivers/usb/serial/usbserial.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/serial/usbserial.mod

@@ -1,0 +1,2 @@
+__crc_drm_encoder_init = 0xca553146;
+__crc_drm_encoder_cleanup = 0x98ab4f21;

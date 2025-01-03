@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-lcpower.mod := { echo  drivers/hid/hid-lcpower.o; llvm-nm drivers/hid/hid-lcpower.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-lcpower.mod

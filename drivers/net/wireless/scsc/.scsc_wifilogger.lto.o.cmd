@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/scsc/scsc_wifilogger.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/net/wireless/scsc/scsc_wifilogger.lto.o -T drivers/net/wireless/scsc/scsc_wifilogger.o.symversions --whole-archive drivers/net/wireless/scsc/scsc_wifilogger.o

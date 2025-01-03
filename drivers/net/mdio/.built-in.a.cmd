@@ -1,0 +1,1 @@
+cmd_drivers/net/mdio/built-in.a := rm -f drivers/net/mdio/built-in.a.symversions   ; cat drivers/net/mdio/of_mdio.o.symversions >> drivers/net/mdio/built-in.a.symversions; rm -f drivers/net/mdio/built-in.a; llvm-ar cDPrST drivers/net/mdio/built-in.a drivers/net/mdio/of_mdio.o

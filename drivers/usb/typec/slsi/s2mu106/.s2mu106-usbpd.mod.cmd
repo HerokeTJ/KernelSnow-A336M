@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/slsi/s2mu106/s2mu106-usbpd.mod := { echo  drivers/usb/typec/slsi/s2mu106/s2mu106-usbpd.o; llvm-nm drivers/usb/typec/slsi/s2mu106/s2mu106-usbpd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/typec/slsi/s2mu106/s2mu106-usbpd.mod

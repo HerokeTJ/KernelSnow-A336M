@@ -1,0 +1,1 @@
+cmd_drivers/sti/abc/abc.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/sti/abc/abc.lto.o -T drivers/sti/abc/abc.o.symversions --whole-archive drivers/sti/abc/abc.o

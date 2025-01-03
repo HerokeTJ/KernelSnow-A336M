@@ -1,0 +1,1 @@
+cmd_sound/usb/exynos-usb-audio-offloading.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/usb/exynos-usb-audio-offloading.lto.o -T sound/usb/exynos-usb-audio-offloading.o.symversions --whole-archive sound/usb/exynos-usb-audio-offloading.o

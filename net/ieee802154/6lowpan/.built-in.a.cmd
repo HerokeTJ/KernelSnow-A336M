@@ -1,0 +1,1 @@
+cmd_net/ieee802154/6lowpan/built-in.a := rm -f net/ieee802154/6lowpan/built-in.a.symversions        ; rm -f net/ieee802154/6lowpan/built-in.a; llvm-ar cDPrST net/ieee802154/6lowpan/built-in.a net/ieee802154/6lowpan/core.o net/ieee802154/6lowpan/rx.o net/ieee802154/6lowpan/reassembly.o net/ieee802154/6lowpan/tx.o

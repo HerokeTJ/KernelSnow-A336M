@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-mcinfo.mod := { echo  drivers/soc/samsung/exynos-mcinfo.o; llvm-nm drivers/soc/samsung/exynos-mcinfo.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-mcinfo.mod

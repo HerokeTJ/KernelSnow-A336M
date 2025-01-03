@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/ehld.o := rm -f drivers/soc/samsung/debug/ehld.o.symversions   ; cat drivers/soc/samsung/debug/exynos-ehld.o.symversions >> drivers/soc/samsung/debug/ehld.o.symversions  ; rm -f drivers/soc/samsung/debug/ehld.o; llvm-ar cDPrsT drivers/soc/samsung/debug/ehld.o drivers/soc/samsung/debug/exynos-ehld.o drivers/soc/samsung/debug/exynos-ehld-ipc.o

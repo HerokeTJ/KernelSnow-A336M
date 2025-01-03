@@ -1,0 +1,15 @@
+__crc___skb_wait_for_more_packets = 0x8c0d903b;
+__crc___skb_try_recv_datagram = 0xc489e22e;
+__crc___skb_recv_datagram = 0x8999af81;
+__crc_skb_recv_datagram = 0xfcdb78a2;
+__crc_skb_free_datagram = 0xe8245616;
+__crc___skb_free_datagram_locked = 0x2ac8718c;
+__crc___sk_queue_drop_skb = 0x257f2194;
+__crc_skb_kill_datagram = 0xa620b961;
+__crc_skb_copy_and_hash_datagram_iter = 0x01e899e1;
+__crc_skb_copy_datagram_iter = 0xcfffc13e;
+__crc_skb_copy_datagram_from_iter = 0xf7fabebd;
+__crc___zerocopy_sg_from_iter = 0x00e5523f;
+__crc_zerocopy_sg_from_iter = 0x7362e8a6;
+__crc_skb_copy_and_csum_datagram_msg = 0x6922b506;
+__crc_datagram_poll = 0x23ece91d;

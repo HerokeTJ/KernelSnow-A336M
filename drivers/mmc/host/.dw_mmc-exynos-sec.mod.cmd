@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/dw_mmc-exynos-sec.mod := { echo  drivers/mmc/host/dw_mmc-exynos.o drivers/mmc/host/mmc-sec-feature.o drivers/mmc/host/mmc-sec-sysfs.o; llvm-nm drivers/mmc/host/dw_mmc-exynos-sec.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/mmc/host/dw_mmc-exynos-sec.mod

@@ -1,0 +1,8 @@
+__crc_drm_vma_offset_manager_init = 0x3c22a4d8;
+__crc_drm_vma_offset_manager_destroy = 0x07fb449a;
+__crc_drm_vma_offset_lookup_locked = 0x2ae0bfea;
+__crc_drm_vma_offset_add = 0x74b14b4c;
+__crc_drm_vma_offset_remove = 0x5f096225;
+__crc_drm_vma_node_allow = 0x3aec1bec;
+__crc_drm_vma_node_revoke = 0xe116d3a4;
+__crc_drm_vma_node_is_allowed = 0x11b9567a;

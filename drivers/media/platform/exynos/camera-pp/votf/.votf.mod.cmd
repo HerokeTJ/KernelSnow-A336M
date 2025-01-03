@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/votf/votf.mod := { echo  drivers/media/platform/exynos/camera-pp/votf/camerapp-votf.o drivers/media/platform/exynos/camera-pp/votf/camerapp-hw-api-votf.o; llvm-nm drivers/media/platform/exynos/camera-pp/votf/votf.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/camera-pp/votf/votf.mod

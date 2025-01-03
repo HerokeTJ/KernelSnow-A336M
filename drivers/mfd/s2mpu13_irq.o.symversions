@@ -1,0 +1,2 @@
+__crc_s2mpu13_irq_init = 0x51a258e2;
+__crc_s2mpu13_irq_exit = 0x0aea70a9;

@@ -1,0 +1,3 @@
+__crc_kbase_instr_hwcnt_request_dump = 0x5bcc00b8;
+__crc_kbase_instr_hwcnt_dump_complete = 0x44cb6c08;
+__crc_kbase_instr_hwcnt_clear = 0x1d5dc158;

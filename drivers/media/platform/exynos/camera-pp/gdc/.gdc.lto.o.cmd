@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/gdc/gdc.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/media/platform/exynos/camera-pp/gdc/gdc.lto.o -T drivers/media/platform/exynos/camera-pp/gdc/gdc.o.symversions --whole-archive drivers/media/platform/exynos/camera-pp/gdc/gdc.o

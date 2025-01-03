@@ -1,0 +1,1 @@
+cmd_drivers/soc/qcom/built-in.a := rm -f drivers/soc/qcom/built-in.a.symversions   ; cat drivers/soc/qcom/smem_state.o.symversions >> drivers/soc/qcom/built-in.a.symversions; rm -f drivers/soc/qcom/built-in.a; llvm-ar cDPrST drivers/soc/qcom/built-in.a drivers/soc/qcom/smem_state.o

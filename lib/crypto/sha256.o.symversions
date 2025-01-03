@@ -1,0 +1,5 @@
+__crc_sha256_update = 0x7b5b8f31;
+__crc_sha224_update = 0xf3107926;
+__crc_sha256_final = 0x61e272c9;
+__crc_sha224_final = 0xa3fea172;
+__crc_sha256 = 0xe39b2ea5;

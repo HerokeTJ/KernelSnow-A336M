@@ -1,0 +1,1 @@
+cmd_drivers/kq/mesh/mesh.o := rm -f drivers/kq/mesh/mesh.o.symversions    ; rm -f drivers/kq/mesh/mesh.o; llvm-ar cDPrsT drivers/kq/mesh/mesh.o drivers/kq/mesh/kq_mesh.o drivers/kq/mesh/kq_mesh_user_nad.o

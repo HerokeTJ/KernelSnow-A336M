@@ -1,0 +1,5 @@
+__crc_tz_iwsock_socket = 0xce48b456;
+__crc_tz_iwsock_connect = 0x1d685764;
+__crc_tz_iwsock_release = 0xc3e95005;
+__crc_tz_iwsock_read = 0xb0d98d9c;
+__crc_tz_iwsock_write = 0xfcefcffa;

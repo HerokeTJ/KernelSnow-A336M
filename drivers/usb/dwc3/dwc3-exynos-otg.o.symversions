@@ -1,0 +1,10 @@
+__crc_is_otg_only = 0x2199f456;
+__crc_exynos_usbdrd_inform_dp_use = 0xbe277570;
+__crc_usb_dr_role_control = 0xb49949ca;
+__crc_usb_power_notify_control = 0x03432b3d;
+__crc_dwc3_otg_phy_tune = 0xb2016d24;
+__crc_dwc3_otg_is_usb_ready = 0xe43bf8a8;
+__crc_dwc3_otg_get_link_state = 0x6bc97fea;
+__crc_dwc3_otg_run_sm = 0x3cfb56dd;
+__crc_otg_is_connect = 0x93acb5ce;
+__crc_get_idle_ip_index = 0x6a5ad642;

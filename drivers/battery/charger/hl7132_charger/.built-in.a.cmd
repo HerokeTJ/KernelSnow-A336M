@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/hl7132_charger/built-in.a := rm -f drivers/battery/charger/hl7132_charger/built-in.a.symversions ; rm -f drivers/battery/charger/hl7132_charger/built-in.a; llvm-ar cDPrST drivers/battery/charger/hl7132_charger/built-in.a 

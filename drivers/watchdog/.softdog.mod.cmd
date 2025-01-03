@@ -1,0 +1,1 @@
+cmd_drivers/watchdog/softdog.mod := { echo  drivers/watchdog/softdog.o; llvm-nm drivers/watchdog/softdog.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/watchdog/softdog.mod

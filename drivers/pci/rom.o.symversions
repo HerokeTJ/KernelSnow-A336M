@@ -1,0 +1,4 @@
+__crc_pci_enable_rom = 0x1c3cb495;
+__crc_pci_disable_rom = 0x9edd5c66;
+__crc_pci_map_rom = 0x9eb152a6;
+__crc_pci_unmap_rom = 0x93d7a4c2;

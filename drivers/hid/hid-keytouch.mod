@@ -1,0 +1,2 @@
+drivers/hid/hid-keytouch.o
+__hid_register_driver __this_module _dev_info hid_unregister_driver

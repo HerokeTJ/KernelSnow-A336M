@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc_mbim.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/net/usb/cdc_mbim.lto.o  --whole-archive drivers/net/usb/cdc_mbim.o

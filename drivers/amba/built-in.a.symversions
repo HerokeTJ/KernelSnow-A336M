@@ -1,0 +1,15 @@
+__crc_amba_bustype = 0x8ae4a6d8;
+__crc_amba_device_add = 0xa00c8873;
+__crc_amba_apb_device_add = 0x58d175d0;
+__crc_amba_ahb_device_add = 0xa500fd1b;
+__crc_amba_apb_device_add_res = 0x2f7e4f24;
+__crc_amba_ahb_device_add_res = 0x4cf68197;
+__crc_amba_device_alloc = 0x66808f1c;
+__crc_amba_device_put = 0x8abb0abe;
+__crc_amba_driver_register = 0xf085eb5c;
+__crc_amba_driver_unregister = 0x79525c69;
+__crc_amba_device_register = 0x80995e35;
+__crc_amba_device_unregister = 0xc150f396;
+__crc_amba_find_device = 0x64de1c0f;
+__crc_amba_request_regions = 0x8623af6f;
+__crc_amba_release_regions = 0x282efeff;

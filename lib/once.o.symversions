@@ -1,0 +1,4 @@
+__crc___do_once_start = 0x18e60984;
+__crc___do_once_done = 0x4198ca95;
+__crc___do_once_slow_start = 0xe0a323f6;
+__crc___do_once_slow_done = 0xace503e3;

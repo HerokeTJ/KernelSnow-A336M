@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/s2mpu13-key.mod := { echo  drivers/input/keyboard/s2mpu13-key.o; llvm-nm drivers/input/keyboard/s2mpu13-key.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/keyboard/s2mpu13-key.mod

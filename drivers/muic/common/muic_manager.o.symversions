@@ -1,0 +1,4 @@
+__crc_muic_manager_set_legacy_dev = 0x1baca4f3;
+__crc_muic_manager_init = 0x762ebc39;
+__crc_muic_manager_psy_init = 0x981d0efd;
+__crc_muic_manager_exit = 0xddf1a9a6;

@@ -1,0 +1,1 @@
+cmd_drivers/sti/abc/abc_hub.o := rm -f drivers/sti/abc/abc_hub.o.symversions   ; cat drivers/sti/abc/abc_hub_core.o.symversions >> drivers/sti/abc/abc_hub.o.symversions  ; rm -f drivers/sti/abc/abc_hub.o; llvm-ar cDPrsT drivers/sti/abc/abc_hub.o drivers/sti/abc/abc_hub_core.o drivers/sti/abc/abc_hub_bootc.o

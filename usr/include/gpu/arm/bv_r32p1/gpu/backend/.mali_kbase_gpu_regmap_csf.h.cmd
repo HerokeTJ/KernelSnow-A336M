@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/bv_r32p1/gpu/backend/mali_kbase_gpu_regmap_csf.h := sh ./scripts/headers_install.sh include/uapi/gpu/arm/bv_r32p1/gpu/backend/mali_kbase_gpu_regmap_csf.h usr/include/gpu/arm/bv_r32p1/gpu/backend/mali_kbase_gpu_regmap_csf.h

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/exynos-itmon.mod := { echo  drivers/soc/samsung/debug/exynos-itmon.o; llvm-nm drivers/soc/samsung/debug/exynos-itmon.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/exynos-itmon.mod

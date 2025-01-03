@@ -1,0 +1,3 @@
+__crc_secdbg_base_built_get_ncva = 0xa202f963;
+__crc_register_coredump_hook_notes_size = 0xf3ec7b1a;
+__crc_register_coredump_hook_notes_write = 0x57fd4bff;

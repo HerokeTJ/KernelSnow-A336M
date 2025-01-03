@@ -1,0 +1,1 @@
+cmd_net/rfkill/built-in.a := rm -f net/rfkill/built-in.a.symversions   ; cat net/rfkill/core.o.symversions >> net/rfkill/built-in.a.symversions; rm -f net/rfkill/built-in.a; llvm-ar cDPrST net/rfkill/built-in.a net/rfkill/core.o

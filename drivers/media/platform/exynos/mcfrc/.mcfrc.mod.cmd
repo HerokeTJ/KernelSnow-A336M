@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/mcfrc/mcfrc.mod := { echo  drivers/media/platform/exynos/mcfrc/mcfrc-core.o drivers/media/platform/exynos/mcfrc/mcfrc-helper.o; llvm-nm drivers/media/platform/exynos/mcfrc/mcfrc.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/mcfrc/mcfrc.mod

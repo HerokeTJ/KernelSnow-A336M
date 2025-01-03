@@ -1,0 +1,2 @@
+drivers/input/sec_input/sec_tsp_dumpkey.o
+__cfi_slowpath _raw_spin_lock _raw_spin_unlock arm64_const_caps_ready cpu_hwcap_keys dump_callbacks input_close_device input_open_device input_register_handle input_register_handler input_unregister_handle input_unregister_handler kfree kmalloc_caches kmem_cache_alloc_trace printk ptsp

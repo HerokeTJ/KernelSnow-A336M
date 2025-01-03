@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/common/pdic_notifier_module.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/typec/common/pdic_notifier_module.lto.o -T drivers/usb/typec/common/pdic_notifier_module.o.symversions --whole-archive drivers/usb/typec/common/pdic_notifier_module.o

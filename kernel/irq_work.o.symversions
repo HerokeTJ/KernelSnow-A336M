@@ -1,0 +1,4 @@
+__crc_irq_work_queue = 0xd36ebd12;
+__crc_irq_work_queue_on = 0xf64a80c9;
+__crc_irq_work_run = 0x541bd60a;
+__crc_irq_work_sync = 0xf361a95b;

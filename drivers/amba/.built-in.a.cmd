@@ -1,0 +1,1 @@
+cmd_drivers/amba/built-in.a := rm -f drivers/amba/built-in.a.symversions   ; cat drivers/amba/bus.o.symversions >> drivers/amba/built-in.a.symversions; rm -f drivers/amba/built-in.a; llvm-ar cDPrST drivers/amba/built-in.a drivers/amba/bus.o

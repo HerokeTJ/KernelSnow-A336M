@@ -1,0 +1,1 @@
+cmd_drivers/regulator/s2mpb03.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/regulator/s2mpb03.lto.o -T drivers/regulator/s2mpb03.o.symversions --whole-archive drivers/regulator/s2mpb03.o

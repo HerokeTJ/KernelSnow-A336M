@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_dm1.mod := { echo  drivers/usb/gadget/function/f_dm1.o; llvm-nm drivers/usb/gadget/function/usb_f_dm1.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/gadget/function/usb_f_dm1.mod

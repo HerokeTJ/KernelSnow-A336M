@@ -1,0 +1,16 @@
+__crc_net_namespace_list = 0x6d2fc5a6;
+__crc_net_rwsem = 0x145e13b9;
+__crc_init_net = 0xc427c067;
+__crc_pernet_ops_rwsem = 0x108b90f9;
+__crc_peernet2id_alloc = 0x027d32d1;
+__crc_peernet2id = 0x4440ca20;
+__crc_net_ns_get_ownership = 0x0ddc3df8;
+__crc_net_ns_barrier = 0xf44a904a;
+__crc___put_net = 0x092e9bac;
+__crc_get_net_ns = 0x5a24469c;
+__crc_get_net_ns_by_fd = 0x8581ad8e;
+__crc_get_net_ns_by_pid = 0x2a89f3fd;
+__crc_register_pernet_subsys = 0xc89f14b4;
+__crc_unregister_pernet_subsys = 0xc674754a;
+__crc_register_pernet_device = 0x3c95853b;
+__crc_unregister_pernet_device = 0x327ee4c5;

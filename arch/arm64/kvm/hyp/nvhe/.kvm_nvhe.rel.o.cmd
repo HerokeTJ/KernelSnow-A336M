@@ -1,0 +1,1 @@
+cmd_arch/arm64/kvm/hyp/nvhe/kvm_nvhe.rel.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack  -r arch/arm64/kvm/hyp/nvhe/kvm_nvhe.tmp.o arch/arm64/kvm/hyp/nvhe/hyp-reloc.o -o arch/arm64/kvm/hyp/nvhe/kvm_nvhe.rel.o

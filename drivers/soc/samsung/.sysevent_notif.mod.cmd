@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/sysevent_notif.mod := { echo  drivers/soc/samsung/sysevent_notif.o; llvm-nm drivers/soc/samsung/sysevent_notif.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/sysevent_notif.mod

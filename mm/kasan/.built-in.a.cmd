@@ -1,0 +1,1 @@
+cmd_mm/kasan/built-in.a := rm -f mm/kasan/built-in.a.symversions       ; cat mm/kasan/hw_tags.o.symversions >> mm/kasan/built-in.a.symversions  ; rm -f mm/kasan/built-in.a; llvm-ar cDPrST mm/kasan/built-in.a mm/kasan/common.o mm/kasan/report.o mm/kasan/hw_tags.o mm/kasan/report_hw_tags.o

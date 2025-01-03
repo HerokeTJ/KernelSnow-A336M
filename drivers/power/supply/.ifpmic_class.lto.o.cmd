@@ -1,0 +1,1 @@
+cmd_drivers/power/supply/ifpmic_class.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/power/supply/ifpmic_class.lto.o -T drivers/power/supply/ifpmic_class.o.symversions --whole-archive drivers/power/supply/ifpmic_class.o

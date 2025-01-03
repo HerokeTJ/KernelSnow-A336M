@@ -1,0 +1,4 @@
+__crc_hmac_sha256_init = 0x5c146b78;
+__crc_hmac_sha256_update = 0xa34c88b9;
+__crc_hmac_sha256_final = 0xc2ab01c3;
+__crc_hmac_sha256_ctx_cleanup = 0x5f7bdbdd;

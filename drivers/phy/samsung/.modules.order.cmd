@@ -1,0 +1,1 @@
+cmd_drivers/phy/samsung/modules.order := {   echo drivers/phy/samsung/phy-exynos-mipi-dsim.ko;   echo drivers/phy/samsung/phy-exynos-mipi.ko;   echo drivers/phy/samsung/phy-exynos-usbdrd-super.ko; :; } | awk '!x[$$0]++' - > drivers/phy/samsung/modules.order

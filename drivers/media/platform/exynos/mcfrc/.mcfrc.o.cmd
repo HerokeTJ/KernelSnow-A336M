@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/mcfrc/mcfrc.o := rm -f drivers/media/platform/exynos/mcfrc/mcfrc.o.symversions    ; rm -f drivers/media/platform/exynos/mcfrc/mcfrc.o; llvm-ar cDPrsT drivers/media/platform/exynos/mcfrc/mcfrc.o drivers/media/platform/exynos/mcfrc/mcfrc-core.o drivers/media/platform/exynos/mcfrc/mcfrc-helper.o

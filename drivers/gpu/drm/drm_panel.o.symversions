@@ -1,0 +1,11 @@
+__crc_drm_panel_init = 0xdfd57ea6;
+__crc_drm_panel_add = 0xeacb5bb2;
+__crc_drm_panel_remove = 0x8a1c4969;
+__crc_drm_panel_prepare = 0xd01c0c9a;
+__crc_drm_panel_unprepare = 0x9a7e7bca;
+__crc_drm_panel_enable = 0x9863de77;
+__crc_drm_panel_disable = 0xffd760a2;
+__crc_drm_panel_get_modes = 0x045e5cb8;
+__crc_of_drm_find_panel = 0x3c3784a8;
+__crc_of_drm_get_panel_orientation = 0xa23cce35;
+__crc_drm_panel_of_backlight = 0x06fa8352;

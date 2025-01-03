@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/goodix/berlin/modules.order := {   echo drivers/input/touchscreen/goodix/berlin/goodix_ts_berlin.ko; :; } | awk '!x[$$0]++' - > drivers/input/touchscreen/goodix/berlin/modules.order

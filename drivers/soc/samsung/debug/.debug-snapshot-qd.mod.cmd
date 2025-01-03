@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/debug/debug-snapshot-qd.mod := { echo  drivers/soc/samsung/debug/debug-snapshot-qd.o; llvm-nm drivers/soc/samsung/debug/debug-snapshot-qd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/debug/debug-snapshot-qd.mod

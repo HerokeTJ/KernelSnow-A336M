@@ -1,0 +1,2 @@
+crypto/lzo-rle.o
+__this_module crypto_register_alg crypto_register_scomp crypto_unregister_alg crypto_unregister_scomp kvfree kvmalloc_node lzo1x_decompress_safe lzorle1x_1_compress

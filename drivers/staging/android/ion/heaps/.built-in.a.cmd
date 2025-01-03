@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/ion/heaps/built-in.a := rm -f drivers/staging/android/ion/heaps/built-in.a.symversions ; rm -f drivers/staging/android/ion/heaps/built-in.a; llvm-ar cDPrST drivers/staging/android/ion/heaps/built-in.a 

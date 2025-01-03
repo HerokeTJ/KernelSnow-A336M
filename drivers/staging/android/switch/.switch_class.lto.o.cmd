@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/switch/switch_class.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/staging/android/switch/switch_class.lto.o -T drivers/staging/android/switch/switch_class.o.symversions --whole-archive drivers/staging/android/switch/switch_class.o

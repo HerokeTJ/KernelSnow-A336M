@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/built-in.a := rm -f drivers/input/touchscreen/built-in.a.symversions   ; cat drivers/input/touchscreen/of_touchscreen.o.symversions >> drivers/input/touchscreen/built-in.a.symversions; rm -f drivers/input/touchscreen/built-in.a; llvm-ar cDPrST drivers/input/touchscreen/built-in.a drivers/input/touchscreen/of_touchscreen.o

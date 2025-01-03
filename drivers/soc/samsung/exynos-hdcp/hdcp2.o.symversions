@@ -1,0 +1,13 @@
+__crc_hdcp_calc_sha1 = 0x3378d8fe;
+__crc_auth_proc_state = 0x018b5544;
+__crc_dp_hdcp_state = 0xec395acb;
+__crc_hdcp_dplink_auth_check = 0x7d1c64e7;
+__crc_hdcp_dplink_get_rxstatus = 0xe51f7e6e;
+__crc_hdcp_dplink_set_paring_available = 0x4dfb0051;
+__crc_hdcp_dplink_set_hprime_available = 0x92a06dc8;
+__crc_hdcp_dplink_set_rp_ready = 0x6bca1778;
+__crc_hdcp_dplink_set_reauth = 0x04661db0;
+__crc_hdcp_dplink_set_integrity_fail = 0xfa68cd4f;
+__crc_hdcp_dplink_cancel_auth = 0x079a97e4;
+__crc_hdcp_dplink_clear_all = 0x4c7bf87c;
+__crc_hdcp_dplink_connect_state = 0xe8ab0f5d;

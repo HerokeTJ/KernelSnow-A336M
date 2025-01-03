@@ -1,0 +1,1 @@
+cmd_security/samsung/mz_tee_driver/built-in.a := rm -f security/samsung/mz_tee_driver/built-in.a.symversions ; rm -f security/samsung/mz_tee_driver/built-in.a; llvm-ar cDPrST security/samsung/mz_tee_driver/built-in.a 

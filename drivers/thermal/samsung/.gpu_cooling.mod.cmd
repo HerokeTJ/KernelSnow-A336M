@@ -1,0 +1,1 @@
+cmd_drivers/thermal/samsung/gpu_cooling.mod := { echo  drivers/thermal/samsung/gpu_cooling.o; llvm-nm drivers/thermal/samsung/gpu_cooling.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/thermal/samsung/gpu_cooling.mod

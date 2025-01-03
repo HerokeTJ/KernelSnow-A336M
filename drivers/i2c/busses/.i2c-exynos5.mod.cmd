@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-exynos5.mod := { echo  drivers/i2c/busses/i2c-exynos5.o; llvm-nm drivers/i2c/busses/i2c-exynos5.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/i2c/busses/i2c-exynos5.mod

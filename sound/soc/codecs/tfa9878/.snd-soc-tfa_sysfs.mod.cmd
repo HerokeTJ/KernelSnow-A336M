@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.mod := { echo  sound/soc/codecs/tfa9878/tfa_sysfs.o sound/soc/codecs/tfa9878/tfa_cal.o sound/soc/codecs/tfa9878/tfa_vval.o sound/soc/codecs/tfa9878/tfa_stc.o; llvm-nm sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/codecs/tfa9878/snd-soc-tfa_sysfs.mod

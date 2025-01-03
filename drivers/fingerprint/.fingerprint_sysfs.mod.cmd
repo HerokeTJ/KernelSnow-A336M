@@ -1,0 +1,1 @@
+cmd_drivers/fingerprint/fingerprint_sysfs.mod := { echo  drivers/fingerprint/fingerprint_sysfs.o; llvm-nm drivers/fingerprint/fingerprint_sysfs.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/fingerprint/fingerprint_sysfs.mod

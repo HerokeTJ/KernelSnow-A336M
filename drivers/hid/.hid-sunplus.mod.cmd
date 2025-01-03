@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-sunplus.mod := { echo  drivers/hid/hid-sunplus.o; llvm-nm drivers/hid/hid-sunplus.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-sunplus.mod

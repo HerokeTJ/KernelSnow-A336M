@@ -1,0 +1,1 @@
+cmd_drivers/kperfmon/kperfmon.mod := { echo  drivers/kperfmon/kperfmon.o; llvm-nm drivers/kperfmon/kperfmon.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/kperfmon/kperfmon.mod

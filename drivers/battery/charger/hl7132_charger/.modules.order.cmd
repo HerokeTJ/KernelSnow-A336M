@@ -1,0 +1,1 @@
+cmd_drivers/battery/charger/hl7132_charger/modules.order := {   echo drivers/battery/charger/hl7132_charger/hl7132_charger.ko; :; } | awk '!x[$$0]++' - > drivers/battery/charger/hl7132_charger/modules.order

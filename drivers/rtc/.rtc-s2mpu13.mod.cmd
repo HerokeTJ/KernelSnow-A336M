@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-s2mpu13.mod := { echo  drivers/rtc/rtc-s2mpu13.o; llvm-nm drivers/rtc/rtc-s2mpu13.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/rtc/rtc-s2mpu13.mod

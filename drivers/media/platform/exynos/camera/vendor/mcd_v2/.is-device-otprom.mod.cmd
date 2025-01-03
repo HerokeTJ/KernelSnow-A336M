@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-otprom.mod := { echo  drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-otprom.o; llvm-nm drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-otprom.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/camera/vendor/mcd_v2/is-device-otprom.mod

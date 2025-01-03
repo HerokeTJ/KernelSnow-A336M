@@ -1,0 +1,13 @@
+drivers/usb/dwc3/dwc3-exynos-usb.ko
+drivers/usb/host/xhci-exynos.ko
+drivers/usb/class/usblp.ko
+drivers/usb/class/cdc-wdm.ko
+drivers/usb/misc/ehset.ko
+drivers/usb/misc/lvstest.ko
+drivers/usb/gadget/function/usb_f_dm.ko
+drivers/usb/gadget/function/usb_f_dm1.ko
+drivers/usb/gadget/function/usb_f_conn_gadget.ko
+drivers/usb/gadget/function/usb_f_ss_mon_gadget.ko
+drivers/usb/serial/usbserial.ko
+drivers/usb/notify/usb_notify_layer.ko
+drivers/usb/notify/usb_notifier.ko

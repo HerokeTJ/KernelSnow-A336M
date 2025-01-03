@@ -1,0 +1,1 @@
+cmd_drivers/iommu/samsung-iommu-group.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/iommu/samsung-iommu-group.lto.o  --whole-archive drivers/iommu/samsung-iommu-group.o

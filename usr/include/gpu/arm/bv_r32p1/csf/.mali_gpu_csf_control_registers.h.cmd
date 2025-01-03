@@ -1,0 +1,1 @@
+cmd_usr/include/gpu/arm/bv_r32p1/csf/mali_gpu_csf_control_registers.h := sh ./scripts/headers_install.sh include/uapi/gpu/arm/bv_r32p1/csf/mali_gpu_csf_control_registers.h usr/include/gpu/arm/bv_r32p1/csf/mali_gpu_csf_control_registers.h

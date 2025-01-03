@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/abox/abox_adaptation.mod := { echo  sound/soc/samsung/abox/abox_adaptation.o; llvm-nm sound/soc/samsung/abox/abox_adaptation.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/abox/abox_adaptation.mod

@@ -1,0 +1,4 @@
+__crc_clockevent_delta2ns = 0x0a8d9c2d;
+__crc_clockevents_unbind_device = 0xb44bd4ff;
+__crc_clockevents_register_device = 0xcd975a43;
+__crc_clockevents_config_and_register = 0x449dcecb;

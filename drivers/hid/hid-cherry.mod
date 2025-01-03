@@ -1,0 +1,2 @@
+drivers/hid/hid-cherry.o
+___ratelimit __hid_register_driver __this_module _dev_info arm64_const_caps_ready cpu_hwcap_keys hid_unregister_driver printk

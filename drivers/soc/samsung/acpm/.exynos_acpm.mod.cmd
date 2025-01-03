@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/acpm/exynos_acpm.mod := { echo  drivers/soc/samsung/acpm/acpm_mfd_i3c.o drivers/soc/samsung/acpm/acpm.o drivers/soc/samsung/acpm/acpm_ipc.o; llvm-nm drivers/soc/samsung/acpm/exynos_acpm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/acpm/exynos_acpm.mod

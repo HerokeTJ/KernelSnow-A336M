@@ -1,0 +1,7 @@
+__crc_camerapp_sfr_get_reg = 0xc759d430;
+__crc_camerapp_sfr_set_reg = 0x149e6c55;
+__crc_camerapp_sfr_get_field = 0xd112e236;
+__crc_camerapp_sfr_set_field = 0xd19768ca;
+__crc_camerapp_sfr_get_field_value = 0x61a697a7;
+__crc_camerapp_sfr_set_field_value = 0xdc618149;
+__crc_camerapp_sfr_dump_regs = 0xfe95a4db;

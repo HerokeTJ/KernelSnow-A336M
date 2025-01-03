@@ -1,0 +1,1 @@
+cmd_drivers/sensorhub/utility/sensor_core.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/sensorhub/utility/sensor_core.lto.o -T drivers/sensorhub/utility/sensor_core.o.symversions --whole-archive drivers/sensorhub/utility/sensor_core.o

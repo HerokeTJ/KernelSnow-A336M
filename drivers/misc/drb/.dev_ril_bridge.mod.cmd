@@ -1,0 +1,1 @@
+cmd_drivers/misc/drb/dev_ril_bridge.mod := { echo  drivers/misc/drb/dev_ril_bridge.o; llvm-nm drivers/misc/drb/dev_ril_bridge.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/drb/dev_ril_bridge.mod

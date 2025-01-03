@@ -1,0 +1,2 @@
+__crc_get_compat_sigset = 0x3ba01b47;
+__crc_compat_alloc_user_space = 0xbffde8ec;

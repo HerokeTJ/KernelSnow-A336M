@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/ax88179_178a.mod := { echo  drivers/net/usb/ax88179_178a.o; llvm-nm drivers/net/usb/ax88179_178a.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/net/usb/ax88179_178a.mod

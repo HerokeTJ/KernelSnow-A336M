@@ -1,0 +1,1 @@
+cmd_mm/sec_mm/built-in.a := rm -f mm/sec_mm/built-in.a.symversions        ; rm -f mm/sec_mm/built-in.a; llvm-ar cDPrST mm/sec_mm/built-in.a mm/sec_mm/sec_mm_init.o mm/sec_mm/lowfile_detect.o mm/sec_mm/panic_handler.o mm/sec_mm/show_mem.o

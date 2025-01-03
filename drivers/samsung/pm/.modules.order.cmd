@@ -1,0 +1,1 @@
+cmd_drivers/samsung/pm/modules.order := {   echo drivers/samsung/pm/sec_pm_debug.ko;   echo drivers/samsung/pm/sec_thermistor.ko;   echo drivers/samsung/pm/sec_wakeup_cpu_allocator.ko; :; } | awk '!x[$$0]++' - > drivers/samsung/pm/modules.order

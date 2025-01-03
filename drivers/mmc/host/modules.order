@@ -1,0 +1,3 @@
+drivers/mmc/host/dw_mmc.ko
+drivers/mmc/host/dw_mmc-pltfm.ko
+drivers/mmc/host/dw_mmc-exynos-sec.ko

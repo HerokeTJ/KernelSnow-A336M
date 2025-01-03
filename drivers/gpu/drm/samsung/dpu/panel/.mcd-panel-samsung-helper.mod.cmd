@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.mod := { echo  drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.o; llvm-nm drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/gpu/drm/samsung/dpu/panel/mcd-panel-samsung-helper.mod

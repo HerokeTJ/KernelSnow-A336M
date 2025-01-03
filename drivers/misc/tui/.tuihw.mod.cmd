@@ -1,0 +1,1 @@
+cmd_drivers/misc/tui/tuihw.mod := { echo  drivers/misc/tui/main.o drivers/misc/tui/stui_core.o drivers/misc/tui/platforms/exynos8825/stui_hal_display.o drivers/misc/tui/platforms/exynos8825/stui_hal_touch.o drivers/misc/tui/iwd_agent.o; llvm-nm drivers/misc/tui/tuihw.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/misc/tui/tuihw.mod

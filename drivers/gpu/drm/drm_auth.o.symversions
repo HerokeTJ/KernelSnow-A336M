@@ -1,0 +1,5 @@
+__crc_drm_is_current_master = 0xcb066c4a;
+__crc_drm_master_get = 0x67907a9c;
+__crc_drm_master_put = 0x34eb796d;
+__crc_drm_master_internal_acquire = 0xf6f69e8b;
+__crc_drm_master_internal_release = 0x400f6672;

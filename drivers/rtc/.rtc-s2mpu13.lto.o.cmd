@@ -1,0 +1,1 @@
+cmd_drivers/rtc/rtc-s2mpu13.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/rtc/rtc-s2mpu13.lto.o -T drivers/rtc/rtc-s2mpu13.o.symversions --whole-archive drivers/rtc/rtc-s2mpu13.o

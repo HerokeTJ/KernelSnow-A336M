@@ -1,0 +1,2 @@
+drivers/samsung/debug/sec_debug_softdog.o
+init_task printk secdbg_softdog_show_info secdbg_stra_show_callstack_auto smp_call_function_single_async strcmp

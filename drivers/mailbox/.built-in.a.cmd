@@ -1,0 +1,1 @@
+cmd_drivers/mailbox/built-in.a := rm -f drivers/mailbox/built-in.a.symversions   ; cat drivers/mailbox/mailbox.o.symversions >> drivers/mailbox/built-in.a.symversions      ; rm -f drivers/mailbox/built-in.a; llvm-ar cDPrST drivers/mailbox/built-in.a drivers/mailbox/mailbox.o drivers/mailbox/hi3660-mailbox.o drivers/mailbox/hi6220-mailbox.o drivers/mailbox/sun6i-msgbox.o

@@ -1,0 +1,1 @@
+cmd_drivers/battery/core/sb-core.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/battery/core/sb-core.lto.o -T drivers/battery/core/sb-core.o.symversions --whole-archive drivers/battery/core/sb-core.o

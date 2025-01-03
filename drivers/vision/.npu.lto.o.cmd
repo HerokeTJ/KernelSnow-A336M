@@ -1,0 +1,1 @@
+cmd_drivers/vision/npu.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/vision/npu.lto.o -T drivers/vision/npu.o.symversions --whole-archive drivers/vision/npu.o

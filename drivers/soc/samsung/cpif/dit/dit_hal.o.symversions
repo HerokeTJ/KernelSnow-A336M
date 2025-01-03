@@ -1,0 +1,4 @@
+__crc_dit_hal_get_dst_netdev = 0xa73a5e3b;
+__crc_dit_hal_add_data_bytes = 0x1a6eba61;
+__crc_dit_hal_set_clat_info = 0x4580064e;
+__crc_dit_hal_create = 0x7aac492b;

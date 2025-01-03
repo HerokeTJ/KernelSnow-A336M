@@ -1,0 +1,3 @@
+drivers/pinctrl/pinctrl-samsung-s2mpu13.ko
+drivers/pinctrl/pinctrl-samsung-s2mpu14.ko
+drivers/pinctrl/samsung/pinctrl-samsung-core.ko

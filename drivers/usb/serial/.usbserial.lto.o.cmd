@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/usbserial.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/serial/usbserial.lto.o -T drivers/usb/serial/usbserial.o.symversions --whole-archive drivers/usb/serial/usbserial.o

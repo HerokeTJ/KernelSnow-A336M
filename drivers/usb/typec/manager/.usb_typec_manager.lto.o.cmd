@@ -1,0 +1,1 @@
+cmd_drivers/usb/typec/manager/usb_typec_manager.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/usb/typec/manager/usb_typec_manager.lto.o -T drivers/usb/typec/manager/usb_typec_manager.o.symversions --whole-archive drivers/usb/typec/manager/usb_typec_manager.o

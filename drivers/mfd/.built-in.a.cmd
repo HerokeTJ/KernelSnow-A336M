@@ -1,0 +1,1 @@
+cmd_drivers/mfd/built-in.a := rm -f drivers/mfd/built-in.a.symversions     ; cat drivers/mfd/mfd-core.o.symversions >> drivers/mfd/built-in.a.symversions   ; cat drivers/mfd/syscon.o.symversions >> drivers/mfd/built-in.a.symversions; rm -f drivers/mfd/built-in.a; llvm-ar cDPrST drivers/mfd/built-in.a drivers/mfd/act8945a.o drivers/mfd/mfd-core.o drivers/mfd/syscon.o

@@ -1,0 +1,2 @@
+__crc_mmc_register_driver = 0xb6178365;
+__crc_mmc_unregister_driver = 0x913fd9b4;

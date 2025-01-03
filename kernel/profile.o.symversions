@@ -1,0 +1,6 @@
+__crc_prof_on = 0x995d1071;
+__crc_task_handoff_register = 0x7729cbdd;
+__crc_task_handoff_unregister = 0xa9e18049;
+__crc_profile_event_register = 0xa389a49a;
+__crc_profile_event_unregister = 0xdd391eff;
+__crc_profile_hits = 0x67955ce6;

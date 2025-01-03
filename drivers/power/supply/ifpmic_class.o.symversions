@@ -1,0 +1,2 @@
+__crc_ifpmic_device_create = 0x995a6e5e;
+__crc_ifpmic_device_destroy = 0xa1f924ee;

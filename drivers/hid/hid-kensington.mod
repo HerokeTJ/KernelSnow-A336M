@@ -1,0 +1,2 @@
+drivers/hid/hid-kensington.o
+___ratelimit __hid_register_driver __this_module hid_unregister_driver printk

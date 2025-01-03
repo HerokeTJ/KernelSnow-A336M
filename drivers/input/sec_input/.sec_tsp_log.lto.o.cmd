@@ -1,0 +1,1 @@
+cmd_drivers/input/sec_input/sec_tsp_log.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/input/sec_input/sec_tsp_log.lto.o -T drivers/input/sec_input/sec_tsp_log.o.symversions --whole-archive drivers/input/sec_input/sec_tsp_log.o

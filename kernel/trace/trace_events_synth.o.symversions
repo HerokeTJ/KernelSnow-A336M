@@ -1,0 +1,14 @@
+__crc_synth_event_add_field = 0x074f98db;
+__crc_synth_event_add_field_str = 0x093786cf;
+__crc_synth_event_add_fields = 0x84ef27f5;
+__crc___synth_event_gen_cmd_start = 0x24ac66e1;
+__crc_synth_event_gen_cmd_array_start = 0x345591a1;
+__crc_synth_event_create = 0x0a961a77;
+__crc_synth_event_delete = 0x64e27c4f;
+__crc_synth_event_cmd_init = 0x2b6d960d;
+__crc_synth_event_trace = 0x16eaf069;
+__crc_synth_event_trace_array = 0xc9bf83de;
+__crc_synth_event_trace_start = 0xed7871c3;
+__crc_synth_event_add_next_val = 0x7d32b572;
+__crc_synth_event_add_val = 0xa73fa00a;
+__crc_synth_event_trace_end = 0xa7dee314;

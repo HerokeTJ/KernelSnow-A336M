@@ -1,0 +1,6 @@
+__crc_balloon_page_list_enqueue = 0x278d3227;
+__crc_balloon_page_list_dequeue = 0x81440f97;
+__crc_balloon_page_alloc = 0xf4c7bbbd;
+__crc_balloon_page_enqueue = 0x86263224;
+__crc_balloon_page_dequeue = 0x26f0ff20;
+__crc_balloon_aops = 0x71fb77bb;

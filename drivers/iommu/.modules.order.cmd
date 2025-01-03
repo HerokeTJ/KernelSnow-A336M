@@ -1,0 +1,1 @@
+cmd_drivers/iommu/modules.order := {   cat drivers/iommu/amd/modules.order;   cat drivers/iommu/intel/modules.order;   cat drivers/iommu/arm/modules.order;   echo drivers/iommu/samsung_iommu.ko;   echo drivers/iommu/samsung-iommu-group.ko;   echo drivers/iommu/samsung-secure-iova.ko; :; } | awk '!x[$$0]++' - > drivers/iommu/modules.order

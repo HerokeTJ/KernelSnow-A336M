@@ -1,0 +1,12 @@
+__crc_xhci_data = 0xc897a79a;
+__crc_xhci_pre_alloc = 0xda68dc7f;
+__crc_usb3_portsc = 0x3168e6ca;
+__crc_dwc3_exynos_rsw_available = 0x1554c5fc;
+__crc_dwc3_exynos_rsw_start = 0x3f0f3030;
+__crc_dwc3_exynos_rsw_stop = 0x8b314525;
+__crc_dwc3_exynos_rsw_setup = 0x31523109;
+__crc_dwc3_exynos_rsw_exit = 0xc5f52221;
+__crc_dwc3_exynos_id_event = 0xbe8a793f;
+__crc_dwc3_exynos_vbus_event = 0x95a78381;
+__crc_dwc3_gadget_speed = 0xd7c60ea8;
+__crc_dwc3_exynos_phy_enable = 0xb1d22e05;

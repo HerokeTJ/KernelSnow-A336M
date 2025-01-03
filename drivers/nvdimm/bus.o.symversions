@@ -1,0 +1,16 @@
+__crc_nd_device_notify = 0x5d0191f9;
+__crc_nvdimm_region_notify = 0xf277559e;
+__crc_nvdimm_clear_poison = 0xa2224c8c;
+__crc_to_nvdimm_bus = 0x893cf985;
+__crc_nvdimm_to_bus = 0xa286713e;
+__crc_nvdimm_bus_register = 0xc1065e21;
+__crc_nvdimm_bus_unregister = 0xfdeed5aa;
+__crc_nd_synchronize = 0x7d00c65b;
+__crc_nd_device_register = 0x31d539d9;
+__crc_nd_device_unregister = 0xfd38bb47;
+__crc___nd_driver_register = 0xb8c62974;
+__crc_nvdimm_check_and_set_ro = 0xa15421d5;
+__crc_nd_cmd_dimm_desc = 0xb501b2df;
+__crc_nd_cmd_bus_desc = 0xa01a8d9b;
+__crc_nd_cmd_in_size = 0xe6313f23;
+__crc_nd_cmd_out_size = 0x48f5f301;

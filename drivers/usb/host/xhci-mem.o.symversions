@@ -1,0 +1,12 @@
+__crc_xhci_segment_free = 0xeb22ab4e;
+__crc_xhci_link_segments = 0x9a727e20;
+__crc_xhci_ring_free = 0x1dfa58d5;
+__crc_xhci_initialize_ring_info = 0xf412b9dd;
+__crc_xhci_ring_alloc = 0xa2a6bae1;
+__crc_xhci_get_slot_ctx = 0xa7033702;
+__crc_xhci_get_ep_ctx = 0xe2747216;
+__crc_xhci_alloc_command = 0xd96f9a48;
+__crc_xhci_free_command = 0x871c5f42;
+__crc_xhci_alloc_erst = 0x60ee5dbe;
+__crc_xhci_free_erst = 0xfbe5c52f;
+__crc_xhci_check_trb_in_td_math = 0xf7a476b4;

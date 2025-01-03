@@ -1,0 +1,1 @@
+cmd_drivers/pci/controller/mobiveil/built-in.a := rm -f drivers/pci/controller/mobiveil/built-in.a.symversions ; rm -f drivers/pci/controller/mobiveil/built-in.a; llvm-ar cDPrST drivers/pci/controller/mobiveil/built-in.a 

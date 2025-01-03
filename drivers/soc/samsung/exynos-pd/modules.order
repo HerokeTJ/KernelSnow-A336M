@@ -1,0 +1,3 @@
+drivers/soc/samsung/exynos-pd/exynos-pd.ko
+drivers/soc/samsung/exynos-pd/exynos-pd_el3.ko
+drivers/soc/samsung/exynos-pd/exynos-pd-dbg.ko

@@ -1,0 +1,1 @@
+cmd_drivers/dma-buf/heaps/samsung/dma-buf-container.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/dma-buf/heaps/samsung/dma-buf-container.lto.o -T drivers/dma-buf/heaps/samsung/dma-buf-container.o.symversions --whole-archive drivers/dma-buf/heaps/samsung/dma-buf-container.o

@@ -1,0 +1,1 @@
+cmd_drivers/clk/samsung/clk-exynos-audss.mod := { echo  drivers/clk/samsung/clk-exynos-audss.o; llvm-nm drivers/clk/samsung/clk-exynos-audss.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/clk/samsung/clk-exynos-audss.mod

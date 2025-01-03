@@ -1,0 +1,4 @@
+__crc_pktgen_xfrm_outer_mode_output = 0x3d371dde;
+__crc_xfrm_output_resume = 0x67cedbb2;
+__crc_xfrm_output = 0x3b454d69;
+__crc_xfrm_local_error = 0x68341f6f;

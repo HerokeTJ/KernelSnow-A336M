@@ -1,0 +1,7 @@
+__crc_sec_cmd_set_cmd_exit = 0x8ba48cf6;
+__crc_sec_cmd_set_default_result = 0x9fea0241;
+__crc_sec_cmd_set_cmd_result_all = 0xefe6537d;
+__crc_sec_cmd_set_cmd_result = 0xb2ad85da;
+__crc_sec_cmd_init = 0x088386c9;
+__crc_sec_cmd_exit = 0x5b16df0b;
+__crc_sec_cmd_send_event_to_user = 0x00f8ac05;

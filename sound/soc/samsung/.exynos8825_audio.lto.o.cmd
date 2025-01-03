@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/exynos8825_audio.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/soc/samsung/exynos8825_audio.lto.o  --whole-archive sound/soc/samsung/exynos8825_audio.o

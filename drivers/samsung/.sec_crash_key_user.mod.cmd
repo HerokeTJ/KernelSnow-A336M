@@ -1,0 +1,1 @@
+cmd_drivers/samsung/sec_crash_key_user.mod := { echo  drivers/samsung/sec_crash_key_user.o; llvm-nm drivers/samsung/sec_crash_key_user.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/samsung/sec_crash_key_user.mod

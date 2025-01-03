@@ -1,0 +1,5 @@
+__crc_timer_of_init = 0x9174535e;
+__crc_clocksource_mmio_readl_up = 0x7e2d52b0;
+__crc_clocksource_mmio_init = 0x753ddda6;
+__crc_arch_timer_read_counter = 0x75fb9062;
+__crc_timer_unstable_counter_workaround = 0x8f5fb950;

@@ -1,0 +1,3 @@
+__crc_sec_dev_get_by_name = 0xc6e3b54c;
+__crc_sec_device_create = 0x30bbe06f;
+__crc_sec_device_destroy = 0x543de234;

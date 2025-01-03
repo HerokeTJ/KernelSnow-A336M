@@ -1,0 +1,2 @@
+drivers/fingerprint/fingerprint_sysfs.o
+__class_create __this_module class_destroy destroy_fingerprint_class device_create device_create_file device_remove_file fingerprint_class fingerprint_register fingerprint_unregister printk

@@ -1,0 +1,2 @@
+__crc_efi = 0x190a48a9;
+__crc_efi_tpm_final_log_size = 0xe9e8faeb;

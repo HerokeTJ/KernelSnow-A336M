@@ -1,0 +1,9 @@
+__crc_dw_pcie_find_capability = 0x9ea32997;
+__crc_dw_pcie_find_ext_capability = 0xc88dee1b;
+__crc_dw_pcie_read = 0x7791e066;
+__crc_dw_pcie_write = 0xbe9a83d5;
+__crc_dw_pcie_read_dbi = 0xb71700ce;
+__crc_dw_pcie_write_dbi = 0x7147dbc4;
+__crc_dw_pcie_wait_for_link = 0xe280048c;
+__crc_dw_pcie_link_up = 0x5b3cba20;
+__crc_dw_pcie_upconfig_setup = 0x0a444bed;

@@ -1,0 +1,3 @@
+__crc_get_panel_vrr = 0x768ebdcc;
+__crc_get_panel_refresh_rate = 0xd0f76a73;
+__crc_get_panel_refresh_mode = 0xb911c45f;

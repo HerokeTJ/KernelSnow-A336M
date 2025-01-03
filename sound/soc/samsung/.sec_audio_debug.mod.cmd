@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/sec_audio_debug.mod := { echo  sound/soc/samsung/sec_audio_debug.o; llvm-nm sound/soc/samsung/sec_audio_debug.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > sound/soc/samsung/sec_audio_debug.mod

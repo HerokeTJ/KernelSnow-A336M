@@ -1,0 +1,1 @@
+cmd_drivers/battery/common/modules.order := {   echo drivers/battery/common/sec-direct-charger.ko;   echo drivers/battery/common/sec_pd.ko;   echo drivers/battery/common/sb_wireless.ko;   echo drivers/battery/common/sec-battery.ko; :; } | awk '!x[$$0]++' - > drivers/battery/common/modules.order

@@ -1,0 +1,10 @@
+__crc_of_match_device = 0x7576a4d9;
+__crc_of_dev_get = 0xe76bcbc7;
+__crc_of_dev_put = 0x649d7746;
+__crc_of_dma_configure_id = 0x0f8fb341;
+__crc_of_device_register = 0x68486974;
+__crc_of_device_unregister = 0x5100168f;
+__crc_of_device_get_match_data = 0x882c7dd6;
+__crc_of_device_request_module = 0xfe315543;
+__crc_of_device_modalias = 0xa826bf37;
+__crc_of_device_uevent_modalias = 0x249f8b64;

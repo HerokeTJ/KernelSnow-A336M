@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/camera-pp/camerapp.mod := { echo  drivers/media/platform/exynos/camera-pp/camerapp-sfr-api-common.o drivers/media/platform/exynos/camera-pp/camerapp-debug.o; llvm-nm drivers/media/platform/exynos/camera-pp/camerapp.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/camera-pp/camerapp.mod

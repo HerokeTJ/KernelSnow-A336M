@@ -1,0 +1,1 @@
+cmd_drivers/clk/samsung/clk_exynos.mod := { echo  drivers/clk/samsung/clk-s5e8825.o drivers/clk/samsung/composite.o; llvm-nm drivers/clk/samsung/clk_exynos.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/clk/samsung/clk_exynos.mod

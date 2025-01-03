@@ -1,0 +1,1 @@
+cmd_mm/modules.order := {   cat mm/sec_mm/modules.order;   cat mm/kasan/modules.order;   cat mm/kfence/modules.order;   cat mm/damon/modules.order;   echo mm/zsmalloc.ko; :; } | awk '!x[$$0]++' - > mm/modules.order

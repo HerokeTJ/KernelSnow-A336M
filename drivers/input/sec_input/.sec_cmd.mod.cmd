@@ -1,0 +1,1 @@
+cmd_drivers/input/sec_input/sec_cmd.mod := { echo  drivers/input/sec_input/sec_cmd.o; llvm-nm drivers/input/sec_input/sec_cmd.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/sec_input/sec_cmd.mod

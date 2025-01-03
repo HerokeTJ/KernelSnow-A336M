@@ -1,0 +1,12 @@
+__crc_v4l2_async_notifier_init = 0x753d70e7;
+__crc_v4l2_async_notifier_register = 0xb38b93d3;
+__crc_v4l2_async_subdev_notifier_register = 0x50c78f4d;
+__crc_v4l2_async_notifier_unregister = 0xfb46fd33;
+__crc_v4l2_async_notifier_cleanup = 0x96197152;
+__crc_v4l2_async_notifier_add_subdev = 0xc00effd0;
+__crc_v4l2_async_notifier_add_fwnode_subdev = 0x91b7897e;
+__crc_v4l2_async_notifier_add_fwnode_remote_subdev = 0x3075110b;
+__crc_v4l2_async_notifier_add_i2c_subdev = 0x3ffea5c2;
+__crc_v4l2_async_notifier_add_devname_subdev = 0x30ba57be;
+__crc_v4l2_async_register_subdev = 0xa357b7b4;
+__crc_v4l2_async_unregister_subdev = 0x8b4f304a;

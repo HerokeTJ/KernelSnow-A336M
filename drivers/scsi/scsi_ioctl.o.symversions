@@ -1,0 +1,4 @@
+__crc_scsi_set_medium_removal = 0xd918209a;
+__crc_scsi_ioctl = 0xa895816a;
+__crc_scsi_compat_ioctl = 0x7ad9174c;
+__crc_scsi_ioctl_block_when_processing_errors = 0x4a416284;

@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/gnssif/gnss_mbox.mod := { echo  drivers/soc/samsung/gnssif/gnss_mbox.o; llvm-nm drivers/soc/samsung/gnssif/gnss_mbox.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/gnssif/gnss_mbox.mod

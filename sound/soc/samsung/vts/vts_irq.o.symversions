@@ -1,0 +1,9 @@
+__crc_vts_irq_gc_mask_set_bit = 0x7a1e2752;
+__crc_vts_irq_gc_mask_clr_bit = 0xb0bb5f41;
+__crc_vts_irq_gc_ack_set_bit = 0xfeb80f17;
+__crc_vts_irq_alloc_generic_chip = 0x6a83145d;
+__crc_vts_irq_alloc_domain_generic_chips = 0xa70ab222;
+__crc_vts_irq_get_domain_generic_chip = 0x99ce6c32;
+__crc_vts_irq_setup_generic_chip = 0x22680811;
+__crc_vts_irq_setup_alt_chip = 0xeea9ca33;
+__crc_vts_irq_remove_generic_chip = 0x98b75052;

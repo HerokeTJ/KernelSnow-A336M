@@ -1,0 +1,1 @@
+cmd_drivers/rpmsg/built-in.a := rm -f drivers/rpmsg/built-in.a.symversions   ; cat drivers/rpmsg/rpmsg_core.o.symversions >> drivers/rpmsg/built-in.a.symversions  ; rm -f drivers/rpmsg/built-in.a; llvm-ar cDPrST drivers/rpmsg/built-in.a drivers/rpmsg/rpmsg_core.o drivers/rpmsg/rpmsg_char.o

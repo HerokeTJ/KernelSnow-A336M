@@ -1,0 +1,1 @@
+cmd_drivers/input/tablet/gtco.mod := { echo  drivers/input/tablet/gtco.o; llvm-nm drivers/input/tablet/gtco.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/input/tablet/gtco.mod

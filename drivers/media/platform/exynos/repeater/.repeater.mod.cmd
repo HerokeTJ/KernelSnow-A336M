@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/repeater/repeater.mod := { echo  drivers/media/platform/exynos/repeater/repeater_dev.o drivers/media/platform/exynos/repeater/repeater_buf.o; llvm-nm drivers/media/platform/exynos/repeater/repeater.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/platform/exynos/repeater/repeater.mod

@@ -1,0 +1,2 @@
+drivers/samsung/sec_class.o
+__class_create __this_module arm64_const_caps_ready class_find_device cpu_hwcap_keys device_create device_destroy printk sec_dev_get_by_name sec_device_create sec_device_destroy sysfs_streq

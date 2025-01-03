@@ -1,0 +1,1 @@
+cmd_drivers/pwm/built-in.a := rm -f drivers/pwm/built-in.a.symversions   ; cat drivers/pwm/core.o.symversions >> drivers/pwm/built-in.a.symversions  ; rm -f drivers/pwm/built-in.a; llvm-ar cDPrST drivers/pwm/built-in.a drivers/pwm/core.o drivers/pwm/sysfs.o

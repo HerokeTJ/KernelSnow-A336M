@@ -1,0 +1,16 @@
+__crc_blkcg_root = 0xd1cca611;
+__crc_blkcg_root_css = 0xfcdf910d;
+__crc_blkg_lookup_slowpath = 0x56d57f6e;
+__crc_blkcg_print_blkgs = 0x76150054;
+__crc___blkg_prfill_u64 = 0xfa5b2677;
+__crc_blkg_conf_prep = 0x17bd852d;
+__crc_blkg_conf_finish = 0xeb5bd32f;
+__crc_io_cgrp_subsys = 0x1f75fc9a;
+__crc_blkcg_activate_policy = 0xffb4345b;
+__crc_blkcg_deactivate_policy = 0x95e0f7e4;
+__crc_blkcg_policy_register = 0x2679bfca;
+__crc_blkcg_policy_unregister = 0xf3d8b077;
+__crc_blkcg_schedule_throttle = 0x525b80a6;
+__crc_bio_associate_blkg_from_css = 0x97df7836;
+__crc_bio_associate_blkg = 0xfadd82c6;
+__crc_bio_clone_blkg_association = 0x3031fd19;

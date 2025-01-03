@@ -1,0 +1,8 @@
+__crc_gpufreq_cooling_get_level = 0x3910294d;
+__crc_gpufreq_cooling_get_freq = 0x018ea07d;
+__crc_exynos_gpu_add_notifier = 0x39236dcb;
+__crc_gpufreq_cooling_register = 0x4e788495;
+__crc_of_gpufreq_cooling_register = 0xde468db4;
+__crc_gpufreq_power_cooling_register = 0x7fbb8bbe;
+__crc_of_gpufreq_power_cooling_register = 0x1c411769;
+__crc_gpufreq_cooling_unregister = 0x21087e01;

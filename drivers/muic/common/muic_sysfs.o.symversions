@@ -1,0 +1,2 @@
+__crc_muic_sysfs_init = 0x4fd48955;
+__crc_muic_sysfs_deinit = 0xd9a97045;

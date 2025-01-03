@@ -1,0 +1,16 @@
+__crc___tracepoint_android_fs_datawrite_start = 0xb1514c6a;
+__crc___traceiter_android_fs_datawrite_start = 0x9006c316;
+__crc___SCK__tp_func_android_fs_datawrite_start = 0xdd18efb7;
+__crc___tracepoint_android_fs_datawrite_end = 0x59a3889d;
+__crc___traceiter_android_fs_datawrite_end = 0x05163db6;
+__crc___SCK__tp_func_android_fs_datawrite_end = 0xb0618e3e;
+__crc___tracepoint_android_fs_dataread_start = 0xab2ff073;
+__crc___traceiter_android_fs_dataread_start = 0x900629e8;
+__crc___SCK__tp_func_android_fs_dataread_start = 0xe419c027;
+__crc___tracepoint_android_fs_dataread_end = 0xe003f1fb;
+__crc___traceiter_android_fs_dataread_end = 0xf7f8762d;
+__crc___SCK__tp_func_android_fs_dataread_end = 0x41a067fd;
+__crc_mpage_readahead = 0x1a2daab9;
+__crc_mpage_readpage = 0x553508b9;
+__crc_mpage_writepages = 0xdc7424ac;
+__crc_mpage_writepage = 0x4a146f76;

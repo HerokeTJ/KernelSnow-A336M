@@ -1,0 +1,1 @@
+cmd_drivers/samsung/debug/sec_debug.o := rm -f drivers/samsung/debug/sec_debug.o.symversions      ; rm -f drivers/samsung/debug/sec_debug.o; llvm-ar cDPrsT drivers/samsung/debug/sec_debug.o drivers/samsung/debug/sec_debug_base.o drivers/samsung/debug/sec_dump_sink.o drivers/samsung/debug/sec_debug_atomic_sleep.o

@@ -1,0 +1,12 @@
+drivers/soc/samsung/debug/dss.ko
+drivers/soc/samsung/debug/debug-snapshot-debug-kinfo.ko
+drivers/soc/samsung/debug/debug-snapshot-sfrdump.ko
+drivers/soc/samsung/debug/debug-snapshot-qd.ko
+drivers/soc/samsung/debug/exynos-coresight.ko
+drivers/soc/samsung/debug/exynos-ecc-handler.ko
+drivers/soc/samsung/debug/hardlockup-watchdog.ko
+drivers/soc/samsung/debug/exynos-itmon.ko
+drivers/soc/samsung/debug/exynos-adv-tracer.ko
+drivers/soc/samsung/debug/exynos-adv-tracer-s2d.ko
+drivers/soc/samsung/debug/ehld.ko
+drivers/soc/samsung/debug/exynos-ssld.ko

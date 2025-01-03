@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/cpif/cpif_page.mod := { echo  drivers/soc/samsung/cpif/cpif_page.o; llvm-nm drivers/soc/samsung/cpif/cpif_page.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/cpif/cpif_page.mod

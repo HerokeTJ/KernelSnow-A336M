@@ -1,0 +1,1 @@
+cmd_drivers/misc/drb/dev_ril_bridge.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/misc/drb/dev_ril_bridge.lto.o -T drivers/misc/drb/dev_ril_bridge.o.symversions --whole-archive drivers/misc/drb/dev_ril_bridge.o

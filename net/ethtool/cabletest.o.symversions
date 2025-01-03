@@ -1,0 +1,8 @@
+__crc_ethnl_cable_test_alloc = 0x553b3b67;
+__crc_ethnl_cable_test_free = 0x2f5d3dc4;
+__crc_ethnl_cable_test_finished = 0x33365f40;
+__crc_ethnl_cable_test_result = 0xa5b1319d;
+__crc_ethnl_cable_test_fault_length = 0x1b3c8b05;
+__crc_ethnl_cable_test_amplitude = 0x0a17ac74;
+__crc_ethnl_cable_test_pulse = 0x633e39a4;
+__crc_ethnl_cable_test_step = 0xd8457520;

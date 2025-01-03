@@ -1,0 +1,1 @@
+cmd_drivers/media/common/videobuf2/videobuf2-dma-sg.mod := { echo  drivers/media/common/videobuf2/videobuf2-dma-sg.o; llvm-nm drivers/media/common/videobuf2/videobuf2-dma-sg.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/media/common/videobuf2/videobuf2-dma-sg.mod

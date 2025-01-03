@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-kensington.mod := { echo  drivers/hid/hid-kensington.o; llvm-nm drivers/hid/hid-kensington.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/hid/hid-kensington.mod

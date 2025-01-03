@@ -1,0 +1,12 @@
+__crc_drm_open = 0x4ceab6a7;
+__crc_drm_release = 0x331ce3aa;
+__crc_drm_release_noglobal = 0xa489c26f;
+__crc_drm_read = 0xe0db97f8;
+__crc_drm_poll = 0x7b227ad9;
+__crc_drm_event_reserve_init_locked = 0xcf139136;
+__crc_drm_event_reserve_init = 0x91b06d4e;
+__crc_drm_event_cancel_free = 0x67cee843;
+__crc_drm_send_event_timestamp_locked = 0x53832884;
+__crc_drm_send_event_locked = 0xc6ff96a5;
+__crc_drm_send_event = 0x685d0d2b;
+__crc_drm_get_unmapped_area = 0xd09ee6e4;

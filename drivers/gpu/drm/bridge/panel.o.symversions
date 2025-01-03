@@ -1,0 +1,6 @@
+__crc_drm_panel_bridge_add = 0x683b190e;
+__crc_drm_panel_bridge_add_typed = 0x6d183663;
+__crc_drm_panel_bridge_remove = 0x442a0d17;
+__crc_devm_drm_panel_bridge_add = 0xe010eaad;
+__crc_devm_drm_panel_bridge_add_typed = 0xfcd77b13;
+__crc_drm_panel_bridge_connector = 0xa331bd6a;

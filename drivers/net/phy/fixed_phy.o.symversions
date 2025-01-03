@@ -1,0 +1,6 @@
+__crc_fixed_phy_change_carrier = 0x670bfe4b;
+__crc_fixed_phy_set_link_update = 0x6bb363c0;
+__crc_fixed_phy_add = 0x92d31cfb;
+__crc_fixed_phy_register = 0xa4cf4991;
+__crc_fixed_phy_register_with_gpiod = 0x85e37c96;
+__crc_fixed_phy_unregister = 0xeeed21ea;

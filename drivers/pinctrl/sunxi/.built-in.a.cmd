@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/sunxi/built-in.a := rm -f drivers/pinctrl/sunxi/built-in.a.symversions      ; rm -f drivers/pinctrl/sunxi/built-in.a; llvm-ar cDPrST drivers/pinctrl/sunxi/built-in.a drivers/pinctrl/sunxi/pinctrl-sunxi.o drivers/pinctrl/sunxi/pinctrl-sun50i-a100.o drivers/pinctrl/sunxi/pinctrl-sun50i-a100-r.o

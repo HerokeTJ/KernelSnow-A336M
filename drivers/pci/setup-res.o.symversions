@@ -1,0 +1,4 @@
+__crc_pci_claim_resource = 0x2765646c;
+__crc_pci_assign_resource = 0x042acf12;
+__crc_pci_release_resource = 0xf0b788cd;
+__crc_pci_resize_resource = 0x63e34cc3;

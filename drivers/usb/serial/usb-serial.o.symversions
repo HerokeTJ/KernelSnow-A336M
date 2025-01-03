@@ -1,0 +1,5 @@
+__crc_usb_serial_port_softint = 0x38ea5f70;
+__crc_usb_serial_suspend = 0x5f58b48f;
+__crc_usb_serial_resume = 0x116a0fc7;
+__crc_usb_serial_register_drivers = 0x0219260d;
+__crc_usb_serial_deregister_drivers = 0xaa60a1aa;

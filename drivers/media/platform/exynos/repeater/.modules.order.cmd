@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/repeater/modules.order := {   echo drivers/media/platform/exynos/repeater/repeater.ko; :; } | awk '!x[$$0]++' - > drivers/media/platform/exynos/repeater/modules.order

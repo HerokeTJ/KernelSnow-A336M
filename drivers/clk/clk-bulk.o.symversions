@@ -1,0 +1,9 @@
+__crc_clk_bulk_put = 0xef29fcdd;
+__crc_clk_bulk_get = 0x969ed84a;
+__crc_clk_bulk_get_optional = 0x6bbcda73;
+__crc_clk_bulk_put_all = 0xa8caa845;
+__crc_clk_bulk_get_all = 0x60a7df62;
+__crc_clk_bulk_unprepare = 0x63c08029;
+__crc_clk_bulk_prepare = 0xeafe07b8;
+__crc_clk_bulk_disable = 0x479f7d4b;
+__crc_clk_bulk_enable = 0xec68ba70;

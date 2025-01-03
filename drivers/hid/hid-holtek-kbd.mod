@@ -1,0 +1,2 @@
+drivers/hid/hid-holtek-kbd.o
+__cfi_slowpath __hid_register_driver __this_module hid_hw_start hid_open_report hid_unregister_driver usb_hid_driver usb_ifnum_to_if

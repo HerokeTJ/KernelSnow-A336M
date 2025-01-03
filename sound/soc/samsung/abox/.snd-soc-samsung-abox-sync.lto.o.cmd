@@ -1,0 +1,1 @@
+cmd_sound/soc/samsung/abox/snd-soc-samsung-abox-sync.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o sound/soc/samsung/abox/snd-soc-samsung-abox-sync.lto.o -T sound/soc/samsung/abox/snd-soc-samsung-abox-sync.o.symversions --whole-archive sound/soc/samsung/abox/snd-soc-samsung-abox-sync.o

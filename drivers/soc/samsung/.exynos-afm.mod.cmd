@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-afm.mod := { echo  drivers/soc/samsung/exynos-afm.o; llvm-nm drivers/soc/samsung/exynos-afm.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-afm.mod

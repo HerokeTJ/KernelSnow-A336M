@@ -1,0 +1,2 @@
+__crc_stop_one_cpu_nowait = 0xbb4465d4;
+__crc_stop_machine = 0xdfc04014;

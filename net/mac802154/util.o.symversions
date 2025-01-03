@@ -1,0 +1,3 @@
+__crc_ieee802154_wake_queue = 0x60720f63;
+__crc_ieee802154_stop_queue = 0x4352ed6e;
+__crc_ieee802154_xmit_complete = 0x4070682b;

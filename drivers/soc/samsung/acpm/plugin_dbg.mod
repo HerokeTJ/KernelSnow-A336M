@@ -1,0 +1,2 @@
+drivers/soc/samsung/acpm/plugin_dbg.o
+__platform_driver_register __this_module _dev_err _dev_info acpm_ipc_release_channel acpm_ipc_request_channel acpm_ipc_send_data debugfs_create_dir debugfs_create_file devm_kmalloc generic_file_llseek kfree platform_driver_unregister printk simple_attr_open simple_attr_read simple_attr_release simple_attr_write

@@ -1,0 +1,3 @@
+__crc_anon_inode_getfile = 0xb96a2914;
+__crc_anon_inode_getfd = 0x66e0c8e3;
+__crc_anon_inode_getfd_secure = 0x7a52b722;

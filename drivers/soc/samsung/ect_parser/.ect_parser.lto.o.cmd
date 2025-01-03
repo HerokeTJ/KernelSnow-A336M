@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/ect_parser/ect_parser.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/soc/samsung/ect_parser/ect_parser.lto.o -T drivers/soc/samsung/ect_parser/ect_parser.o.symversions --whole-archive drivers/soc/samsung/ect_parser/ect_parser.o

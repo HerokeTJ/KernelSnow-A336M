@@ -1,0 +1,1 @@
+cmd_drivers/soc/samsung/exynos-cpuhp.mod := { echo  drivers/soc/samsung/exynos-cpuhp.o; llvm-nm drivers/soc/samsung/exynos-cpuhp.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/soc/samsung/exynos-cpuhp.mod

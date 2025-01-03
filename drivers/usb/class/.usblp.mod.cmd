@@ -1,0 +1,1 @@
+cmd_drivers/usb/class/usblp.mod := { echo  drivers/usb/class/usblp.o; llvm-nm drivers/usb/class/usblp.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/usb/class/usblp.mod

@@ -1,0 +1,6 @@
+__crc_is_get_debug_sensor = 0x85765004;
+__crc_is_get_sysfs_sensor = 0xe9123227;
+__crc_is_get_sysfs_actuator = 0xc0df6ec8;
+__crc_is_get_sysfs_eeprom = 0xf21d9281;
+__crc_is_debug_get = 0xde04b58d;
+__crc_is_debug_s2d = 0xd77e6f23;

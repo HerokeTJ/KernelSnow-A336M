@@ -1,0 +1,1 @@
+cmd_drivers/phy/samsung/phy-exynos-mipi-dsim.mod := { echo  drivers/phy/samsung/phy-exynos-mipi-dsim.o; llvm-nm drivers/phy/samsung/phy-exynos-mipi-dsim.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/phy/samsung/phy-exynos-mipi-dsim.mod

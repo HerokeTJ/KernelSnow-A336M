@@ -1,0 +1,1 @@
+cmd_drivers/pwm/pwm-samsung.mod := { echo  drivers/pwm/pwm-samsung.o; llvm-nm drivers/pwm/pwm-samsung.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/pwm/pwm-samsung.mod

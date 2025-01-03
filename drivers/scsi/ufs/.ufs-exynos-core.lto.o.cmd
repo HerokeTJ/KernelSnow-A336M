@@ -1,0 +1,1 @@
+cmd_drivers/scsi/ufs/ufs-exynos-core.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/scsi/ufs/ufs-exynos-core.lto.o -T drivers/scsi/ufs/ufs-exynos-core.o.symversions --whole-archive drivers/scsi/ufs/ufs-exynos-core.o

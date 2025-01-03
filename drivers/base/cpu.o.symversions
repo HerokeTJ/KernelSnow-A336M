@@ -1,0 +1,4 @@
+__crc_cpu_subsys = 0xbcb22632;
+__crc_get_cpu_device = 0xc9e0f27d;
+__crc_cpu_device_create = 0x1ed40a8c;
+__crc_cpu_is_hotpluggable = 0x2ebe3135;

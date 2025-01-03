@@ -1,0 +1,1 @@
+cmd_drivers/i3c/master/i3c-hci-exynos.mod := { echo  drivers/i3c/master/i3c-hci-exynos.o; llvm-nm drivers/i3c/master/i3c-hci-exynos.o | awk '$$1 == "U" { printf("%s%s", x++ ? " " : "", $$2) }'; echo; } > drivers/i3c/master/i3c-hci-exynos.mod

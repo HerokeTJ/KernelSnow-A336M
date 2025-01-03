@@ -1,0 +1,2 @@
+drivers/hid/hid-saitek.o
+__hid_register_driver __this_module _dev_err _dev_info devm_kmalloc hid_hw_start hid_open_report hid_unregister_driver input_event

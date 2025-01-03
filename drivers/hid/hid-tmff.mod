@@ -1,0 +1,2 @@
+drivers/hid/hid-tmff.o
+__hid_register_driver __this_module _dev_err hid_hw_start hid_open_report hid_unregister_driver

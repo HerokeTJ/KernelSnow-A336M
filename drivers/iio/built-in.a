@@ -1,0 +1,14 @@
+!<thin>
+//                                              120       `
+industrialio-core.o/
+industrialio-event.o/
+inkern.o/
+industrialio-buffer.o/
+industrialio-trigger.o/
+buffer/kfifo_buf.o/
+/0              0           0     0     644     326356    `
+/21             0           0     0     644     190104    `
+/43             0           0     0     644     164340    `
+/53             0           0     0     644     270620    `
+/76             0           0     0     644     209508    `
+/100            0           0     0     644     155980    `

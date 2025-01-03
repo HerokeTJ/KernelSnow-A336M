@@ -1,0 +1,1 @@
+cmd_drivers/samsung/pm/sec_thermistor.lto.o := ld.lld -EL  -maarch64elf -z norelro --thinlto-cache-dir=.thinlto-cache -mllvm -import-instr-limit=5 -z noexecstack   -r -o drivers/samsung/pm/sec_thermistor.lto.o  --whole-archive drivers/samsung/pm/sec_thermistor.o

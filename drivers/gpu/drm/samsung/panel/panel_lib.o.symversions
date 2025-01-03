@@ -1,0 +1,16 @@
+__crc_panel_lib_rdinfo_alloc_buffer = 0xc75457f0;
+__crc_panel_lib_rdinfo_free_buffer = 0xd60b0a46;
+__crc_panel_lib_rdinfo_create = 0x1eec255c;
+__crc_panel_lib_rdinfo_destroy = 0xa341b4b1;
+__crc_panel_lib_rdinfo_copy = 0x8169d5d6;
+__crc_panel_lib_res_update_info_create = 0x3312216e;
+__crc_panel_lib_res_update_info_destroy = 0x0ea2f234;
+__crc_panel_lib_res_update_info_copy = 0xbbca6c02;
+__crc_panel_lib_resinfo_alloc_buffer = 0x1d6052df;
+__crc_panel_lib_resinfo_free_buffer = 0x09d88ab8;
+__crc_panel_lib_resinfo_create = 0x8af0ae3d;
+__crc_panel_lib_resinfo_destroy = 0x94972d8c;
+__crc_panel_lib_resinfo_copy = 0x16501630;
+__crc_panel_lib_dumpinfo_create = 0xc2eb43a3;
+__crc_panel_lib_dumpinfo_destroy = 0x4c79c917;
+__crc_panel_lib_dumpinfo_copy = 0x85ca0038;

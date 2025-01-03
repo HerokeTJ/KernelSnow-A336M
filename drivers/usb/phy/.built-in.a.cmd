@@ -1,0 +1,1 @@
+cmd_drivers/usb/phy/built-in.a := rm -f drivers/usb/phy/built-in.a.symversions   ; cat drivers/usb/phy/phy.o.symversions >> drivers/usb/phy/built-in.a.symversions   ; cat drivers/usb/phy/of.o.symversions >> drivers/usb/phy/built-in.a.symversions; rm -f drivers/usb/phy/built-in.a; llvm-ar cDPrST drivers/usb/phy/built-in.a drivers/usb/phy/phy.o drivers/usb/phy/of.o

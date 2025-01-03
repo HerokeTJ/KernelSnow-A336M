@@ -1,0 +1,2 @@
+drivers/kperfmon/kperfmon.o
+__arch_copy_from_user __arch_copy_to_user __cfi_slowpath __check_object_size __kmalloc __list_add_valid __mutex_init arm64_const_caps_ready cpu_hwcap_keys cpu_hwcaps gic_nonsecure_priorities kfree kmalloc_caches kmalloc_order_trace kmem_cache_alloc_trace ktime_get_real_ts64 mutex_lock mutex_unlock printk proc_create queue_work_on rtc_time64_to_tm snprintf strlcpy strlen strncmp strnlen sys_tz system_wq vfree vmalloc vscnprintf
